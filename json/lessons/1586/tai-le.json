@@ -1,0 +1,289 @@
+[
+  {
+    "grammar_point": "Emphasizing with 太...(了)",
+    "chinese": "李河觉得警察被写得太笨了。",
+    "english": "Li He thinks the police were written as too stupid.",
+    "chinese_word_bank": [
+      "李河",
+      "太",
+      "。",
+      "了",
+      "被",
+      "写",
+      "笨",
+      "觉得",
+      "得",
+      "警察"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得警察被写得太笨了。",
+        "fluency": 10,
+        "accuracy": 10
+      }
+    ]
+  },
+  {
+    "grammar_point": "Emphasizing with 太...(了)",
+    "chinese": "春草的小说让李河太失望了。",
+    "english": "Chuncao's novel made Li He too disappointed.",
+    "chinese_word_bank": [
+      "春草的小说",
+      "了",
+      "太",
+      "让",
+      "失望",
+      "。",
+      "李河"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "春草的小说让李河太失望了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "春草的小说让李河失望太了。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "李河太失望了春草的小说让。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "李河失望太了春草的小说让。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "让李河太失望了春草的小说。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "让李河失望太了春草的小说。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "太失望了春草的小说让李河。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "太失望了李河春草的小说让。",
+        "fluency": 6,
+        "accuracy": 6
+      }
+    ]
+  },
+  {
+    "grammar_point": "Emphasizing with 太...(了)",
+    "chinese": "小九觉得李河的回答太有趣了。",
+    "english": "Xiao Jiu found Li He's response too interesting.",
+    "chinese_word_bank": [
+      "了",
+      "。",
+      "觉得",
+      "李河的回答",
+      "小九",
+      "有趣",
+      "太"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "小九觉得李河的回答太有趣了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "小九觉得太有趣了李河的回答。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "小九觉得太有趣李河的回答了。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "小九太觉得李河的回答有趣了。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "李河的回答小九觉得太有趣了。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "李河的回答太有趣了小九觉得。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "太有趣了小九觉得李河的回答。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "太有趣了李河的回答小九觉得。",
+        "fluency": 4,
+        "accuracy": 4
+      }
+    ]
+  },
+  {
+    "grammar_point": "Emphasizing with 太...(了)",
+    "chinese": "李河觉得春草的信太奇怪了。",
+    "english": "Li He found Chuncao's letter too strange.",
+    "chinese_word_bank": [
+      "了",
+      "李河",
+      "春草的信",
+      "太",
+      "奇怪",
+      "觉得",
+      "。"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "李河觉得春草的信太奇怪了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河觉得太奇怪了春草的信。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "李河太觉得春草的信奇怪了。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "李河太觉得奇怪了春草的信。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "春草的信李河觉得太奇怪了。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "春草的信太奇怪了李河觉得。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "太奇怪了李河觉得春草的信。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "太奇怪了春草的信李河觉得。",
+        "fluency": 6,
+        "accuracy": 6
+      }
+    ]
+  },
+  {
+    "grammar_point": "Emphasizing with 太...(了)",
+    "chinese": "春草没有留下联系方式，这太不方便了。",
+    "english": "Chuncao didn't leave any contact information, which is too inconvenient.",
+    "chinese_word_bank": [
+      "春草",
+      "了",
+      "联系方式",
+      "方便",
+      "。",
+      "太",
+      "这",
+      "，",
+      "留下",
+      "没有",
+      "不"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "春草没有留下联系方式，这太不方便了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "春草没有留下联系方式，这不方便太了。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "春草没有留下联系方式，这太方便不了。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "春草没有留下联系方式，这不太方便了。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "春草没有留下联系方式，这方便太不了。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "春草没有留下联系方式，这方便不太了。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "春草没有留下联系方式，这太不了方便。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "春草没有留下联系方式，这不太了方便。",
+        "fluency": 2,
+        "accuracy": 2
+      }
+    ]
+  }
+]

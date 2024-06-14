@@ -1,0 +1,62 @@
+[
+  {
+    "path": "lessons/1580/bu.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "Negation with 不"
+  },
+  {
+    "path": "lessons/1580/classifiers.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "Classifiers"
+  },
+  {
+    "path": "lessons/1580/le-change-le-completed-le-consecutive.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "了 to indicate change, 了 to indicate completed actions, 了 for consecutive actions"
+  },
+  {
+    "path": "lessons/1580/tai-le.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "Emphasizing with 太...(了)"
+  },
+  {
+    "path": "lessons/1580/ye.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "也"
+  },
+  {
+    "path": "lessons/1580/yinwei-suoyi.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "Cause and effect with 因为 and 所以"
+  },
+  {
+    "path": "lessons/1585/ba-confirmation.json",
+    "lesson_url": "https://duchinese.net/lessons/1585",
+    "lesson_title": "A Game (1)",
+    "grammar_points": "Confirming with 吧"
+  },
+  {
+    "path": "lessons/1585/guo.json",
+    "lesson_url": "https://duchinese.net/lessons/1585",
+    "lesson_title": "A Game (1)",
+    "grammar_points": "过"
+  },
+  {
+    "path": "lessons/1586/tai-le.json",
+    "lesson_url": "https://duchinese.net/lessons/1586",
+    "lesson_title": "A Game (2)",
+    "grammar_points": "Emphasizing with 太...(了)"
+  },
+  {
+    "path": "lessons/1587/zhe.json",
+    "lesson_url": "https://duchinese.net/lessons/1587",
+    "lesson_title": "A Game (3)",
+    "grammar_points": "Continuous action or state with 着"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "grammar_point": "Continuous action or state with 着",
+    "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+    "english": "Li He is looking at the men in the café and on the street next to it.",
+    "chinese_word_bank": [
+      "着",
+      "看",
+      "。",
+      "李河",
+      "咖啡馆和旁边街道上的男人"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河看着咖啡馆和旁边街道上的男人。",
+        "fluency": 10,
+        "accuracy": 10
+      }
+    ]
+  },
+  {
+    "grammar_point": "Continuous action or state with 着",
+    "chinese": "春草躺在床上，盖着大被子。",
+    "english": "Chuncao is lying in bed, covered with a big quilt.",
+    "chinese_word_bank": [
+      "。",
+      "大被子",
+      "在床上",
+      "，",
+      "着",
+      "躺",
+      "春草",
+      "盖"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "春草在床上躺着，盖着大被子。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "春草在床上躺着，盖大被子。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "春草在床上盖着大被子，躺着。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "春草躺在床上，盖着大被子。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "春草躺在床上，盖大被子。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "春草盖着大被子，躺在床上。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "春草盖大被子，躺在床上。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "在床上春草躺着，盖着大被子。",
+        "fluency": 7,
+        "accuracy": 7
+      }
+    ]
+  },
+  {
+    "grammar_point": "Continuous action or state with 着",
+    "chinese": "他头上戴着大帽子。",
+    "english": "He is wearing a big hat on his head.",
+    "chinese_word_bank": [
+      "戴",
+      "着",
+      "他头上",
+      "大帽子",
+      "。"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "他头上戴着大帽子。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "他头上戴着大帽子。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "戴着大帽子他头上。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "大帽子戴着他头上。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "大帽子他头上戴着。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "他头上大帽子戴着。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "戴着他头上大帽子。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "戴着大帽子在他头上。",
+        "fluency": 2,
+        "accuracy": 2
+      }
+    ]
+  },
+  {
+    "grammar_point": "Continuous action or state with 着",
+    "chinese": "李河在互联网上查找着“作家春草”的信息。",
+    "english": "Li He is searching for information about \"Writer Chuncao\" on the internet.",
+    "chinese_word_bank": [
+      "“作家春草”的信息",
+      "着",
+      "李河",
+      "在互联网上",
+      "。",
+      "查找"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "李河在互联网上查找着“作家春草”的信息。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "李河在互联网上着查找“作家春草”的信息。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "在互联网上李河查找着“作家春草”的信息。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "在互联网上李河着查找“作家春草”的信息。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "查找着“作家春草”的信息李河在互联网上。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "查找着“作家春草”的信息在互联网上李河。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "“作家春草”的信息李河在互联网上查找着。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "“作家春草”的信息在互联网上李河查找着。",
+        "fluency": 7,
+        "accuracy": 7
+      }
+    ]
+  },
+  {
+    "grammar_point": "Continuous action or state with 着",
+    "chinese": "房间里有点儿黑，他又生着病。",
+    "english": "The room is a bit dark, and he is sick.",
+    "chinese_word_bank": [
+      "有点儿",
+      "黑",
+      "。",
+      "他又生着病",
+      "，",
+      "房间里"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "房间里有点儿黑，他又生着病。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "房间里有点儿黑，他生着病。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "房间里有点儿黑，生着病他。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "房间里有点儿黑，生着病的是他。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "房间里有点儿黑，生着病的他。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "房间里有点儿黑，他又生着病。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "房间里有点儿黑，生着病的他。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "房间里有点儿黑，他生着病。",
+        "fluency": 9,
+        "accuracy": 9
+      }
+    ]
+  }
+]

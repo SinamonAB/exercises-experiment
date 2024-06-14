@@ -4,9 +4,9 @@
     "chinese": "奶茶店越来越多了。",
     "english": "There are more and more milk tea shops now.",
     "chinese_word_bank": [
-      "奶茶店越来越多",
       "。",
-      "了"
+      "了",
+      "奶茶店越来越多"
     ],
     "possible_solutions": [
       {
@@ -56,13 +56,13 @@
     "chinese": "人们发现奶茶里有很多咖啡因了。",
     "english": "People have discovered that there is a lot of caffeine in milk tea.",
     "chinese_word_bank": [
+      "了",
       "咖啡因",
       "人们发现",
-      "很多",
-      "了",
-      "有",
       "。",
-      "奶茶里"
+      "奶茶里",
+      "很多",
+      "有"
     ],
     "possible_solutions": [
       {
@@ -112,14 +112,14 @@
     "chinese": "他检查了十种最有名的奶茶。",
     "english": "He checked ten of the most famous milk teas.",
     "chinese_word_bank": [
-      "种",
-      "检查",
-      "十",
-      "奶茶",
-      "他",
-      "了",
       "最有名的",
-      "。"
+      "奶茶",
+      "种",
+      "了",
+      "检查",
+      "他",
+      "。",
+      "十"
     ],
     "possible_solutions": [
       {
@@ -169,13 +169,13 @@
     "chinese": "我买了一杯奶茶。",
     "english": "I bought a cup of milk tea.",
     "chinese_word_bank": [
-      "了",
       "一",
-      "。",
       "奶茶",
-      "买",
       "我",
-      "杯"
+      "买",
+      "杯",
+      "了",
+      "。"
     ],
     "possible_solutions": [
       {
@@ -225,13 +225,13 @@
     "chinese": "我们喝了奶茶去看电影吧？",
     "english": "Shall we go watch a movie after drinking milk tea?",
     "chinese_word_bank": [
-      "喝",
-      "了",
-      "去看电影",
-      "吧",
       "我们",
+      "了",
+      "奶茶",
+      "喝",
+      "去看电影",
       "？",
-      "奶茶"
+      "吧"
     ],
     "possible_solutions": [
       {

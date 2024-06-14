@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Comprehension Questions Tech Demo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
     <style>
         .container {
             margin-top: 50px;
+        }
+        #lesson-url img {
+            margin-left: 0.3em;
+            height: 1.5em;
+        }
+        #lesson-url {
+            margin-left: 1em;
         }
         .header {
             /* center */
@@ -43,12 +50,32 @@
         }
     </style>
     <script>
-        const data = $.ajax({
-            url: "./json/lesson1580-yinwei-suoyi.json",
-            async: false
-        }).responseJSON;
-
         $(document).ready(function() {
+            const overviewData = $.ajax({
+                url: "./json/overview.json",
+                async: false,
+            }).responseJSON;
+            console.log(overviewData);
+            overviewData.forEach(function (item, index) {
+                let element = $(`<li><a href="?questions=${item.path}">${item.lesson_title}: ${item.grammar_points}</a></li>`);
+                $("#overview").append(element);
+                console.log(element.html());
+            });
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const questionsIdentifier = urlParams.get('questions');
+
+            const currentOverviewData = overviewData.find(item => item.path === questionsIdentifier);
+            $("#title").text(`${currentOverviewData.lesson_title}: ${currentOverviewData.grammar_points}`);
+            $("#lesson-url").attr("href", currentOverviewData.lesson_url);
+
+            const data = $.ajax({
+                url: `./json/${questionsIdentifier}`,
+                async: false
+            }).responseJSON;
+            if (data) {
+                $("#questions-specific").show();
+            }
             data.forEach(function (item, index) {
                 let question = $(`<div class="question" data-question-num="${index}">
                     English:
@@ -141,20 +168,32 @@
 <body>
 
 <div class="container">
-    <div class="header">
-        <nav>
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link question-skip-link" href="#" data-direction="-1">Previous</a>
-                </li>
-                <li class="page-item" id="question-pagination-before">
-                    <a class="page-link question-skip-link" href="#" data-direction="1">Next</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <ul id="overview">
+
+    </ul>
     <hr>
-    <div id="question-container">
+    <div id="questions-specific" style="display: none;">
+        <h3>
+            <span id="title"></span>
+            <a class="btn btn-warning" id="lesson-url" target="_blank">Read on <img src="https://duchinese.net/packs/media/images/brand-logo-title-89116859.svg" alt="Du Chinese"></a>
+        </h3>
+        <hr>
+        Available Questions:
+        <div class="header">
+            <nav>
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link question-skip-link" href="#" data-direction="-1">Previous</a>
+                    </li>
+                    <li class="page-item" id="question-pagination-before">
+                        <a class="page-link question-skip-link" href="#" data-direction="1">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <div id="question-container">
+        </div>
     </div>
 </div>
 </body>

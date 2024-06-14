@@ -1,0 +1,278 @@
+[
+  {
+    "grammar_point": "Negation with 不",
+    "chinese": "我不喜欢喝咖啡。",
+    "english": "I don’t like drinking coffee.",
+    "chinese_word_bank": [
+      "喝咖啡",
+      "喜欢",
+      "。",
+      "我",
+      "不"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "我不喜欢喝咖啡。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "我不喝咖啡喜欢。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "不喜欢我喝咖啡。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "不我喜欢喝咖啡。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "喜欢我不喝咖啡。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "喜欢不我喝咖啡。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "喝咖啡我不喜欢。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "喝咖啡不我喜欢。",
+        "fluency": 2,
+        "accuracy": 2
+      }
+    ]
+  },
+  {
+    "grammar_point": "Negation with 不",
+    "chinese": "奶茶店不一定能赚钱。",
+    "english": "Milk tea shops don’t necessarily make money.",
+    "chinese_word_bank": [
+      "不",
+      "赚钱",
+      "能",
+      "奶茶店",
+      "。",
+      "一定"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "奶茶店不一定能赚钱。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "奶茶店不一定赚钱。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "奶茶店一定不能赚钱。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "奶茶店能不一定赚钱。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "奶茶店能一定不赚钱。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "奶茶店一定不赚钱。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "奶茶店赚钱不一定能。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "奶茶店赚钱一定不能。",
+        "fluency": 2,
+        "accuracy": 2
+      }
+    ]
+  },
+  {
+    "grammar_point": "Negation with 不",
+    "chinese": "有些奶茶店的位置不好，所以不容易被看到。",
+    "english": "Some milk tea shops are not in good locations, so they are not easily seen.",
+    "chinese_word_bank": [
+      "容易",
+      "有些奶茶店的位置",
+      "所以",
+      "好",
+      "不",
+      "。",
+      "，",
+      "不",
+      "看到",
+      "被"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "有些奶茶店的位置不好，所以不容易被看到。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以不容易看到被。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以被不容易看到。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以被看到不容易。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以看到不容易被。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以看到被不容易。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以不被容易看到。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "有些奶茶店的位置不好，所以不被看到容易。",
+        "fluency": 2,
+        "accuracy": 2
+      }
+    ]
+  },
+  {
+    "grammar_point": "Negation with 不",
+    "chinese": "人们不明白为什么奶茶这么受欢迎。",
+    "english": "People don’t understand why milk tea is so popular.",
+    "chinese_word_bank": [
+      "人们",
+      "不",
+      "明白",
+      "。",
+      "为什么奶茶这么受欢迎"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们不明白为什么奶茶这么受欢迎。",
+        "fluency": 10,
+        "accuracy": 10
+      }
+    ]
+  },
+  {
+    "grammar_point": "Negation with 不",
+    "chinese": "奶茶不比咖啡便宜。",
+    "english": "Milk tea is not cheaper than coffee.",
+    "chinese_word_bank": [
+      "不",
+      "便宜",
+      "。",
+      "比咖啡",
+      "奶茶"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "奶茶不比咖啡便宜。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "奶茶比咖啡不便宜。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "不比咖啡奶茶便宜。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "比咖啡奶茶不便宜。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "不便宜奶茶比咖啡。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "不便宜比咖啡奶茶。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "比咖啡不便宜奶茶。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "奶茶不便宜比咖啡。",
+        "fluency": 6,
+        "accuracy": 6
+      }
+    ]
+  }
+]
