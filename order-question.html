@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .header {
+            /* center */
+            text-align: center;
+        }
+        .word-list {
+            list-style-type: none;
+            padding: 0;
+            height: 3em;
+        }
+        .word-list .word {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .word-list .word:hover {
+            background-color: lightgray;
+        }
+        .completed-sentence.correct {
+            background-color: lightgreen;
+        }
+        .completed-sentence.incorrect {
+            background-color: lightcoral;
+        }
+        .sortable-placeholder {
+            background-color: lightblue;
+            border: 1px solid black;
+            height: 2em;
+            width: 2em;
+        }
+    </style>
+    <script>
+        const data = $.ajax({
+            url: "./json/lesson1580-yinwei-suoyi.json",
+            async: false
+        }).responseJSON;
+
+        $(document).ready(function() {
+            data.forEach(function (item, index) {
+                let question = $(`<div class="question" data-question-num="${index}">
+                    English:
+                    <h3>${item.english}</h3>
+                    Chinese:
+                    <ul class="completed-sentence word-list" data-solution="${item.chinese}"></ul>
+                    <button class="btn btn-primary check-button">Check</button>
+                    <hr>
+                    <ul class="word-bank word-list">
+                        ${item.chinese_word_bank.map(word => `<li class="word">${word}</li>`).join('')}
+                    </ul>
+                    <hr>
+                    Relevant Grammar: ${item.grammar_point}
+                </div>
+                `);
+                $("#question-container").append(question);
+                $(`<li class="page-item"><a class="question-link page-link" data-question-num="${index}" href="#">${index + 1}</a></li>`).insertBefore($("#question-pagination-before"));
+            });
+
+            $(".question").each(function () {
+                const question = $(this);
+                const wordBank = question.find('.word-bank');
+                const completedSentence = question.find('.completed-sentence');
+                const checkButton = question.find('.check-button');
+
+                function updateCompletedSentence() {
+                    completedSentence.removeClass("correct");
+                    completedSentence.removeClass("incorrect");
+                }
+
+                question.find(".word-list").sortable({
+                    connectWith: ".word-list"
+                });
+                question.find(".word-list").disableSelection();
+
+                wordBank.on("click", ".word", function (event) {
+                    completedSentence.append(event.target);
+                    updateCompletedSentence();
+                });
+
+                completedSentence.on("click", ".word", function (event) {
+                    wordBank.append(event.target);
+                    updateCompletedSentence();
+                });
+
+                checkButton.on("click", function () {
+                    const sentence = completedSentence.text();
+                    const correct = sentence === completedSentence.data('solution');
+                    updateCompletedSentence();
+                    completedSentence.addClass(correct ? "correct" : "incorrect");
+                });
+            });
+            $(".question").hide();
+            $(".question[data-question-num=0]").show();
+
+            function updatePagination() {
+                const questionNum = parseInt($(".question:visible").data("question-num"));
+                $(".question-link").parent().removeClass("active");
+                $(`.question-link[data-question-num=${questionNum}]`).parent().addClass("active");
+                $(".question-skip-link").parent().removeClass("disabled");
+                $(`.question-skip-link`).each(function () {
+                    const toQuestionNum = parseInt($(this).data("direction")) + questionNum;
+                    if (toQuestionNum < 0 || toQuestionNum >= data.length) {
+                        $(this).parent().addClass("disabled");
+                    }
+                });
+            }
+            updatePagination();
+
+            $(".question-link").click(function () {
+                const questionNum = $(this).data("question-num");
+                $(".question").hide();
+                $(`.question[data-question-num=${questionNum}]`).show();
+                updatePagination();
+            });
+
+            $(".question-skip-link").click(function () {
+                const direction = parseInt($(this).data("direction"));
+                const currentQuestionNum = parseInt($(".question:visible").data("question-num"));
+                const newQuestionNum = currentQuestionNum + direction;
+                if ($(`.question[data-question-num=${newQuestionNum}]`)) {
+                    $(".question").hide();
+                    $(`.question[data-question-num=${newQuestionNum}]`).show();
+                }
+                updatePagination();
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link question-skip-link" href="#" data-direction="-1">Previous</a>
+                </li>
+                <li class="page-item" id="question-pagination-before">
+                    <a class="page-link question-skip-link" href="#" data-direction="1">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div id="question-container">
+    </div>
+</div>
+</body>
+</html>
