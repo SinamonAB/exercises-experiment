@@ -1,0 +1,71 @@
+[
+  {
+    "grammar_point": "Classifiers",
+    "chinese": "我买了一杯奶茶。",
+    "english": "I bought a cup of milk tea.",
+    "chinese_word_bank": [
+      "一",
+      "奶茶",
+      "杯",
+      "了",
+      "买",
+      "。",
+      "我"
+    ]
+  },
+  {
+    "grammar_point": "Classifiers",
+    "chinese": "每一种奶茶都有不同的味道。",
+    "english": "Each type of milk tea has a different flavor.",
+    "chinese_word_bank": [
+      "一",
+      "不同的味道",
+      "都",
+      "奶茶",
+      "种",
+      "每",
+      "有",
+      "。"
+    ]
+  },
+  {
+    "grammar_point": "Classifiers",
+    "chinese": "这是一种很有名的奶茶。",
+    "english": "This is a very famous type of milk tea.",
+    "chinese_word_bank": [
+      "奶茶",
+      "。",
+      "很有名的",
+      "种",
+      "一",
+      "这是"
+    ]
+  },
+  {
+    "grammar_point": "Classifiers",
+    "chinese": "我每天喝一杯奶茶。",
+    "english": "I drink a cup of milk tea every day.",
+    "chinese_word_bank": [
+      "喝",
+      "杯",
+      "奶茶",
+      "。",
+      "一",
+      "我",
+      "每天"
+    ]
+  },
+  {
+    "grammar_point": "Classifiers",
+    "chinese": "他有两家奶茶店。",
+    "english": "He has two milk tea shops.",
+    "chinese_word_bank": [
+      "他",
+      "两",
+      "奶茶店",
+      "。",
+      "家",
+      "有"
+    ]
+  }
+]

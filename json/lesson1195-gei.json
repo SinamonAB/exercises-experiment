@@ -1,0 +1,67 @@
+[
+  {
+    "grammar_point": "给",
+    "chinese": "医生给病人解释为什么要打针。",
+    "english": "The doctor explains to the patient why they need an injection.",
+    "chinese_word_bank": [
+      "医生",
+      "为什么要打针",
+      "解释",
+      "病人",
+      "给",
+      "。"
+    ]
+  },
+  {
+    "grammar_point": "给",
+    "chinese": "中国人希望医生给他们打针。",
+    "english": "Chinese people hope the doctor will give them an injection.",
+    "chinese_word_bank": [
+      "他们",
+      "。",
+      "给",
+      "希望",
+      "中国人",
+      "医生",
+      "打针"
+    ]
+  },
+  {
+    "grammar_point": "给",
+    "chinese": "医生给病人开药。",
+    "english": "The doctor prescribes medicine for the patient.",
+    "chinese_word_bank": [
+      "病人",
+      "开药",
+      "医生",
+      "。",
+      "给"
+    ]
+  },
+  {
+    "grammar_point": "给",
+    "chinese": "医生每天要给很多病人看病。",
+    "english": "Doctors have to see many patients every day.",
+    "chinese_word_bank": [
+      "给",
+      "很多病人",
+      "每天",
+      "。",
+      "医生",
+      "看病",
+      "要"
+    ]
+  },
+  {
+    "grammar_point": "给",
+    "chinese": "医生给病人打针。",
+    "english": "The doctor gives the patient an injection.",
+    "chinese_word_bank": [
+      "病人",
+      "。",
+      "给",
+      "打针",
+      "医生"
+    ]
+  }
+]

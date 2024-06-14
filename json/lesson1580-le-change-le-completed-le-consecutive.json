@@ -1,0 +1,279 @@
+[
+  {
+    "grammar_point": "了 to indicate change",
+    "chinese": "奶茶店越来越多了。",
+    "english": "There are more and more milk tea shops now.",
+    "chinese_word_bank": [
+      "奶茶店越来越多",
+      "。",
+      "了"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "奶茶店越来越多了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "现在奶茶店越来越多了。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "奶茶店现在越来越多了。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "现在越来越多了奶茶店。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "越来越多了奶茶店现在。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "奶茶店越来越多了现在。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "越来越多奶茶店了现在。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "现在奶茶店了越来越多。",
+        "fluency": 3,
+        "accuracy": 3
+      }
+    ]
+  },
+  {
+    "grammar_point": "了 to indicate change",
+    "chinese": "人们发现奶茶里有很多咖啡因了。",
+    "english": "People have discovered that there is a lot of caffeine in milk tea.",
+    "chinese_word_bank": [
+      "咖啡因",
+      "人们发现",
+      "很多",
+      "了",
+      "有",
+      "。",
+      "奶茶里"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "人们发现奶茶里有很多咖啡因了。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "人们发现奶茶里有很多了咖啡因。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "人们发现了奶茶里有很多咖啡因。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "人们发现了奶茶里有很多了咖啡因。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "奶茶里有很多咖啡因了人们发现。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "奶茶里有很多了咖啡因人们发现。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "奶茶里有很多咖啡因人们发现了。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "奶茶里有很多了咖啡因人们发现了。",
+        "fluency": 3,
+        "accuracy": 3
+      }
+    ]
+  },
+  {
+    "grammar_point": "了 to indicate completed actions",
+    "chinese": "他检查了十种最有名的奶茶。",
+    "english": "He checked ten of the most famous milk teas.",
+    "chinese_word_bank": [
+      "种",
+      "检查",
+      "十",
+      "奶茶",
+      "他",
+      "了",
+      "最有名的",
+      "。"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "他检查了十种最有名的奶茶。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "他检查了最有名的十种奶茶。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "他检查了奶茶最有名的十种。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "他检查了最有名的奶茶十种。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "他最有名的十种奶茶检查了。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "他十种最有名的奶茶检查了。",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "十种最有名的奶茶他检查了。",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "最有名的十种奶茶他检查了。",
+        "fluency": 9,
+        "accuracy": 9
+      }
+    ]
+  },
+  {
+    "grammar_point": "了 to indicate completed actions",
+    "chinese": "我买了一杯奶茶。",
+    "english": "I bought a cup of milk tea.",
+    "chinese_word_bank": [
+      "了",
+      "一",
+      "。",
+      "奶茶",
+      "买",
+      "我",
+      "杯"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "我买了一杯奶茶。",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "我买了一奶茶杯。",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "我买奶茶了一杯。",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "我买奶茶一杯了。",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "我买一杯奶茶了。",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "买了一杯奶茶我。",
+        "fluency": 3,
+        "accuracy": 3
+      },
+      {
+        "chinese": "买了一奶茶杯我。",
+        "fluency": 2,
+        "accuracy": 2
+      },
+      {
+        "chinese": "买奶茶了一杯我。",
+        "fluency": 1,
+        "accuracy": 1
+      }
+    ]
+  },
+  {
+    "grammar_point": "了 for consecutive actions",
+    "chinese": "我们喝了奶茶去看电影吧？",
+    "english": "Shall we go watch a movie after drinking milk tea?",
+    "chinese_word_bank": [
+      "喝",
+      "了",
+      "去看电影",
+      "吧",
+      "我们",
+      "？",
+      "奶茶"
+    ],
+    "possible_solutions": [
+      {
+        "chinese": "我们喝了奶茶去看电影吧？",
+        "fluency": 10,
+        "accuracy": 10
+      },
+      {
+        "chinese": "喝了奶茶我们去看电影吧？",
+        "fluency": 9,
+        "accuracy": 9
+      },
+      {
+        "chinese": "喝了奶茶去看电影吧我们？",
+        "fluency": 7,
+        "accuracy": 7
+      },
+      {
+        "chinese": "我们喝了奶茶吧去看电影？",
+        "fluency": 6,
+        "accuracy": 6
+      },
+      {
+        "chinese": "喝了奶茶吧我们去看电影？",
+        "fluency": 8,
+        "accuracy": 8
+      },
+      {
+        "chinese": "我们去看电影吧喝了奶茶？",
+        "fluency": 5,
+        "accuracy": 5
+      },
+      {
+        "chinese": "去看电影吧我们喝了奶茶？",
+        "fluency": 4,
+        "accuracy": 4
+      },
+      {
+        "chinese": "去看电影我们喝了奶茶吧？",
+        "fluency": 3,
+        "accuracy": 3
+      }
+    ]
+  }
+]
