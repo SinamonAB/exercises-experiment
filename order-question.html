@@ -130,12 +130,7 @@
                 checkButton.on("click", function () {
                     const sentence = completedSentence.text();
                     const correct = data[question.data("question-num")].possible_solutions.includes(sentence);
-                    updateCompletedSentence();
-                    completedSentence.addClass(correct ? "correct" : "incorrect");
-                    checkButton.removeClass("btn-primary");
-                    checkButton.removeClass("btn-success");
-                    checkButton.removeClass("btn-danger");
-                    checkButton.addClass(correct ? "btn-success" : "btn-danger");
+                    console.log(checkButton.html(), "Next Question!", checkButton.html() === "Next Question!");
                     if (checkButton.html() === "Next Question!") {
                         const currentQuestionNum = parseInt($(".question:visible").data("question-num"));
                         const newQuestionNum = currentQuestionNum + 1;
@@ -145,6 +140,10 @@
                         }
                         updatePagination();
                     }
+                    updateCompletedSentence();
+                    completedSentence.addClass(correct ? "correct" : "incorrect");
+                    checkButton.removeClass("btn-primary");
+                    checkButton.addClass(correct ? "btn-success" : "btn-danger");
                     checkButton.html(correct ? "Next Question!" : "Try Again!");
                 });
             });
