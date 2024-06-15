@@ -4,54 +4,15 @@
     "chinese": "奶茶太好喝了！",
     "english": "Milk tea is really delicious!",
     "chinese_word_bank": [
-      "！",
-      "太",
+      "好",
       "了",
+      "太",
       "奶茶",
       "喝",
-      "好"
+      "！"
     ],
     "possible_solutions": [
-      {
-        "chinese": "奶茶太好喝了！",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "太好喝了奶茶！",
-        "fluency": 7,
-        "accuracy": 8
-      },
-      {
-        "chinese": "好喝了太奶茶！",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "好喝奶茶太了！",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "奶茶好喝太了！",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "太奶茶好喝了！",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "好喝太奶茶了！",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "奶茶了太好喝！",
-        "fluency": 2,
-        "accuracy": 2
-      }
+      "奶茶太好喝了！"
     ]
   },
   {
@@ -59,53 +20,14 @@
     "chinese": "奶茶店太多了。",
     "english": "There are too many milk tea shops.",
     "chinese_word_bank": [
-      "了",
-      "奶茶店",
-      "多",
+      "太",
       "。",
-      "太"
+      "奶茶店",
+      "了",
+      "多"
     ],
     "possible_solutions": [
-      {
-        "chinese": "奶茶店太多了。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "太多了奶茶店。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "奶茶店多太了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "多太了奶茶店。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太奶茶店多了。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "多奶茶店太了。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太了奶茶店多。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "奶茶店了太多。",
-        "fluency": 2,
-        "accuracy": 2
-      }
+      "奶茶店太多了。"
     ]
   },
   {
@@ -114,52 +36,13 @@
     "english": "There is too much caffeine.",
     "chinese_word_bank": [
       "咖啡因",
-      "太",
+      "多",
       "。",
       "了",
-      "多"
+      "太"
     ],
     "possible_solutions": [
-      {
-        "chinese": "咖啡因太多了。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "太多了咖啡因。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "咖啡因多太了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "多太了咖啡因。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太咖啡因多了。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "多咖啡因太了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "咖啡因了太多。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太了咖啡因多。",
-        "fluency": 1,
-        "accuracy": 1
-      }
+      "咖啡因太多了。"
     ]
   },
   {
@@ -167,53 +50,14 @@
     "chinese": "奶茶太便宜了。",
     "english": "Milk tea is too cheap.",
     "chinese_word_bank": [
-      "便宜",
-      "了",
-      "太",
       "奶茶",
+      "太",
+      "了",
+      "便宜",
       "。"
     ],
     "possible_solutions": [
-      {
-        "chinese": "奶茶太便宜了。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "太便宜了奶茶。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "奶茶便宜太了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "便宜太了奶茶。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太奶茶便宜了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "便宜奶茶太了。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "太了奶茶便宜。",
-        "fluency": 1,
-        "accuracy": 1
-      },
-      {
-        "chinese": "奶茶了太便宜。",
-        "fluency": 1,
-        "accuracy": 1
-      }
+      "奶茶太便宜了。"
     ]
   },
   {
@@ -221,53 +65,14 @@
     "chinese": "这个赚钱的机会太好了！",
     "english": "This money-making opportunity is really great!",
     "chinese_word_bank": [
-      "太",
-      "这个赚钱的机会",
       "好",
+      "这个赚钱的机会",
       "了",
-      "！"
+      "！",
+      "太"
     ],
     "possible_solutions": [
-      {
-        "chinese": "这个赚钱的机会太好了！",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "太好了这个赚钱的机会！",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "这个赚钱的机会好了太！",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "好了太这个赚钱的机会！",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "太这个赚钱的机会好了！",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "好这个赚钱的机会太了！",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "这个赚钱的机会太好！",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "太好这个赚钱的机会了！",
-        "fluency": 5,
-        "accuracy": 5
-      }
+      "这个赚钱的机会太好了！"
     ]
   }
 ]

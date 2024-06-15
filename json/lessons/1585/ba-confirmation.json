@@ -4,53 +4,14 @@
     "chinese": "李河是警察吧？",
     "english": "Li He is a police officer, right?",
     "chinese_word_bank": [
-      "？",
-      "警察",
       "李河",
       "是",
-      "吧"
+      "吧",
+      "？",
+      "警察"
     ],
     "possible_solutions": [
-      {
-        "chinese": "李河是警察吧？",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "是警察吧李河？",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "警察吧李河是？",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "是李河警察吧？",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "李河吧是警察？",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "警察是李河吧？",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "吧李河是警察？",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "吧是警察李河？",
-        "fluency": 1,
-        "accuracy": 1
-      }
+      "李河是警察吧？"
     ]
   },
   {
@@ -58,53 +19,14 @@
     "chinese": "春草是作家吧？",
     "english": "Chun Cao is a writer, right?",
     "chinese_word_bank": [
-      "？",
-      "春草",
-      "是",
       "作家",
+      "是",
+      "春草",
+      "？",
       "吧"
     ],
     "possible_solutions": [
-      {
-        "chinese": "春草是作家吧？",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "是作家吧春草？",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "作家吧春草是？",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "作家是春草吧？",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "吧春草是作家？",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "吧是作家春草？",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "是春草吧作家？",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "春草吧是作家？",
-        "fluency": 3,
-        "accuracy": 3
-      }
+      "春草是作家吧？"
     ]
   },
   {
@@ -112,54 +34,16 @@
     "chinese": "《天花板上的客人》是侦探小说吧？",
     "english": "\"The Guest on the Ceiling\" is a detective novel, right?",
     "chinese_word_bank": [
-      "？",
-      "是",
       "《天花板上的客人》",
-      "侦探",
+      "小说",
+      "是",
       "吧",
-      "小说"
+      "侦探",
+      "？"
     ],
     "possible_solutions": [
-      {
-        "chinese": "《天花板上的客人》是侦探小说吧？",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "《天花板上的客人》是侦探小说，吧？",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "是侦探小说吧《天花板上的客人》？",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "是侦探小说《天花板上的客人》吧？",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "侦探小说吧《天花板上的客人》是？",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "侦探小说《天花板上的客人》是吧？",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "《天花板上的客人》吧是侦探小说？",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "《天花板上的客人》是吧侦探小说？",
-        "fluency": 3,
-        "accuracy": 3
-      }
+      "《天花板上的客人》是侦探小说吧？",
+      "是侦探小说《天花板上的客人》吧？"
     ]
   },
   {
@@ -167,54 +51,15 @@
     "chinese": "小九是记者吧？",
     "english": "Xiao Jiu is a journalist, right?",
     "chinese_word_bank": [
-      "是",
-      "小",
-      "吧",
-      "九",
       "？",
-      "记者"
+      "九",
+      "是",
+      "吧",
+      "记者",
+      "小"
     ],
     "possible_solutions": [
-      {
-        "chinese": "小九是记者吧？",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "小九是吧记者？",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "是小九记者吧？",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "是小九吧记者？",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "记者是小九吧？",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "记者是吧小九？",
-        "fluency": 1,
-        "accuracy": 1
-      },
-      {
-        "chinese": "是记者小九吧？",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "是记者吧小九？",
-        "fluency": 4,
-        "accuracy": 4
-      }
+      "小九是记者吧？"
     ]
   },
   {
@@ -222,34 +67,15 @@
     "chinese": "李河在咖啡馆等人吧？",
     "english": "Li He is waiting for someone in the café, right?",
     "chinese_word_bank": [
-      "吧",
+      "李河",
+      "？",
       "在咖啡馆",
       "人",
-      "？",
       "等",
-      "李河"
+      "吧"
     ],
     "possible_solutions": [
-      {
-        "chinese": "李河在咖啡馆等人吧？",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "李河在咖啡馆等人，吧？",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "李河在咖啡馆等人吧，？",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "李河在咖啡馆等人，吧？",
-        "fluency": 8,
-        "accuracy": 8
-      }
+      "李河在咖啡馆等人吧？"
     ]
   }
 ]

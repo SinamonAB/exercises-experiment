@@ -4,57 +4,18 @@
     "chinese": "不少人发现了这个赚钱的好机会，也开了奶茶店。",
     "english": "Many people discovered this money-making opportunity and also opened milk tea shops.",
     "chinese_word_bank": [
-      "发现",
+      "这个赚钱的好机会",
+      "。",
       "人",
       "，",
-      "也",
-      "不少",
-      "开了奶茶店",
-      "这个赚钱的好机会",
       "了",
-      "。"
+      "开了奶茶店",
+      "不少",
+      "也",
+      "发现"
     ],
     "possible_solutions": [
-      {
-        "chinese": "不少人发现了这个赚钱的好机会，也开了奶茶店。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "不少人发现了这个赚钱的好机会，开了奶茶店也。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "不少人发现了这个赚钱的好机会，奶茶店也开了。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "不少人发现了这个赚钱的好机会，也奶茶店开了。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "发现了不少人这个赚钱的好机会，也开了奶茶店。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "发现了不少人这个赚钱的好机会，开了奶茶店也。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "发现了不少人这个赚钱的好机会，奶茶店也开了。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "发现了不少人这个赚钱的好机会，也奶茶店开了。",
-        "fluency": 3,
-        "accuracy": 3
-      }
+      "不少人发现了这个赚钱的好机会，也开了奶茶店。"
     ]
   },
   {
@@ -62,55 +23,16 @@
     "chinese": "有些奶茶店选择的地点不好，也没有人去买。",
     "english": "Some milk tea shops chose bad locations, and also no one went to buy from them.",
     "chinese_word_bank": [
-      "有些奶茶店选择的地点",
-      "也",
-      "。",
       "好",
-      "，",
+      "有些奶茶店选择的地点",
       "不",
-      "没有人去买"
+      "。",
+      "也",
+      "没有人去买",
+      "，"
     ],
     "possible_solutions": [
-      {
-        "chinese": "有些奶茶店选择的地点不好，也没有人去买。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，没有人去买也。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，没有人去买，也。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，也不没有人去买。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，也没有人去买。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，没有人去买也。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，没有人去买，也。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "有些奶茶店选择的地点不好，也不没有人去买。",
-        "fluency": 5,
-        "accuracy": 5
-      }
+      "有些奶茶店选择的地点不好，也没有人去买。"
     ]
   },
   {
@@ -118,55 +40,16 @@
     "chinese": "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。",
     "english": "People know that coffee contains caffeine and are also used to coffee being an addictive drink.",
     "chinese_word_bank": [
-      "，",
       "也",
-      "知道",
-      "人们",
       "习惯了咖啡是“瘾”料",
+      "知道",
+      "，",
       "。",
+      "人们",
       "咖啡里有咖啡因"
     ],
     "possible_solutions": [
-      {
-        "chinese": "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "人们知道咖啡里有咖啡因，习惯了咖啡是“瘾”料也。",
-        "fluency": 6,
-        "accuracy": 7
-      },
-      {
-        "chinese": "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "知道咖啡里有咖啡因，人们也习惯了咖啡是“瘾”料。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "知道咖啡里有咖啡因，人们习惯了咖啡是“瘾”料也。",
-        "fluency": 6,
-        "accuracy": 7
-      },
-      {
-        "chinese": "咖啡里有咖啡因，人们也习惯了咖啡是“瘾”料。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "咖啡里有咖啡因，人们习惯了咖啡是“瘾”料也。",
-        "fluency": 6,
-        "accuracy": 7
-      },
-      {
-        "chinese": "咖啡里有咖啡因，也人们习惯了咖啡是“瘾”料。",
-        "fluency": 5,
-        "accuracy": 6
-      }
+      "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。"
     ]
   },
   {
@@ -174,57 +57,18 @@
     "chinese": "人们爱上奶茶，可能不是因为好喝，也不是因为便宜。",
     "english": "People fell in love with milk tea, possibly not because it tastes good, and also not because it is cheap.",
     "chinese_word_bank": [
-      "不是",
-      "因为好喝",
-      "，",
-      "可能",
-      "不是因为便宜",
-      "也",
-      "，",
       "。",
+      "可能",
+      "因为好喝",
+      "不是",
+      "不是因为便宜",
+      "，",
+      "，",
+      "也",
       "人们爱上奶茶"
     ],
     "possible_solutions": [
-      {
-        "chinese": "人们爱上奶茶，可能不是因为好喝，也不是因为便宜。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "人们爱上奶茶，可能不是因为好喝，不是因为便宜也。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "人们爱上奶茶，可能不是因为便宜，也不是因为好喝。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "人们爱上奶茶，可能不是因为便宜，不是因为好喝也。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "可能不是因为好喝，人们爱上奶茶，也不是因为便宜。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "可能不是因为好喝，人们爱上奶茶，不是因为便宜也。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "可能不是因为便宜，人们爱上奶茶，也不是因为好喝。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "可能不是因为便宜，人们爱上奶茶，不是因为好喝也。",
-        "fluency": 5,
-        "accuracy": 5
-      }
+      "人们爱上奶茶，可能不是因为好喝，也不是因为便宜。"
     ]
   },
   {
@@ -232,57 +76,19 @@
     "chinese": "有些奶茶店赚不到钱，也有些奶茶店生意很好。",
     "english": "Some milk tea shops do not make money, and also some milk tea shops have very good business.",
     "chinese_word_bank": [
+      "赚",
+      "钱",
+      "也",
       "有些奶茶店",
+      "不",
       "，",
       "有些奶茶店生意很好",
-      "钱",
-      "赚",
-      "不",
       "。",
-      "到",
-      "也"
+      "到"
     ],
     "possible_solutions": [
-      {
-        "chinese": "有些奶茶店赚不到钱，也有些奶茶店生意很好。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "有些奶茶店赚不到钱，有些奶茶店生意也很好。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "有些奶茶店不赚钱，也有些奶茶店生意很好。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "有些奶茶店不赚钱，有些奶茶店生意也很好。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "有些奶茶店赚不到钱，也有些奶茶店生意很好。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "有些奶茶店赚不到钱，有些奶茶店生意也很好。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "有些奶茶店不赚钱，也有些奶茶店生意很好。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "有些奶茶店不赚钱，有些奶茶店生意也很好。",
-        "fluency": 7,
-        "accuracy": 7
-      }
+      "有些奶茶店赚不到钱，也有些奶茶店生意很好。",
+      "有些奶茶店赚不到钱，有些奶茶店生意也很好。"
     ]
   }
 ]

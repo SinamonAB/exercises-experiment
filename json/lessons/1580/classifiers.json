@@ -4,55 +4,16 @@
     "chinese": "我买了一杯奶茶。",
     "english": "I bought a cup of milk tea.",
     "chinese_word_bank": [
-      "奶茶",
-      "了",
-      "我",
-      "杯",
       "。",
+      "杯",
+      "奶茶",
+      "买",
       "一",
-      "买"
+      "我",
+      "了"
     ],
     "possible_solutions": [
-      {
-        "chinese": "我买了一杯奶茶。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "我买了一奶茶杯。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "我买奶茶了一杯。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "我买奶茶一杯了。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "我一杯奶茶买了。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "我一杯买了奶茶。",
-        "fluency": 2,
-        "accuracy": 2
-      },
-      {
-        "chinese": "买了一杯奶茶我。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "买了一杯我奶茶。",
-        "fluency": 6,
-        "accuracy": 6
-      }
+      "我买了一杯奶茶。"
     ]
   },
   {
@@ -61,53 +22,14 @@
     "english": "He has two milk tea shops.",
     "chinese_word_bank": [
       "他",
-      "有",
-      "奶茶店",
+      "两",
       "。",
+      "奶茶店",
       "家",
-      "两"
+      "有"
     ],
     "possible_solutions": [
-      {
-        "chinese": "他有两家奶茶店。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "他有奶茶店两家。",
-        "fluency": 7,
-        "accuracy": 8
-      },
-      {
-        "chinese": "奶茶店他有两家。",
-        "fluency": 6,
-        "accuracy": 7
-      },
-      {
-        "chinese": "两家奶茶店他有。",
-        "fluency": 5,
-        "accuracy": 6
-      },
-      {
-        "chinese": "两家他有奶茶店。",
-        "fluency": 4,
-        "accuracy": 5
-      },
-      {
-        "chinese": "奶茶店两家他有。",
-        "fluency": 3,
-        "accuracy": 4
-      },
-      {
-        "chinese": "他两家奶茶店有。",
-        "fluency": 2,
-        "accuracy": 3
-      },
-      {
-        "chinese": "他奶茶店有两家。",
-        "fluency": 1,
-        "accuracy": 2
-      }
+      "他有两家奶茶店。"
     ]
   },
   {
@@ -115,54 +37,16 @@
     "chinese": "这是一种很有名的奶茶。",
     "english": "This is a very famous type of milk tea.",
     "chinese_word_bank": [
-      "很有名的",
       "一",
-      "奶茶",
       "。",
       "这是",
+      "奶茶",
+      "很有名的",
       "种"
     ],
     "possible_solutions": [
-      {
-        "chinese": "这是一种很有名的奶茶。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "这是很有名的一种奶茶。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "这是一种奶茶很有名的。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "这是很有名的奶茶一种。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "很有名的奶茶这是一种。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "很有名的一种奶茶这是。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "奶茶这是一种很有名的。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "奶茶很有名的这是一种。",
-        "fluency": 3,
-        "accuracy": 3
-      }
+      "这是一种很有名的奶茶。",
+      "这是很有名的一种奶茶。"
     ]
   },
   {
@@ -170,56 +54,17 @@
     "chinese": "每一种奶茶都有不同的味道。",
     "english": "Each type of milk tea has a different flavor.",
     "chinese_word_bank": [
-      "。",
       "不同的味道",
-      "有",
-      "都",
-      "奶茶",
+      "一",
       "种",
+      "有",
       "每",
-      "一"
+      "奶茶",
+      "都",
+      "。"
     ],
     "possible_solutions": [
-      {
-        "chinese": "每一种奶茶都有不同的味道。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "每种奶茶都有不同的味道。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "每一种奶茶有不同的味道。",
-        "fluency": 8,
-        "accuracy": 8
-      },
-      {
-        "chinese": "每种奶茶有不同的味道。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "奶茶每一种都有不同的味道。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "奶茶每种都有不同的味道。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "每一种奶茶不同的味道有。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "每种奶茶不同的味道有。",
-        "fluency": 3,
-        "accuracy": 3
-      }
+      "每一种奶茶都有不同的味道。"
     ]
   },
   {
@@ -228,54 +73,16 @@
     "english": "I drink a cup of milk tea every day.",
     "chinese_word_bank": [
       "杯",
-      "奶茶",
-      "我",
-      "。",
       "喝",
       "每天",
-      "一"
+      "我",
+      "一",
+      "。",
+      "奶茶"
     ],
     "possible_solutions": [
-      {
-        "chinese": "我每天喝一杯奶茶。",
-        "fluency": 10,
-        "accuracy": 10
-      },
-      {
-        "chinese": "每天我喝一杯奶茶。",
-        "fluency": 9,
-        "accuracy": 9
-      },
-      {
-        "chinese": "我每天喝奶茶一杯。",
-        "fluency": 7,
-        "accuracy": 7
-      },
-      {
-        "chinese": "每天我喝奶茶一杯。",
-        "fluency": 6,
-        "accuracy": 6
-      },
-      {
-        "chinese": "我喝一杯奶茶每天。",
-        "fluency": 5,
-        "accuracy": 5
-      },
-      {
-        "chinese": "我喝奶茶一杯每天。",
-        "fluency": 4,
-        "accuracy": 4
-      },
-      {
-        "chinese": "每天喝一杯奶茶我。",
-        "fluency": 3,
-        "accuracy": 3
-      },
-      {
-        "chinese": "每天喝奶茶一杯我。",
-        "fluency": 2,
-        "accuracy": 2
-      }
+      "我每天喝一杯奶茶。",
+      "每天我喝一杯奶茶。"
     ]
   }
 ]

@@ -123,7 +123,7 @@
 
                 checkButton.on("click", function () {
                     const sentence = completedSentence.text();
-                    const correct = sentence === completedSentence.data('solution');
+                    const correct = data[question.data("question-num")].possible_solutions.includes(sentence);
                     updateCompletedSentence();
                     completedSentence.addClass(correct ? "correct" : "incorrect");
                 });
@@ -168,10 +168,6 @@
 <body>
 
 <div class="container">
-    <ul id="overview">
-
-    </ul>
-    <hr>
     <div id="questions-specific" style="display: none;">
         <h3>
             <span id="title"></span>
@@ -195,6 +191,11 @@
         <div id="question-container">
         </div>
     </div>
+    <hr>
+    <h3>Other questions</h3>
+    <ul id="overview">
+
+    </ul>
 </div>
 </body>
 </html>
