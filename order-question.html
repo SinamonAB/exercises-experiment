@@ -24,7 +24,7 @@
         .word-list {
             list-style-type: none;
             padding: 0;
-            height: 3em;
+            min-height: 3em;
             border-radius: 5px;
             padding-left: 5px;
             padding-right: 5px;
@@ -116,6 +116,10 @@
                     tolerance: "pointer"
                 });
                 question.find(".word-list").disableSelection();
+                question.find(".word-list").on("sortchange", function (event, ui) {
+                    console.log("FIRED");
+                    updateCompletedSentence();
+                });
 
                 wordBank.on("click", ".word", function (event) {
                     completedSentence.append(event.target);
