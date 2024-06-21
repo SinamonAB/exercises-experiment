@@ -20,11 +20,11 @@
     "chinese": "奶茶店太多了。",
     "english": "There are too many milk tea shops.",
     "chinese_word_bank": [
-      "太",
-      "。",
       "奶茶店",
+      "多",
+      "太",
       "了",
-      "多"
+      "。"
     ],
     "possible_solutions": [
       "奶茶店太多了。"
@@ -36,10 +36,10 @@
     "english": "There is too much caffeine.",
     "chinese_word_bank": [
       "咖啡因",
+      "太",
       "多",
-      "。",
       "了",
-      "太"
+      "。"
     ],
     "possible_solutions": [
       "咖啡因太多了。"
@@ -50,10 +50,10 @@
     "chinese": "奶茶太便宜了。",
     "english": "Milk tea is too cheap.",
     "chinese_word_bank": [
-      "奶茶",
       "太",
-      "了",
       "便宜",
+      "奶茶",
+      "了",
       "。"
     ],
     "possible_solutions": [
@@ -65,10 +65,10 @@
     "chinese": "这个赚钱的机会太好了！",
     "english": "This money-making opportunity is really great!",
     "chinese_word_bank": [
-      "好",
       "这个赚钱的机会",
       "了",
       "！",
+      "好",
       "太"
     ],
     "possible_solutions": [

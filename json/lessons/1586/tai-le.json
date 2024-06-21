@@ -4,16 +4,16 @@
     "chinese": "李河觉得警察被写得太笨了。",
     "english": "Li He thinks the police were written as too stupid.",
     "chinese_word_bank": [
-      "警察",
-      "了",
-      "笨",
       "得",
-      "。",
-      "觉得",
       "太",
-      "李河",
+      "笨",
+      "警察",
+      "被",
       "写",
-      "被"
+      "觉得",
+      "了",
+      "。",
+      "李河"
     ],
     "possible_solutions": [
       "李河觉得警察被写得太笨了。"
@@ -24,13 +24,13 @@
     "chinese": "春草的小说让李河太失望了。",
     "english": "Chuncao's novel made Li He too disappointed.",
     "chinese_word_bank": [
-      "了",
+      "太",
       "失望",
       "李河",
-      "。",
+      "让",
       "春草的小说",
-      "太",
-      "让"
+      "了",
+      "。"
     ],
     "possible_solutions": [
       "春草的小说让李河太失望了。"
@@ -41,12 +41,12 @@
     "chinese": "小九觉得李河的回答太有趣了。",
     "english": "Xiao Jiu found Li He's response too interesting.",
     "chinese_word_bank": [
-      "。",
       "了",
-      "有趣",
-      "太",
-      "李河的回答",
       "小九",
+      "。",
+      "李河的回答",
+      "太",
+      "有趣",
       "觉得"
     ],
     "possible_solutions": [
@@ -58,12 +58,12 @@
     "chinese": "李河觉得春草的信太奇怪了。",
     "english": "Li He found Chuncao's letter too strange.",
     "chinese_word_bank": [
-      "太",
-      "了",
-      "。",
       "奇怪",
       "春草的信",
+      "。",
+      "太",
       "觉得",
+      "了",
       "李河"
     ],
     "possible_solutions": [
@@ -75,17 +75,17 @@
     "chinese": "春草没有留下联系方式，这太不方便了。",
     "english": "Chuncao didn't leave any contact information, which is too inconvenient.",
     "chinese_word_bank": [
-      "留下",
       "联系方式",
-      "，",
-      "了",
       "方便",
       "这",
+      "了",
       "春草",
       "不",
+      "没有",
+      "留下",
       "太",
       "。",
-      "没有"
+      "，"
     ],
     "possible_solutions": [
       "春草没有留下联系方式，这太不方便了。"

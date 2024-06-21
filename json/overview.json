@@ -1,5 +1,17 @@
 [
   {
+    "path": "lessons/1467/le-change.json",
+    "lesson_url": "https://duchinese.net/lessons/1467",
+    "lesson_title": "I’m a Cat 4: Three Cakes (1)",
+    "grammar_points": "了 to indicate change"
+  },
+  {
+    "path": "lessons/1467/zhe.json",
+    "lesson_url": "https://duchinese.net/lessons/1467",
+    "lesson_title": "I’m a Cat 4: Three Cakes (1)",
+    "grammar_points": "Continuous action or state with 着"
+  },
+  {
     "path": "lessons/1580/bu.json",
     "lesson_url": "https://duchinese.net/lessons/1580",
     "lesson_title": "The Addiction Economy of Milk Tea",
@@ -15,7 +27,7 @@
     "path": "lessons/1580/le-change-le-completed-le-consecutive.json",
     "lesson_url": "https://duchinese.net/lessons/1580",
     "lesson_title": "The Addiction Economy of Milk Tea",
-    "grammar_points": "了 for consecutive actions, 了 to indicate change, 了 to indicate completed actions"
+    "grammar_points": "了 to indicate completed actions, 了 for consecutive actions, 了 to indicate change"
   },
   {
     "path": "lessons/1580/tai-le.json",
@@ -36,10 +48,16 @@
     "grammar_points": "Cause and effect with 因为 and 所以"
   },
   {
-    "path": "lessons/1585/ba-confirmation.json",
+    "path": "lessons/1580/yiyang.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": "Comparing with 一样"
+  },
+  {
+    "path": "lessons/1585/ba.json",
     "lesson_url": "https://duchinese.net/lessons/1585",
     "lesson_title": "A Game (1)",
-    "grammar_points": "Confirming with 吧"
+    "grammar_points": "把"
   },
   {
     "path": "lessons/1585/guo.json",
@@ -58,5 +76,23 @@
     "lesson_url": "https://duchinese.net/lessons/1587",
     "lesson_title": "A Game (3)",
     "grammar_points": "Continuous action or state with 着"
+  },
+  {
+    "path": "lessons/1660/hui-future.json",
+    "lesson_url": "https://duchinese.net/lessons/1660",
+    "lesson_title": "A Bar in a Supermarket",
+    "grammar_points": "Talking about the future with 会"
+  },
+  {
+    "path": "lessons/1660/yiyang.json",
+    "lesson_url": "https://duchinese.net/lessons/1660",
+    "lesson_title": "A Bar in a Supermarket",
+    "grammar_points": "Comparing with 一样"
+  },
+  {
+    "path": "lessons/1660/yuelaiyue.json",
+    "lesson_url": "https://duchinese.net/lessons/1660",
+    "lesson_title": "A Bar in a Supermarket",
+    "grammar_points": "More and more with 越来越"
   }
 ]

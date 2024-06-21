@@ -4,12 +4,12 @@
     "chinese": "李河没有见过春草。",
     "english": "Li He has never met Chuncao.",
     "chinese_word_bank": [
-      "过",
-      "春草",
-      "没有",
+      "。",
       "李河",
+      "没有",
+      "春草",
       "见",
-      "。"
+      "过"
     ],
     "possible_solutions": [
       "李河没有见过春草。"
@@ -20,13 +20,13 @@
     "chinese": "李河以前没有听说过《天花板上的客人》这本书。",
     "english": "Li He had never heard of the book \"The Guest on the Ceiling\" before.",
     "chinese_word_bank": [
-      "没有",
-      "李河",
       "听说",
       "以前",
-      "。",
       "过",
-      "《天花板上的客人》这本书"
+      "没有",
+      "《天花板上的客人》这本书",
+      "李河",
+      "。"
     ],
     "possible_solutions": [
       "以前李河没有听说过《天花板上的客人》这本书。",
@@ -39,9 +39,9 @@
     "english": "Xiao Jiu has met the writer Chuncao.",
     "chinese_word_bank": [
       "小九",
+      "见",
       "过",
       "。",
-      "见",
       "作家春草"
     ],
     "possible_solutions": [
@@ -53,14 +53,14 @@
     "chinese": "李河看过《天花板上的客人》这本小说。",
     "english": "Li He has read the novel \"The Guest on the Ceiling.\"",
     "chinese_word_bank": [
-      "《天花板上的客人》",
+      "。",
+      "过",
       "这",
+      "《天花板上的客人》",
       "本",
       "李河",
-      "。",
-      "看",
-      "过",
-      "小说"
+      "小说",
+      "看"
     ],
     "possible_solutions": [
       "李河看过《天花板上的客人》这本小说。",
@@ -72,12 +72,12 @@
     "chinese": "小九来过警察局看朋友。",
     "english": "Xiao Jiu has been to the police station to visit a friend.",
     "chinese_word_bank": [
-      "看朋友",
-      "过",
-      "警察局",
       "。",
+      "警察局",
       "来",
-      "小九"
+      "小九",
+      "看朋友",
+      "过"
     ],
     "possible_solutions": [
       "小九来过警察局看朋友。"

@@ -4,18 +4,18 @@
     "chinese": "因为奶茶里有很多咖啡因，所以人们爱上了奶茶。",
     "english": "People fell in love with milk tea because it contains a lot of caffeine.",
     "chinese_word_bank": [
-      "。",
-      "很多",
-      "奶茶",
       "了",
+      "奶茶里",
+      "很多",
       "咖啡因",
       "因为",
-      "爱上",
-      "，",
+      "所以",
+      "。",
       "人们",
-      "有",
-      "奶茶里",
-      "所以"
+      "，",
+      "奶茶",
+      "爱上",
+      "有"
     ],
     "possible_solutions": [
       "因为奶茶里有很多咖啡因，所以人们爱上了奶茶。"
@@ -26,12 +26,12 @@
     "chinese": "因为奶茶店选择的地点不好，所以没有人去买。",
     "english": "No one goes to buy milk tea because the location of the milk tea shop is not good.",
     "chinese_word_bank": [
-      "所以",
-      "人去买",
-      "。",
-      "没有",
-      "，",
       "因为",
+      "没有",
+      "人去买",
+      "，",
+      "。",
+      "所以",
       "奶茶店选择的地点不好"
     ],
     "possible_solutions": [
@@ -43,14 +43,14 @@
     "chinese": "因为奶茶比咖啡便宜，所以有些人认为奶茶赚不到钱。",
     "english": "Some people think milk tea doesn't make money because it is cheaper than coffee.",
     "chinese_word_bank": [
-      "奶茶比咖啡便宜",
-      "，",
-      "认为",
       "所以",
       "有些人",
-      "奶茶赚不到钱",
       "因为",
-      "。"
+      "奶茶赚不到钱",
+      "，",
+      "。",
+      "奶茶比咖啡便宜",
+      "认为"
     ],
     "possible_solutions": [
       "因为奶茶比咖啡便宜，所以有些人认为奶茶赚不到钱。"
@@ -61,14 +61,14 @@
     "chinese": "因为加班累了，所以年轻人喜欢喝奶茶。",
     "english": "Young people like to drink milk tea because they are tired from working overtime.",
     "chinese_word_bank": [
-      "所以",
       "喜欢",
+      "加班累了",
       "喝奶茶",
       "年轻人",
-      "加班累了",
-      "，",
       "。",
-      "因为"
+      "所以",
+      "因为",
+      "，"
     ],
     "possible_solutions": [
       "因为加班累了，所以年轻人喜欢喝奶茶。",
@@ -81,13 +81,13 @@
     "english": "Competition is fierce because there are milk tea shops everywhere.",
     "chinese_word_bank": [
       "所以",
-      "奶茶店到处都是",
       "激烈",
-      "因为",
-      "很",
-      "竞争",
       "，",
-      "。"
+      "奶茶店到处都是",
+      "。",
+      "竞争",
+      "很",
+      "因为"
     ],
     "possible_solutions": [
       "因为奶茶店到处都是，所以竞争很激烈。"

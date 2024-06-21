@@ -4,15 +4,15 @@
     "chinese": "不少人发现了这个赚钱的好机会，也开了奶茶店。",
     "english": "Many people discovered this money-making opportunity and also opened milk tea shops.",
     "chinese_word_bank": [
+      "发现",
       "这个赚钱的好机会",
       "。",
-      "人",
-      "，",
-      "了",
-      "开了奶茶店",
       "不少",
-      "也",
-      "发现"
+      "，",
+      "人",
+      "开了奶茶店",
+      "了",
+      "也"
     ],
     "possible_solutions": [
       "不少人发现了这个赚钱的好机会，也开了奶茶店。"
@@ -23,13 +23,13 @@
     "chinese": "有些奶茶店选择的地点不好，也没有人去买。",
     "english": "Some milk tea shops chose bad locations, and also no one went to buy from them.",
     "chinese_word_bank": [
-      "好",
-      "有些奶茶店选择的地点",
       "不",
-      "。",
+      "有些奶茶店选择的地点",
+      "，",
       "也",
       "没有人去买",
-      "，"
+      "。",
+      "好"
     ],
     "possible_solutions": [
       "有些奶茶店选择的地点不好，也没有人去买。"
@@ -40,13 +40,13 @@
     "chinese": "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。",
     "english": "People know that coffee contains caffeine and are also used to coffee being an addictive drink.",
     "chinese_word_bank": [
-      "也",
-      "习惯了咖啡是“瘾”料",
       "知道",
-      "，",
+      "也",
       "。",
+      "咖啡里有咖啡因",
+      "，",
       "人们",
-      "咖啡里有咖啡因"
+      "习惯了咖啡是“瘾”料"
     ],
     "possible_solutions": [
       "人们知道咖啡里有咖啡因，也习惯了咖啡是“瘾”料。"
@@ -57,15 +57,15 @@
     "chinese": "人们爱上奶茶，可能不是因为好喝，也不是因为便宜。",
     "english": "People fell in love with milk tea, possibly not because it tastes good, and also not because it is cheap.",
     "chinese_word_bank": [
-      "。",
-      "可能",
       "因为好喝",
-      "不是",
       "不是因为便宜",
+      "人们爱上奶茶",
+      "。",
+      "不是",
       "，",
-      "，",
+      "可能",
       "也",
-      "人们爱上奶茶"
+      "，"
     ],
     "possible_solutions": [
       "人们爱上奶茶，可能不是因为好喝，也不是因为便宜。"
@@ -76,15 +76,15 @@
     "chinese": "有些奶茶店赚不到钱，也有些奶茶店生意很好。",
     "english": "Some milk tea shops do not make money, and also some milk tea shops have very good business.",
     "chinese_word_bank": [
-      "赚",
-      "钱",
-      "也",
       "有些奶茶店",
-      "不",
-      "，",
-      "有些奶茶店生意很好",
       "。",
-      "到"
+      "赚",
+      "也",
+      "，",
+      "到",
+      "有些奶茶店生意很好",
+      "不",
+      "钱"
     ],
     "possible_solutions": [
       "有些奶茶店赚不到钱，也有些奶茶店生意很好。",

@@ -5,10 +5,10 @@
     "english": "Li He is looking at the men in the café and on the street next to it.",
     "chinese_word_bank": [
       "。",
-      "看",
       "咖啡馆和旁边街道上的男人",
-      "着",
-      "李河"
+      "看",
+      "李河",
+      "着"
     ],
     "possible_solutions": [
       "李河看着咖啡馆和旁边街道上的男人。"
@@ -19,13 +19,13 @@
     "chinese": "春草躺在床上，盖着大被子。",
     "english": "Chuncao is lying in bed, covered with a big quilt.",
     "chinese_word_bank": [
+      "春草",
       "躺",
       "。",
       "在床上",
-      "，",
       "着",
-      "春草",
       "大被子",
+      "，",
       "盖"
     ],
     "possible_solutions": [
@@ -37,11 +37,11 @@
     "chinese": "他头上戴着大帽子。",
     "english": "He is wearing a big hat on his head.",
     "chinese_word_bank": [
-      "戴",
+      "大帽子",
       "他头上",
+      "戴",
       "着",
-      "。",
-      "大帽子"
+      "。"
     ],
     "possible_solutions": [
       "他头上戴着大帽子。"
@@ -52,12 +52,12 @@
     "chinese": "李河在互联网上查找着“作家春草”的信息。",
     "english": "Li He is searching for information about \"Writer Chuncao\" on the internet.",
     "chinese_word_bank": [
-      "“作家春草”的信息",
-      "在互联网上",
+      "。",
       "着",
       "李河",
-      "。",
-      "查找"
+      "查找",
+      "“作家春草”的信息",
+      "在互联网上"
     ],
     "possible_solutions": [
       "在互联网上李河查找着“作家春草”的信息。",
@@ -69,12 +69,12 @@
     "chinese": "房间里有点儿黑，他又生着病。",
     "english": "The room is a bit dark, and he is sick.",
     "chinese_word_bank": [
-      "。",
-      "，",
-      "房间里",
       "他又生着病",
-      "黑",
-      "有点儿"
+      "房间里",
+      "，",
+      "有点儿",
+      "。",
+      "黑"
     ],
     "possible_solutions": [
       "房间里有点儿黑，他又生着病。"

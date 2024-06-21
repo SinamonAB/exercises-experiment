@@ -4,11 +4,11 @@
     "chinese": "我不喜欢喝咖啡。",
     "english": "I don’t like drinking coffee.",
     "chinese_word_bank": [
-      "喜欢",
       "喝咖啡",
+      "我",
       "。",
-      "不",
-      "我"
+      "喜欢",
+      "不"
     ],
     "possible_solutions": [
       "我不喜欢喝咖啡。"
@@ -19,12 +19,12 @@
     "chinese": "奶茶店不一定能赚钱。",
     "english": "Milk tea shops don’t necessarily make money.",
     "chinese_word_bank": [
-      "能",
       "奶茶店",
+      "能",
+      "赚钱",
       "。",
       "一定",
-      "不",
-      "赚钱"
+      "不"
     ],
     "possible_solutions": [
       "奶茶店不一定能赚钱。"
@@ -35,16 +35,16 @@
     "chinese": "有些奶茶店的位置不好，所以不容易被看到。",
     "english": "Some milk tea shops are not in good locations, so they are not easily seen.",
     "chinese_word_bank": [
-      "容易",
       "。",
-      "有些奶茶店的位置",
-      "看到",
-      "不",
-      "不",
-      "好",
       "，",
+      "容易",
+      "有些奶茶店的位置",
+      "好",
+      "不",
       "被",
-      "所以"
+      "看到",
+      "所以",
+      "不"
     ],
     "possible_solutions": [
       "有些奶茶店的位置不好，所以不容易被看到。"
@@ -55,11 +55,11 @@
     "chinese": "人们不明白为什么奶茶这么受欢迎。",
     "english": "People don’t understand why milk tea is so popular.",
     "chinese_word_bank": [
-      "不",
       "为什么奶茶这么受欢迎",
-      "人们",
+      "。",
       "明白",
-      "。"
+      "人们",
+      "不"
     ],
     "possible_solutions": [
       "人们不明白为什么奶茶这么受欢迎。"
@@ -70,11 +70,11 @@
     "chinese": "奶茶不比咖啡便宜。",
     "english": "Milk tea is not cheaper than coffee.",
     "chinese_word_bank": [
-      "便宜",
-      "。",
       "比咖啡",
+      "。",
       "不",
-      "奶茶"
+      "奶茶",
+      "便宜"
     ],
     "possible_solutions": [
       "奶茶不比咖啡便宜。"
