@@ -104,6 +104,66 @@
     };
 
     // Add HTML and functionality for each exercise
+    const ReadingExerciseState = {
+        Initial: "initial",
+        SelectedOption: "selected-option",
+        ClickCheckWithoutSelection: "click-check-without-selection",
+        Checking: "checking"
+    }
+
+    const updateReadingExerciseState = (exerciseJson, newState) => {
+        exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
+        exerciseJson.el.find(".choice-option-btn, .check-btn, .skip-btn").off("click");
+        exerciseJson.el.find(".check-btn").text("Check");
+        const initial = () => {
+            exerciseJson.el.find(".choice-option-btn").click((e) => {
+                exerciseJson.el.find(".choice-option-btn").removeClass("selected");
+                $(e.target).addClass("selected");
+                updateReadingExerciseState(exerciseJson, ReadingExerciseState.SelectedOption);
+            });
+            exerciseJson.el.find(".skip-btn").click(() => {
+                completeExercise(exerciseJson, CompletionStatus.Skipped);
+            });
+        };
+        switch (newState) {
+            case ReadingExerciseState.Initial:
+            case ReadingExerciseState.ClickCheckWithoutSelection:
+                initial();
+                exerciseJson.el.find(".check-btn").click(() => {
+                    updateReadingExerciseState(exerciseJson, ReadingExerciseState.ClickCheckWithoutSelection);
+                });
+                break;
+            case ReadingExerciseState.SelectedOption:
+                initial();
+                exerciseJson.el.find(".check-btn").click(() => {
+                    updateReadingExerciseState(exerciseJson, ReadingExerciseState.Checking);
+                });
+                break;
+            case ReadingExerciseState.Checking:
+                const selectedOptionNum = exerciseJson.el.find(".choice-option-btn.selected").data("option-num");
+                const correct = exerciseJson.answer_options[selectedOptionNum].correct;
+                exerciseJson.answer_options.forEach((option, optionNum) => {
+                    if (option.correct) {
+                        exerciseJson.el.find(`.choice-option-btn[data-option-num=${optionNum}]`).addClass("correct");
+                    }
+                });
+                if (!correct) {
+                    exerciseJson.el.find(".choice-option-btn.selected").addClass("wrong");
+                }
+                const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
+
+                exerciseJson.el.find(".check-btn").text("Next");
+                exerciseJson.el.find(".check-btn").click(() => {
+                    completeExercise(exerciseJson, completionStatus);
+                });
+                break;
+        }
+        exerciseJson.el.addClass(`state-${newState}`);
+
+        exerciseJson.state = newState;
+    };
+
+    // Populate exercise list
     const makeExerciseEl = (exerciseJson) => {
         let instruction = "";
         let task = "";
@@ -152,73 +212,12 @@
 
         switch (exerciseJson.question_type) {
             case "reading":
-                updateExerciseState(exerciseJson, ReadingExerciseState.Initial);
+                updateReadingExerciseState(exerciseJson, ReadingExerciseState.Initial);
                 break;
             default:
                 break;
         }
     };
-
-    const ReadingExerciseState = {
-        Initial: "initial",
-        SelectedOption: "selected-option",
-        ClickCheckWithoutSelection: "click-check-without-selection",
-        Checking: "checking"
-    }
-
-    const updateExerciseState = (exerciseJson, newState) => {
-        exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
-        exerciseJson.el.find(".choice-option-btn, .check-btn, .skip-btn").off("click");
-        exerciseJson.el.find(".check-btn").text("Check");
-        const initial = () => {
-            exerciseJson.el.find(".choice-option-btn").click((e) => {
-                exerciseJson.el.find(".choice-option-btn").removeClass("selected");
-                $(e.target).addClass("selected");
-                updateExerciseState(exerciseJson, ReadingExerciseState.SelectedOption);
-            });
-            exerciseJson.el.find(".skip-btn").click(() => {
-                completeExercise(exerciseJson, CompletionStatus.Skipped);
-            });
-        };
-        switch (newState) {
-            case ReadingExerciseState.Initial:
-            case ReadingExerciseState.ClickCheckWithoutSelection:
-                initial();
-                exerciseJson.el.find(".check-btn").click(() => {
-                    updateExerciseState(exerciseJson, ReadingExerciseState.ClickCheckWithoutSelection);
-                });
-                break;
-            case ReadingExerciseState.SelectedOption:
-                initial();
-                exerciseJson.el.find(".check-btn").click(() => {
-                    updateExerciseState(exerciseJson, ReadingExerciseState.Checking);
-                });
-                break;
-            case ReadingExerciseState.Checking:
-                const selectedOptionNum = exerciseJson.el.find(".choice-option-btn.selected").data("option-num");
-                const correct = exerciseJson.answer_options[selectedOptionNum].correct;
-                exerciseJson.answer_options.forEach((option, optionNum) => {
-                    if (option.correct) {
-                        exerciseJson.el.find(`.choice-option-btn[data-option-num=${optionNum}]`).addClass("correct");
-                    }
-                });
-                if (!correct) {
-                    exerciseJson.el.find(".choice-option-btn.selected").addClass("wrong");
-                }
-                const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
-
-                exerciseJson.el.find(".check-btn").text("Next");
-                exerciseJson.el.find(".check-btn").click(() => {
-                    completeExercise(exerciseJson, completionStatus);
-                });
-                break;
-        }
-        exerciseJson.el.addClass(`state-${newState}`);
-
-        exerciseJson.state = newState;
-    };
-
-    // Populate exercise list
     exerciseList.forEach((exerciseJson, exerciseNum) => {
         exerciseJson.num = exerciseNum;
         makeExerciseEl(exerciseJson);
