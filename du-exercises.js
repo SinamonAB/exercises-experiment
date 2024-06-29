@@ -104,10 +104,10 @@
     };
 
     // Add HTML and functionality for each exercise
-    const makeExerciseEl = (questionJson) => {
+    const makeExerciseEl = (exerciseJson) => {
         let instruction = "";
         let task = "";
-        switch (questionJson.question_type) {
+        switch (exerciseJson.question_type) {
             case "reading":
                 instruction = `
                     <div class="exercise-instruction">
@@ -118,9 +118,9 @@
                     </div>`;
                 task = `
                     <div class="exercise-task">
-                        <span class="question">${questionJson.question}</span>
+                        <span class="question">${exerciseJson.question}</span>
                         <ol class="answer-options">
-                            ${questionJson.answer_options.map((option, optionNum) => {
+                            ${exerciseJson.answer_options.map((option, optionNum) => {
                     return `<li><button type="button" class="btn choice-option-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
                 }).join("")}
                         </ol>
@@ -130,10 +130,10 @@
                     </div>`;
                 break;
             default:
-                instruction = `Unknown question type: ${questionJson.question_type}`;
+                instruction = `Unknown question type: ${exerciseJson.question_type}`;
                 break;
         }
-        return $(`
+        exerciseJson.el = $(`
             <div class="exercise">
                 <form>
                     ${instruction}
@@ -147,6 +147,16 @@
                     </div>
                 </form>
             </div>`);
+        exercisesEl.append(exerciseJson.el);
+        exerciseJson.el.hide();
+
+        switch (exerciseJson.question_type) {
+            case "reading":
+                updateExerciseState(exerciseJson, ReadingExerciseState.Initial);
+                break;
+            default:
+                break;
+        }
     };
 
     const ReadingExerciseState = {
@@ -210,12 +220,8 @@
 
     // Populate exercise list
     exerciseList.forEach((exerciseJson, exerciseNum) => {
-        const exerciseEl = makeExerciseEl(exerciseJson);
-        exercisesEl.append(exerciseEl);
-        exerciseJson.el = exerciseEl;
         exerciseJson.num = exerciseNum;
-        exerciseEl.hide();
-        updateExerciseState(exerciseJson, ReadingExerciseState.Initial);
+        makeExerciseEl(exerciseJson);
     });
 
     // Show first exercise
