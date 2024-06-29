@@ -49,8 +49,8 @@
                     <div>
                         <ol class="progress-icons">
                             ${exerciseList.map((exerciseJson, exerciseNum) => {
-        return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
-    }).join(" ")}
+                                return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
+                            }).join(" ")}
                         </ol>
                     </div>
                     <div>
