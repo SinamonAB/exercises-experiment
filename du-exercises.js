@@ -11,7 +11,27 @@
 
 (function() {
     "use strict";
-    $(document).ready(() => {
+
+    // https://stackoverflow.com/a/61511955/2766231
+    function waitForElement(selector) {
+        return new Promise(resolve => {
+            if (document.querySelector(selector)) {
+                return resolve(document.querySelector(selector));
+            }
+            const observer = new MutationObserver(mutations => {
+                if (document.querySelector(selector)) {
+                    observer.disconnect();
+                    resolve(document.querySelector(selector));
+                }
+            });
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+    }
+
+    $(document).ready(() => { waitForElement(".lesson-content").then(() => {
         // Inject CSS
         $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/key-vocab-playground/grammar-questions/du-exercises.css">`);
 
@@ -223,5 +243,5 @@
         const nextProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
         nextProgressIconEl.attr("class", `progress-icon ${CompletionStatus.Current}`);
         progressTextEl.text(`${currentQuestionNum + 1}/${exerciseList.length}`);
-    });
+    }); });
 })();
