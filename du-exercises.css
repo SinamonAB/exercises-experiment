@@ -1,0 +1,144 @@
+.du-exercise-screen {
+    padding: .5em 0 1.8em;
+}
+.exercises {
+    display: flex;
+    flex-direction: column;
+}
+.exercises .btn:focus, .exercises .btn:active {
+   outline: none;
+   box-shadow: none;
+}
+.exercises-header {
+    background: #FAFAFA;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+}
+.exercises-header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.exercises-header .heading {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.exercise-progress {
+    display: flex;
+    gap: 8px;
+    margin-top: -10px;
+}
+.exercises-header .progress-icons {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.exercises-header .progress-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #CDCBD1;
+}
+.exercises-header .progress-icon.correct {
+    background: #58C0A9;
+}
+.exercises-header .progress-icon.wrong {
+    background: #BE222A;
+}
+.exercises-header .progress-icon.skipped {
+    background: #CDCBD1;
+    border: 1px solid #817E8B;
+}
+.exercises-header .progress-icon.current {
+    background: #4D4C53;
+}
+.exercises-header .progress-text {
+    font-size: 14px;
+}
+
+.exercises-body {
+    padding: 16px;
+}
+.exercise form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.exercise-instruction {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.exercise-type {
+    background: #EFEFEF;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    font-size: 14px;
+}
+.exercise-task {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 1.2em;
+}
+.exercise-task * {
+    font-size: 1em !important;
+    font-weight: 200 !important;
+}
+.exercise-task .answer-options {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.exercise-task .choice-option-btn {
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #EFEFEF;
+    background: white;
+    border-radius: .625em;
+    width: 100%;
+    text-align: left;
+}
+.exercise-task .choice-option-btn.selected {
+    border: 3px solid #817E8B;
+}
+.exercise-task .choice-option-btn.correct {
+    background: #BCE6DD;
+}
+.exercise-task .choice-option-btn.wrong {
+    background: #F2D3D4;
+}
+
+.exercise-controls {
+    display: flex;
+    gap: 24px;
+}
+.exercise-controls .btn {
+    border-radius: .625em;
+    font-size: 15px;
+}
+.exercise-controls .check-btn {
+    flex-grow: 100;
+}
+.exercise-controls .skip-btn {
+    width: 106px;
+    background: #EEF9F6;
+    border: 1px solid #58C0A9;
+}
+.exercise.state-initial .exercise-controls .check-btn {
+    background: #F6F6F8;
+    border: 1px solid #817E8B;
+}
+.exercise.state-selected-option .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn {
+    background: #58C0A9;
+    border: none;
+    color: #FFFFFF;
+}
+.exercise.state-checking .exercise-controls .skip-btn {
+    display: none;
+}
+.exercise:not(.state-click-check-without-selection) .select-option-first-text {
+    display: none;
+}
