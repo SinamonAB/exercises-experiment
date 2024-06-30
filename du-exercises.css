@@ -93,13 +93,16 @@
     flex-direction: column;
     gap: 8px;
 }
-.exercise-task .choice-option-btn {
+.exercise-task .choice-option-btn, .exercise-task .word-btn {
     padding: 8px 10px 8px 10px;
     border: 1px solid #EFEFEF;
     background: white;
     border-radius: .625em;
-    width: 100%;
     text-align: left;
+    color: #1A191C;
+}
+.exercise-task .choice-option-btn {
+    width: 100%;
 }
 .exercise-task .choice-option-btn.selected {
     border: 3px solid #817E8B;
@@ -109,6 +112,23 @@
 }
 .exercise-task .choice-option-btn.wrong {
     background: #F2D3D4;
+}
+
+.exercise-task .word-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 8px;
+}
+.exercise-task .word-list .word-bank-btn.disabled, .exercise-task .word-list .word-slot-btn.empty {
+    span {
+        visibility: hidden;
+    }
+    min-width: 30px;
+    background: #EFEFEF;
+}
+.exercise-task .word-list .word-slot-btn.empty, .exercise-task .word-list .word-btn span {
+    pointer-events: none;
 }
 
 .exercise-controls {

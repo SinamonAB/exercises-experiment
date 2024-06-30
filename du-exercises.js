@@ -37,8 +37,9 @@
     // Load exercise JSON file
     await $.getScript("http://localhost:63342/key-vocab-playground/grammar-questions/content.js");
 
-    // Inject CSS
+    // Inject CSS and additional Javascript
     $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/key-vocab-playground/grammar-questions/du-exercises.css">`);
+    await $.getScript("https://code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     // Inject exercise section
     const exercisesHeaderEl = $(`
@@ -87,7 +88,7 @@
         Ahead: "ahead"
     }
 
-    let currentQuestionNum = 0;
+    let currentQuestionNum = 4;
 
     const completeExercise = (exerciseJson, completionStatus) => {
         const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
@@ -104,42 +105,67 @@
     };
 
     // Add HTML and functionality for each exercise
-    const ReadingExerciseState = {
+    const ExerciseState = {
         Initial: "initial",
         SelectedOption: "selected-option",
         ClickCheckWithoutSelection: "click-check-without-selection",
         Checking: "checking"
     }
 
-    const updateReadingExerciseState = (exerciseJson, newState) => {
+    const updateExerciseState = (exerciseJson, newState) => {
         exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
-        exerciseJson.el.find(".choice-option-btn, .check-btn, .skip-btn").off("click");
+        exerciseJson.el.off("click");
         exerciseJson.el.find(".check-btn").text("Check");
         const initial = () => {
             exerciseJson.el.find(".choice-option-btn").click((e) => {
                 exerciseJson.el.find(".choice-option-btn").removeClass("selected");
                 $(e.target).addClass("selected");
-                updateReadingExerciseState(exerciseJson, ReadingExerciseState.SelectedOption);
+                updateExerciseState(exerciseJson, ExerciseState.SelectedOption);
+            });
+            exerciseJson.el.find(".word-bank-btn").click((e) => {
+                const el = $(e.target);
+                if (el.hasClass("disabled")) {
+                    return;
+                }
+                const word = el.data("word");
+                const wordSlot = exerciseJson.el.find(".word-slot-btn.empty:first");
+                wordSlot.find(".word-span").text(word);
+                wordSlot.data("word", word);
+                wordSlot.removeClass("empty");
+                $(e.target).addClass("disabled");
+            });
+            exerciseJson.el.find(".word-slot-btn").click((e) => {
+                const el = $(e.target);
+                if (el.hasClass("empty")) {
+                    return;
+                }
+                const word = el.data("word");
+                const wordBank = exerciseJson.el.find(`.word-bank-btn[data-word="${word}"]`).first();
+                wordBank.removeClass("disabled");
+                el.find(".word-span").text("?");
+                el.addClass("empty");
+                // move clicked word slot to end of list
+                el.parent().appendTo(exerciseJson.el.find(".solution"));
             });
             exerciseJson.el.find(".skip-btn").click(() => {
                 completeExercise(exerciseJson, CompletionStatus.Skipped);
             });
         };
         switch (newState) {
-            case ReadingExerciseState.Initial:
-            case ReadingExerciseState.ClickCheckWithoutSelection:
+            case ExerciseState.Initial:
+            case ExerciseState.ClickCheckWithoutSelection:
                 initial();
                 exerciseJson.el.find(".check-btn").click(() => {
-                    updateReadingExerciseState(exerciseJson, ReadingExerciseState.ClickCheckWithoutSelection);
+                    updateExerciseState(exerciseJson, ExerciseState.ClickCheckWithoutSelection);
                 });
                 break;
-            case ReadingExerciseState.SelectedOption:
+            case ExerciseState.SelectedOption:
                 initial();
                 exerciseJson.el.find(".check-btn").click(() => {
-                    updateReadingExerciseState(exerciseJson, ReadingExerciseState.Checking);
+                    updateExerciseState(exerciseJson, ExerciseState.Checking);
                 });
                 break;
-            case ReadingExerciseState.Checking:
+            case ExerciseState.Checking:
                 const selectedOptionNum = exerciseJson.el.find(".choice-option-btn.selected").data("option-num");
                 const correct = exerciseJson.answer_options[selectedOptionNum].correct;
                 exerciseJson.answer_options.forEach((option, optionNum) => {
@@ -181,12 +207,38 @@
                         <span class="question">${exerciseJson.question}</span>
                         <ol class="answer-options">
                             ${exerciseJson.answer_options.map((option, optionNum) => {
-                    return `<li><button type="button" class="btn choice-option-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
-                }).join("")}
+                                return `<li><button type="button" class="btn choice-option-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
+                                }).join("")}
                         </ol>
                     </div>
                     <div class="exercise-instruction select-option-first-text">
                         <span>Click on the answer first.</span>
+                    </div>`;
+                break;
+            case "grammar":
+                instruction = `
+                    <div class="exercise-instruction">
+                        <div>
+                            <span class="exercise-type">Grammar</span>
+                        </div>
+                        <span>Translate the English sentence using a correct grammar pattern.</span>
+                    </div>`;
+                task = `
+                    <div class="exercise-task">
+                        <span class="english">${exerciseJson.english}</span>
+                        <ol class="solution word-list">
+                            ${exerciseJson.word_bank.map((word) => {
+                                return `<li><button type="button" class="btn word-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
+                                }).join("")}
+                        </ol>
+                        <ol class="word-bank word-list">
+                            ${exerciseJson.word_bank.map((word) => {
+                                return `<li><button type="button" class="btn word-btn word-bank-btn" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
+                                }).join("")}
+                        </ol>
+                    </div>
+                    <div class="exercise-instruction select-option-first-text">
+                        <span>Click on all words in the word list to form the translation of the English sentence.</span>
                     </div>`;
                 break;
             default:
@@ -209,14 +261,7 @@
             </div>`);
         exercisesEl.append(exerciseJson.el);
         exerciseJson.el.hide();
-
-        switch (exerciseJson.question_type) {
-            case "reading":
-                updateReadingExerciseState(exerciseJson, ReadingExerciseState.Initial);
-                break;
-            default:
-                break;
-        }
+        updateExerciseState(exerciseJson, ExerciseState.Initial);
     };
     exerciseList.forEach((exerciseJson, exerciseNum) => {
         exerciseJson.num = exerciseNum;
