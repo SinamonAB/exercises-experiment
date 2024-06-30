@@ -88,7 +88,7 @@
         Ahead: "ahead"
     }
 
-    let currentQuestionNum = 4;
+    let currentQuestionNum = 0;
 
     const completeExercise = (exerciseJson, completionStatus) => {
         const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
@@ -157,6 +157,9 @@
                 el.addClass("empty");
                 // move clicked word slot to end of list
                 el.parent().appendTo(exerciseJson.el.find(".solution"));
+                if (exerciseJson.el.find(".word-slot-btn.empty").length > 0) {
+                    updateExerciseState(exerciseJson, ExerciseState.Initial);
+                }
             });
             exerciseJson.el.find(".solution").sortable({
                 items: "li:has(.word-slot-btn:not(.empty))",
@@ -188,12 +191,8 @@
                 switch (exerciseJson.question_type) {
                     case "reading":
                         const selectedOptionNum = exerciseJson.el.find(".reading-choice-btn.selected").data("option-num");
-                        correct = exerciseJson.answer_options[selectedOptionNum].correct;
-                        exerciseJson.answer_options.forEach((option, optionNum) => {
-                            if (option.correct) {
-                                exerciseJson.el.find(`.reading-choice-btn[data-option-num=${optionNum}]`).addClass("correct");
-                            }
-                        });
+                        correct = selectedOptionNum === exerciseJson.solution;
+                        exerciseJson.el.find(`.reading-choice-btn[data-option-num=${exerciseJson.solution}]`).addClass("correct");
                         if (!correct) {
                             exerciseJson.el.find(".reading-choice-btn.selected").addClass("wrong");
                         }
@@ -237,7 +236,7 @@
                         <span class="question">${exerciseJson.question}</span>
                         <ol class="answer-options">
                             ${exerciseJson.answer_options.map((option, optionNum) => {
-                                return `<li><button type="button" class="btn exercise-btn reading-choice-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
+                                return `<li><button type="button" class="btn exercise-btn reading-choice-btn" data-option-num="${optionNum}">${option}</button></li>`;
                                 }).join("")}
                         </ol>
                     </div>

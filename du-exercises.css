@@ -161,7 +161,7 @@
     background: #F6F6F8;
     border: 1px solid #817E8B;
 }
-.exercise.state-selected-option .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn {
+.exercise.state-answered .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn {
     background: #58C0A9;
     border: none;
     color: #FFFFFF;

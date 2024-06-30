@@ -3,58 +3,34 @@ const exerciseList = [
     "question_type": "reading",
     "question": "爸爸为什么来日本？",
     "answer_options": [
-      {
-        "chinese": "a. 过生日"
-      },
-      {
-        "chinese": "b. 看瑞典的朋友"
-      },
-      {
-        "chinese": "c. 过妈妈的生日",
-        "correct": true
-      },
-      {
-        "chinese": "d. 买东西"
-      }
-    ]
+      "a. 过生日",
+      "b. 看瑞典的朋友",
+      "c. 过妈妈的生日",
+      "d. 买东西"
+    ],
+    "solution": 2
   },
   {
     "question_type": "reading",
     "question": "谁住在瑞典？",
     "answer_options": [
-      {
-        "chinese": "a. 西西"
-      },
-      {
-        "chinese": "b. 高小月"
-      },
-      {
-        "chinese": "c. 大北",
-        "correct": true
-      },
-      {
-        "chinese": "d. 妈妈"
-      }
-    ]
+      "a. 西西",
+      "b. 高小月",
+      "c. 大北",
+      "d. 妈妈"
+    ],
+    "solution": 2
   },
   {
     "question_type": "reading",
     "question": "为什么西西的妈妈很高兴？",
     "answer_options": [
-      {
-        "chinese": "a. 因为她有很多猫"
-      },
-      {
-        "chinese": "b. 因为她的生日是明天"
-      },
-      {
-        "chinese": "c. 因为她的男朋友来了",
-        "correct": true
-      },
-      {
-        "chinese": "d. 因为她在瑞典住"
-      }
-    ]
+      "a. 因为她有很多猫",
+      "b. 因为她的生日是明天",
+      "c. 因为她的男朋友来了",
+      "d. 因为她在瑞典住"
+    ],
+    "solution": 2
   },
   {
     "question_type": "grammar",
