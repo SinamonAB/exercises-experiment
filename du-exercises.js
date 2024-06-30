@@ -88,7 +88,7 @@
         Ahead: "ahead"
     }
 
-    let currentQuestionNum = 0;
+    let currentQuestionNum = 4;
 
     const completeExercise = (exerciseJson, completionStatus) => {
         const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
@@ -113,15 +113,23 @@
     }
 
     const updateExerciseState = (exerciseJson, newState) => {
+        // reset state
         exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
         exerciseJson.el.off("click");
+        if (typeof exerciseJson.el.find(".solution").sortable() !== "undefined") {
+            exerciseJson.el.find(".solution").sortable("destroy");
+        }
         exerciseJson.el.find(".check-btn").text("Check");
+
         const initial = () => {
+            // reading
             exerciseJson.el.find(".reading-choice-btn").click((e) => {
                 exerciseJson.el.find(".reading-choice-btn").removeClass("selected");
                 $(e.target).addClass("selected");
                 updateExerciseState(exerciseJson, ExerciseState.Answered);
             });
+
+            // grammar
             exerciseJson.el.find(".word-bank-btn").click((e) => {
                 const el = $(e.target);
                 if (el.hasClass("disabled")) {
@@ -150,6 +158,13 @@
                 // move clicked word slot to end of list
                 el.parent().appendTo(exerciseJson.el.find(".solution"));
             });
+            exerciseJson.el.find(".solution").sortable({
+                items: "li:has(.word-slot-btn:not(.empty))",
+                cancel: "",
+                tolerance: "pointer"
+            });
+
+            // general
             exerciseJson.el.find(".skip-btn").click(() => {
                 completeExercise(exerciseJson, CompletionStatus.Skipped);
             });

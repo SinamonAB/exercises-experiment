@@ -101,7 +101,7 @@
     text-align: left;
     color: #1A191C;
 }
-.exercise-task .exercise-btn {
+.exercise-task .reading-choice-btn {
     width: 100%;
 }
 .exercise-task .exercise-btn.selected {
@@ -119,6 +119,10 @@
     padding-left: 0;
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
+}
+.exercise-task .word-list li {
+    display: inline-block;
 }
 .exercise-task .word-list .word-bank-btn.disabled, .exercise-task .word-list .word-slot-btn.empty {
     span {
@@ -129,6 +133,12 @@
 }
 .exercise-task .word-list .word-slot-btn.empty, .exercise-task .word-list .word-btn span {
     pointer-events: none;
+}
+.exercise-task .word-list .ui-sortable-placeholder {
+    width: 5px;
+    background: #58C0A9;
+    border-radius: 5px;
+    visibility: initial !important;
 }
 
 .exercise-controls {
