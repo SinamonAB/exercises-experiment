@@ -115,7 +115,7 @@
     const updateExerciseState = (exerciseJson, newState) => {
         // reset state
         exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
-        exerciseJson.el.off("click");
+        exerciseJson.el.find(".btn").off("click");
         if (typeof exerciseJson.el.find(".solution").sortable() !== "undefined") {
             exerciseJson.el.find(".solution").sortable("destroy");
         }
