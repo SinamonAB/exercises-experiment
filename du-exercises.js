@@ -222,6 +222,7 @@
     const makeExerciseEl = (exerciseJson) => {
         let instruction = "";
         let task = "";
+        let explanation = "";
         switch (exerciseJson.question_type) {
             case "reading":
                 instruction = `
@@ -269,6 +270,11 @@
                     <div class="exercise-instruction select-option-first-text">
                         <span>Click on all words in the word list to form the translation of the English sentence.</span>
                     </div>`;
+                explanation = `
+                    <div class="exercise-explanation">
+                        Connected grammar article:
+                        <a href="https://b4d0f49266473445.dev.duchinese.app/l/grammar_preview?hl=zh-Hans&slug=${exerciseJson.grammar_point.slug}" target="_blank">${exerciseJson.grammar_point.name}</a>
+                    </div>`;
                 break;
             default:
                 instruction = `Unknown question type: ${exerciseJson.question_type}`;
@@ -286,6 +292,7 @@
                             Skip
                         </button>
                     </div>
+                    ${explanation}
                 </form>
             </div>`);
         exercisesEl.append(exerciseJson.el);

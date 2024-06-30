@@ -36,7 +36,7 @@ const exerciseList = [
     "question_type": "grammar",
     "english": "Mom is there smiling.",
     "grammar_point": {
-      "identifier": "zhe",
+      "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
@@ -55,7 +55,7 @@ const exerciseList = [
     "question_type": "grammar",
     "english": "My name is Xi Xi, and I am also a cat.",
     "grammar_point": {
-      "identifier": "ye",
+      "slug": "ye",
       "name": "也"
     },
     "word_bank": [
@@ -77,7 +77,7 @@ const exerciseList = [
     "question_type": "grammar",
     "english": "I am also smiling.",
     "grammar_point": {
-      "identifier": "zhe",
+      "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
