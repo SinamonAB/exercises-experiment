@@ -64,11 +64,11 @@ const exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "妈妈",
-      "在",
-      "那儿",
       "笑",
+      "在",
+      "妈妈",
       "着",
+      "那儿",
       "。"
     ],
     "solutions": [
@@ -83,14 +83,14 @@ const exerciseList = [
       "name": "也"
     },
     "word_bank": [
-      "我",
-      "叫",
       "西西",
-      "，",
       "我",
-      "也",
-      "是",
       "猫",
+      "，",
+      "叫",
+      "也",
+      "我",
+      "是",
       "。"
     ],
     "solutions": [
@@ -105,10 +105,10 @@ const exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "我",
-      "也",
       "在",
       "笑",
+      "我",
+      "也",
       "着",
       "。"
     ],
