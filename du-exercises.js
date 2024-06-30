@@ -88,7 +88,7 @@
         Ahead: "ahead"
     }
 
-    let currentQuestionNum = 4;
+    let currentQuestionNum = 0;
 
     const completeExercise = (exerciseJson, completionStatus) => {
         const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
@@ -107,7 +107,7 @@
     // Add HTML and functionality for each exercise
     const ExerciseState = {
         Initial: "initial",
-        SelectedOption: "selected-option",
+        Answered: "answered",
         ClickCheckWithoutSelection: "click-check-without-selection",
         Checking: "checking"
     }
@@ -117,10 +117,10 @@
         exerciseJson.el.off("click");
         exerciseJson.el.find(".check-btn").text("Check");
         const initial = () => {
-            exerciseJson.el.find(".choice-option-btn").click((e) => {
-                exerciseJson.el.find(".choice-option-btn").removeClass("selected");
+            exerciseJson.el.find(".reading-choice-btn").click((e) => {
+                exerciseJson.el.find(".reading-choice-btn").removeClass("selected");
                 $(e.target).addClass("selected");
-                updateExerciseState(exerciseJson, ExerciseState.SelectedOption);
+                updateExerciseState(exerciseJson, ExerciseState.Answered);
             });
             exerciseJson.el.find(".word-bank-btn").click((e) => {
                 const el = $(e.target);
@@ -133,6 +133,9 @@
                 wordSlot.data("word", word);
                 wordSlot.removeClass("empty");
                 $(e.target).addClass("disabled");
+                if (exerciseJson.el.find(".word-slot-btn.empty").length === 0) {
+                    updateExerciseState(exerciseJson, ExerciseState.Answered);
+                }
             });
             exerciseJson.el.find(".word-slot-btn").click((e) => {
                 const el = $(e.target);
@@ -159,22 +162,34 @@
                     updateExerciseState(exerciseJson, ExerciseState.ClickCheckWithoutSelection);
                 });
                 break;
-            case ExerciseState.SelectedOption:
+            case ExerciseState.Answered:
                 initial();
                 exerciseJson.el.find(".check-btn").click(() => {
                     updateExerciseState(exerciseJson, ExerciseState.Checking);
                 });
                 break;
             case ExerciseState.Checking:
-                const selectedOptionNum = exerciseJson.el.find(".choice-option-btn.selected").data("option-num");
-                const correct = exerciseJson.answer_options[selectedOptionNum].correct;
-                exerciseJson.answer_options.forEach((option, optionNum) => {
-                    if (option.correct) {
-                        exerciseJson.el.find(`.choice-option-btn[data-option-num=${optionNum}]`).addClass("correct");
-                    }
-                });
-                if (!correct) {
-                    exerciseJson.el.find(".choice-option-btn.selected").addClass("wrong");
+                let correct = undefined;
+                switch (exerciseJson.question_type) {
+                    case "reading":
+                        const selectedOptionNum = exerciseJson.el.find(".reading-choice-btn.selected").data("option-num");
+                        correct = exerciseJson.answer_options[selectedOptionNum].correct;
+                        exerciseJson.answer_options.forEach((option, optionNum) => {
+                            if (option.correct) {
+                                exerciseJson.el.find(`.reading-choice-btn[data-option-num=${optionNum}]`).addClass("correct");
+                            }
+                        });
+                        if (!correct) {
+                            exerciseJson.el.find(".reading-choice-btn.selected").addClass("wrong");
+                        }
+                        break;
+                    case "grammar":
+                        const givenAnswer = exerciseJson.el.find(".word-slot-btn:not(.empty)").map((_, el) => $(el).data("word")).get().join("");
+                        correct = exerciseJson.solutions.includes(givenAnswer);
+                        exerciseJson.el.find(".word-slot-btn").addClass(correct ? "correct" : "wrong");
+                        break;
+                    default:
+                        break;
                 }
                 const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
 
@@ -207,7 +222,7 @@
                         <span class="question">${exerciseJson.question}</span>
                         <ol class="answer-options">
                             ${exerciseJson.answer_options.map((option, optionNum) => {
-                                return `<li><button type="button" class="btn choice-option-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
+                                return `<li><button type="button" class="btn exercise-btn reading-choice-btn" data-option-num="${optionNum}">${option.chinese}</button></li>`;
                                 }).join("")}
                         </ol>
                     </div>
@@ -228,12 +243,12 @@
                         <span class="english">${exerciseJson.english}</span>
                         <ol class="solution word-list">
                             ${exerciseJson.word_bank.map((word) => {
-                                return `<li><button type="button" class="btn word-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
+                                return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
                                 }).join("")}
                         </ol>
                         <ol class="word-bank word-list">
                             ${exerciseJson.word_bank.map((word) => {
-                                return `<li><button type="button" class="btn word-btn word-bank-btn" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
+                                return `<li><button type="button" class="btn word-btn exercise-btn word-bank-btn" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
                                 }).join("")}
                         </ol>
                     </div>

@@ -93,7 +93,7 @@
     flex-direction: column;
     gap: 8px;
 }
-.exercise-task .choice-option-btn, .exercise-task .word-btn {
+.exercise-task .exercise-btn {
     padding: 8px 10px 8px 10px;
     border: 1px solid #EFEFEF;
     background: white;
@@ -101,16 +101,16 @@
     text-align: left;
     color: #1A191C;
 }
-.exercise-task .choice-option-btn {
+.exercise-task .exercise-btn {
     width: 100%;
 }
-.exercise-task .choice-option-btn.selected {
+.exercise-task .exercise-btn.selected {
     border: 3px solid #817E8B;
 }
-.exercise-task .choice-option-btn.correct {
+.exercise-task .exercise-btn.correct {
     background: #BCE6DD;
 }
-.exercise-task .choice-option-btn.wrong {
+.exercise-task .exercise-btn.wrong {
     background: #F2D3D4;
 }
 
