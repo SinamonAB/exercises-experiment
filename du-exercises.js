@@ -116,8 +116,8 @@
         // reset state
         exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
         exerciseJson.el.find(".btn").off("click");
-        if (typeof exerciseJson.el.find(".solution").sortable() !== "undefined") {
-            exerciseJson.el.find(".solution").sortable("destroy");
+        if (typeof exerciseJson.el.find(".given-answer").sortable() !== "undefined") {
+            exerciseJson.el.find(".given-answer").sortable("destroy");
         }
         exerciseJson.el.find(".check-btn").text("Check");
 
@@ -156,12 +156,12 @@
                 el.find(".word-span").text("?");
                 el.addClass("empty");
                 // move clicked word slot to end of list
-                el.parent().appendTo(exerciseJson.el.find(".solution"));
+                el.parent().appendTo(exerciseJson.el.find(".given-answer"));
                 if (exerciseJson.el.find(".word-slot-btn.empty").length > 0) {
                     updateExerciseState(exerciseJson, ExerciseState.Initial);
                 }
             });
-            exerciseJson.el.find(".solution").sortable({
+            exerciseJson.el.find(".given-answer").sortable({
                 items: "li:has(.word-slot-btn:not(.empty))",
                 cancel: "",
                 tolerance: "pointer"
@@ -198,9 +198,22 @@
                         }
                         break;
                     case "grammar":
-                        const givenAnswer = exerciseJson.el.find(".word-slot-btn:not(.empty)").map((_, el) => $(el).data("word")).get().join("");
-                        correct = exerciseJson.solutions.includes(givenAnswer);
-                        exerciseJson.el.find(".word-slot-btn").addClass(correct ? "correct" : "wrong");
+                        const givenAnswer = exerciseJson.el.find(".word-slot-btn:not(.empty)").map((_, el) => $(el).data("word")).get();
+                        const incorrectIndicesPerSolution = exerciseJson.solutions.map((solution) => {
+                            return solution.map((word, wordIndex) => word !== givenAnswer[wordIndex] ? wordIndex : undefined).filter((i) => i !== undefined);
+                        });
+                        const closestSolutionNum = incorrectIndicesPerSolution.map((indices) => indices.length).reduce((iMin, x, i, arr) => x < arr[iMin] ? i : iMin, 0);
+                        const closestSolutionMistakes = incorrectIndicesPerSolution[closestSolutionNum];
+                        if (closestSolutionMistakes.length === 0) {
+                            exerciseJson.el.find(".solution-text").text(`That's a correct order!`);
+                        } else {
+                            exerciseJson.el.find(".solution-text").text(`Correct order: ${exerciseJson.solutions[closestSolutionNum].join("")}`);
+                        }
+
+                        // mark correct and wrong words
+                        exerciseJson.el.find(".word-slot-btn").each((wordIndex, el) => {
+                            $(el).addClass(closestSolutionMistakes.includes(wordIndex) ? "wrong" : "correct");
+                        });
                         break;
                     default:
                         break;
@@ -256,7 +269,7 @@
                 task = `
                     <div class="exercise-task">
                         <span class="english">${exerciseJson.english}</span>
-                        <ol class="solution word-list">
+                        <ol class="given-answer word-list">
                             ${exerciseJson.word_bank.map((word) => {
                                 return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
                                 }).join("")}
@@ -269,6 +282,9 @@
                     </div>
                     <div class="exercise-instruction select-option-first-text">
                         <span>Click on all words in the word list to form the translation of the English sentence.</span>
+                    </div>
+                    <div class="exercise-instruction solution">
+                        <span class="solution-text"></span>
                     </div>`;
                 explanation = `
                     <div class="exercise-explanation">

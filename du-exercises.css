@@ -172,3 +172,6 @@
 .exercise:not(.state-click-check-without-selection) .select-option-first-text {
     display: none;
 }
+.exercise:not(.state-checking) .solution {
+    display: none;
+}
