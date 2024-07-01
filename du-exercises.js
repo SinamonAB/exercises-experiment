@@ -114,7 +114,7 @@
 
     const updateExerciseState = (exerciseJson, newState) => {
         // reset state
-        exerciseJson.el.removeClass(`state-${exerciseJson.state}`);
+        exerciseJson.el.removeClass(`state-${exerciseJson.state} correct wrong`);
         exerciseJson.el.find(".btn").off("click");
         if (typeof exerciseJson.el.find(".given-answer").sortable() !== "undefined") {
             exerciseJson.el.find(".given-answer").sortable("destroy");
@@ -204,7 +204,8 @@
                         });
                         const closestSolutionNum = incorrectIndicesPerSolution.map((indices) => indices.length).reduce((iMin, x, i, arr) => x < arr[iMin] ? i : iMin, 0);
                         const closestSolutionMistakes = incorrectIndicesPerSolution[closestSolutionNum];
-                        if (closestSolutionMistakes.length === 0) {
+                        correct = closestSolutionMistakes.length === 0;
+                        if (correct) {
                             exerciseJson.el.find(".solution-text").text(`That's a correct order!`);
                         } else {
                             exerciseJson.el.find(".solution-text").text(`Correct order: ${exerciseJson.solutions[closestSolutionNum].join("")}`);
@@ -220,6 +221,7 @@
                 }
                 const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
 
+                exerciseJson.el.addClass(correct ? "correct" : "wrong");
                 exerciseJson.el.find(".check-btn").text("Next");
                 exerciseJson.el.find(".check-btn").click(() => {
                     completeExercise(exerciseJson, completionStatus);
@@ -273,6 +275,8 @@
                             ${exerciseJson.word_bank.map((word) => {
                                 return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
                                 }).join("")}
+                            <li class="solution correct"><img src="http://localhost:63342/key-vocab-playground/grammar-questions/correct-icon.svg"></li>
+                            <li class="solution wrong"><img src="http://localhost:63342/key-vocab-playground/grammar-questions/wrong-icon.svg"></li>
                         </ol>
                         <ol class="word-bank word-list">
                             ${exerciseJson.word_bank.map((word) => {

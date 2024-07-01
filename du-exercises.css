@@ -122,7 +122,8 @@
     flex-wrap: wrap;
 }
 .exercise-task .word-list li {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 .exercise-task .word-list .word-bank-btn.disabled, .exercise-task .word-list .word-slot-btn.empty {
     span {
@@ -139,6 +140,9 @@
     background: #58C0A9;
     border-radius: 5px;
     visibility: initial !important;
+}
+.exercise-task .word-list .solution img {
+    width: 30px;
 }
 
 .exercise-controls {
@@ -173,5 +177,8 @@
     display: none;
 }
 .exercise:not(.state-checking) .solution {
+    display: none;
+}
+.exercise:not(.correct) .solution.correct, .exercise:not(.wrong) .solution.wrong {
     display: none;
 }
