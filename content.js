@@ -48,7 +48,7 @@ const exerciseList = [
       "。"
     ],
     "solutions": [
-      "妈妈在那儿笑着。"
+      ["妈妈", "在", "那儿", "笑", "着", "。"]
     ]
   },
   {
@@ -70,7 +70,7 @@ const exerciseList = [
       "。"
     ],
     "solutions": [
-      "我叫西西，我也是猫。"
+      ["我", "叫", "西西", "，", "我", "也", "是", "猫", "。"]
     ]
   },
   {
@@ -89,7 +89,46 @@ const exerciseList = [
       "。"
     ],
     "solutions": [
-      "我也在笑着。"
+      ["我", "也", "在", "笑", "着", "。"]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "I wait for him every day.",
+    "grammar_point": {
+      "slug": "dou",
+      "name": "都"
+    },
+    "word_bank": [
+      "我",
+      "等",
+      "都",
+      "每天",
+      "他",
+    ],
+    "solutions": [
+      ["我", "每天", "都", "等", "他"],
+      ["每天", "我", "都", "等", "他"]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "I went to watch a movie yesterday.",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "昨天",
+      "我",
+      "去",
+      "看",
+      "电影",
+      "了"
+    ],
+    "solutions": [
+      ["昨天", "我", "去", "看", "电影", "了"],
+      ["我", "昨天", "去", "看", "电影", "了"],
     ]
   }
 ]
