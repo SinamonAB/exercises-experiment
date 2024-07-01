@@ -155,8 +155,9 @@
                 wordBank.removeClass("disabled");
                 el.find(".word-span").text("?");
                 el.addClass("empty");
-                // move clicked word slot to end of list
-                el.parent().appendTo(exerciseJson.el.find(".given-answer"));
+                // move clicked word slot to end of list, i.e. after the last non-empty slot
+                el.parent().insertAfter(exerciseJson.el.find(".given-answer .word-slot-btn:not(.empty)").last().parent());
+
                 if (exerciseJson.el.find(".word-slot-btn.empty").length > 0) {
                     updateExerciseState(exerciseJson, ExerciseState.Initial);
                 }
@@ -198,7 +199,7 @@
                         }
                         break;
                     case "grammar":
-                        const givenAnswer = exerciseJson.el.find(".word-slot-btn:not(.empty)").map((_, el) => $(el).data("word")).get();
+                        const givenAnswer = exerciseJson.el.find(".given-answer .word-btn:not(.empty)").map((_, el) => $(el).data("word")).get();
                         const incorrectIndicesPerSolution = exerciseJson.solutions.map((solution) => {
                             return solution.map((word, wordIndex) => word !== givenAnswer[wordIndex] ? wordIndex : undefined).filter((i) => i !== undefined);
                         });
@@ -212,7 +213,7 @@
                         }
 
                         // mark correct and wrong words
-                        exerciseJson.el.find(".word-slot-btn").each((wordIndex, el) => {
+                        exerciseJson.el.find(".given-answer .word-btn").each((wordIndex, el) => {
                             $(el).addClass(closestSolutionMistakes.includes(wordIndex) ? "wrong" : "correct");
                         });
                         break;
@@ -275,8 +276,11 @@
                             ${exerciseJson.word_bank.map((word) => {
                                 return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
                                 }).join("")}
-                            <li class="solution correct"><img src="http://localhost:63342/key-vocab-playground/grammar-questions/correct-icon.svg"></li>
-                            <li class="solution wrong"><img src="http://localhost:63342/key-vocab-playground/grammar-questions/wrong-icon.svg"></li>
+                            ${exerciseJson.prefilled_postfix.map((word) => {
+                                return `<li><button type="button" class="btn word-btn exercise-btn prefilled-word-slot-btn disabled" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
+                                }).join("")}
+                            <li class="solution correct"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/correct-icon.svg"></li>
+                            <li class="solution wrong"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/wrong-icon.svg"></li>
                         </ol>
                         <ol class="word-bank word-list">
                             ${exerciseJson.word_bank.map((word) => {

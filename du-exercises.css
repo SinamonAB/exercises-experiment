@@ -141,7 +141,10 @@
     border-radius: 5px;
     visibility: initial !important;
 }
-.exercise-task .word-list .solution img {
+.exercise-task .word-list .prefilled-word-slot-btn {
+    opacity: 1;
+}
+.exercise-task .word-list .solution .solution-icon {
     width: 30px;
 }
 
