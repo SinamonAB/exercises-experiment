@@ -12,6 +12,12 @@
     "grammar_points": "Continuous action or state with 着"
   },
   {
+    "path": "lessons/1580/any.json",
+    "lesson_url": "https://duchinese.net/lessons/1580",
+    "lesson_title": "The Addiction Economy of Milk Tea",
+    "grammar_points": ""
+  },
+  {
     "path": "lessons/1580/bu.json",
     "lesson_url": "https://duchinese.net/lessons/1580",
     "lesson_title": "The Addiction Economy of Milk Tea",
@@ -27,7 +33,7 @@
     "path": "lessons/1580/le-change-le-completed-le-consecutive.json",
     "lesson_url": "https://duchinese.net/lessons/1580",
     "lesson_title": "The Addiction Economy of Milk Tea",
-    "grammar_points": "了 to indicate completed actions, 了 for consecutive actions, 了 to indicate change"
+    "grammar_points": "了 for consecutive actions, 了 to indicate change, 了 to indicate completed actions"
   },
   {
     "path": "lessons/1580/tai-le.json",
@@ -78,6 +84,12 @@
     "grammar_points": "Continuous action or state with 着"
   },
   {
+    "path": "lessons/1660/any.json",
+    "lesson_url": "https://duchinese.net/lessons/1660",
+    "lesson_title": "A Bar in a Supermarket",
+    "grammar_points": "Describing actions with 得, Expressing “since” with 既然, Expressing earliness or promptness with 就, Result complements, Modifying with 的"
+  },
+  {
     "path": "lessons/1660/hui-future.json",
     "lesson_url": "https://duchinese.net/lessons/1660",
     "lesson_title": "A Bar in a Supermarket",
@@ -94,5 +106,11 @@
     "lesson_url": "https://duchinese.net/lessons/1660",
     "lesson_title": "A Bar in a Supermarket",
     "grammar_points": "More and more with 越来越"
+  },
+  {
+    "path": "lessons/1690/hui-future.json",
+    "lesson_url": "https://duchinese.net/lessons/1690",
+    "lesson_title": "Lao Gan Ma Price Rise",
+    "grammar_points": "Talking about the future with 会"
   }
 ]
