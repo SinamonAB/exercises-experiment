@@ -34,8 +34,16 @@
     // Wait for page to load
     await waitForElement(".lesson-content");
 
+    // Get the lesson ID.
+    const lessonId = window.lesson.id;
+
     // Load exercise JSON file
     await $.getScript("http://localhost:63342/key-vocab-playground/grammar-questions/content.js");
+    const exerciseList = exercisesByLessonId[lessonId];
+    if (!exerciseList) {
+        console.error(`No exercises found for lesson ID ${lessonId}`);
+        return;
+    }
 
     // Inject CSS and additional Javascript
     $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/key-vocab-playground/grammar-questions/du-exercises.css">`);
@@ -50,8 +58,8 @@
                     <div>
                         <ol class="progress-icons">
                             ${exerciseList.map((exerciseJson, exerciseNum) => {
-                                return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
-                            }).join(" ")}
+        return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
+    }).join(" ")}
                         </ol>
                     </div>
                     <div>
@@ -253,8 +261,8 @@
                         <span class="question">${exerciseJson.question}</span>
                         <ol class="answer-options">
                             ${exerciseJson.answer_options.map((option, optionNum) => {
-                                return `<li><button type="button" class="btn exercise-btn reading-choice-btn" data-option-num="${optionNum}">${option}</button></li>`;
-                                }).join("")}
+                    return `<li><button type="button" class="btn exercise-btn reading-choice-btn" data-option-num="${optionNum}">${option}</button></li>`;
+                }).join("")}
                         </ol>
                     </div>
                     <div class="exercise-instruction select-option-first-text">
@@ -274,18 +282,18 @@
                         <span class="english">${exerciseJson.english}</span>
                         <ol class="given-answer word-list">
                             ${exerciseJson.word_bank.map((word) => {
-                                return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
-                                }).join("")}
+                    return `<li><button type="button" class="btn word-btn exercise-btn word-slot-btn empty" data-word=""><span class="word-span">?</span></button></li>`;
+                }).join("")}
                             ${exerciseJson.prefilled_postfix.map((word) => {
-                                return `<li><button type="button" class="btn word-btn exercise-btn prefilled-word-slot-btn disabled" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
-                                }).join("")}
+                    return `<li><button type="button" class="btn word-btn exercise-btn prefilled-word-slot-btn disabled" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
+                }).join("")}
                             <li class="solution correct"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/correct-icon.svg"></li>
                             <li class="solution wrong"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/wrong-icon.svg"></li>
                         </ol>
                         <ol class="word-bank word-list">
                             ${exerciseJson.word_bank.map((word) => {
-                                return `<li><button type="button" class="btn word-btn exercise-btn word-bank-btn" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
-                                }).join("")}
+                    return `<li><button type="button" class="btn word-btn exercise-btn word-bank-btn" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
+                }).join("")}
                         </ol>
                     </div>
                     <div class="exercise-instruction select-option-first-text">
