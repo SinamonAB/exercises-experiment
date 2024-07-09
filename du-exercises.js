@@ -42,7 +42,7 @@
     });
 
     // Inject CSS and additional Javascript
-    $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/exercises-experiment/du-exercises.css">`);
+    $("head").first().append(`<link rel="stylesheet" type="text/css" href="${rootPath}/du-exercises.css">`);
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     const reloadExercises = async () => {
