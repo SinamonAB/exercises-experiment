@@ -59,6 +59,10 @@
 
 .exercises-body {
     padding: 16px;
+    justify-content: center;
+}
+.exercises-body button {
+    height: auto;
 }
 .exercise form {
     display: flex;
@@ -102,7 +106,7 @@
     color: #1A191C;
 }
 .exercise-task .reading-choice-btn {
-    width: 100%;
+    width: 100% !important;
 }
 .exercise-task .exercise-btn.selected {
     border: 3px solid #817E8B;
@@ -160,7 +164,7 @@
     flex-grow: 100;
 }
 .exercise-controls .skip-btn {
-    width: 106px;
+    width: 106px !important;
     background: #EEF9F6;
     border: 1px solid #58C0A9;
 }
