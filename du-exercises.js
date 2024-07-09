@@ -46,9 +46,6 @@
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     const reloadExercises = async () => {
-        // Cleanup previous exercises
-        $(".exercises-header, .exercises-body").remove();
-
         // Wait for page to load
         await waitForElement(".lesson-content");
 
@@ -75,6 +72,9 @@
 
         // Load exercise JSON file into variable `exerciseList`
         await $.getScript(dataPath);
+
+        // Cleanup previous exercises
+        $(".exercises-header, .exercises-body").remove();
 
         // Inject exercise section
         const exercisesHeaderEl = $(`
@@ -370,7 +370,7 @@
         progressTextEl.text(`${currentQuestionNum + 1}/${exerciseList.length}`);
     };
 
-    await reloadExercises();
+    reloadExercises();
     $(navigation).on("navigate", () => {
         reloadExercises();
     });
