@@ -29,11 +29,11 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
+      "奶茶",
+      "离不开",
       "已经",
       "了",
-      "生活",
-      "奶茶",
-      "离不开"
+      "生活"
     ],
     "prefilled_postfix": [
       "。"
@@ -45,6 +45,46 @@ exerciseList = [
         "离不开",
         "奶茶",
         "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Each kind of milk tea has as much caffeine as coffee.",
+    "grammar_point": {
+      "slug": "yiyang",
+      "name": "Comparing with 一样"
+    },
+    "word_bank": [
+      "的",
+      "咖啡因",
+      "奶茶",
+      "一样",
+      "一种",
+      "多",
+      "每",
+      "里",
+      "都",
+      "咖啡",
+      "跟"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "每",
+        "一种",
+        "奶茶",
+        "里",
+        "的",
+        "咖啡因",
+        "都",
+        "跟",
+        "咖啡",
+        "一样",
+        "多",
         "。"
       ]
     ]

@@ -18,17 +18,17 @@ exerciseList = [
       "name": "Emphasizing with 是…的"
     },
     "word_bank": [
+      "的",
+      "小说",
+      "第一",
+      "侦探",
+      "年前",
       "本",
       "是",
+      "四",
+      "的",
       "春草",
-      "小说",
-      "的",
-      "年前",
-      "的",
-      "侦探",
-      "第一",
-      "发表",
-      "四"
+      "发表"
     ],
     "prefilled_postfix": [
       "。"
@@ -96,16 +96,16 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "在",
-      "大",
-      "着",
-      "他",
-      "床",
-      "被子",
       "躺",
-      "，",
       "盖",
-      "上"
+      "在",
+      "上",
+      "他",
+      "被子",
+      "，",
+      "着",
+      "床",
+      "大"
     ],
     "prefilled_postfix": [
       "。"
@@ -160,11 +160,11 @@ exerciseList = [
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "越来越",
       "的",
+      "人",
       "多",
       "写信",
-      "人"
+      "越来越"
     ],
     "prefilled_postfix": [
       "。"
