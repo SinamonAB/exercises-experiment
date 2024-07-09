@@ -78,8 +78,8 @@
 
         // Inject exercise section
         const exercisesHeaderEl = $(`
-            <div class="exercises-header">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 sm-mt">
+            <div class="exercises-header row">
+                <div class="col-12 col-md-10 offset-md-1 col-fs">
                     <div class="heading">Exercises</div>
                     <div class="exercise-progress">
                         <div>
@@ -96,8 +96,8 @@
                 </div>
             </div>`);
         const exercisesBodyEl = $(`
-            <div class="exercises-body row col-fs-row">
-                <div class="col-xs-12 col-md-10 col-md-push-1 col-fs" id="du-exercise-screen">
+            <div class="exercises-body row">
+                <div class="col-12 col-md-10 offset-md-1 col-fs" id="du-exercise-screen">
                     <div class="clearfix"></div>
                     <div class="exercises col-xs-12 col-sm-12 col-md-10 col-lg-6">
                     </div>
