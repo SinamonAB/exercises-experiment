@@ -12,6 +12,8 @@
 (async () => {
     "use strict";
 
+    const rootPath = "https://sinamonab.github.io/exercises-experiment";
+
     // https://stackoverflow.com/a/61511955/2766231
     function waitForElement(selector) {
         return new Promise(resolve => {
@@ -40,8 +42,8 @@
     });
 
     // Inject CSS and additional Javascript
-    $("head").first().append(`<link rel="stylesheet" type="text/css" href="/exercises-experiment/du-exercises.css">`);
-    await $.getScript("https://code.jquery.com/ui/1.13.3/jquery-ui.js");
+    $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/exercises-experiment/du-exercises.css">`);
+    await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     const reloadExercises = async () => {
         // Cleanup previous exercises
@@ -58,12 +60,12 @@
                 const courseId = window.location.pathname.split("/")[3].split("-")[0];
                 const chapter = new URLSearchParams(window.location.search).get("chapter");
                 console.log(courseId, chapter);
-                dataPath = `http://localhost:63342/key-vocab-playground/grammar-questions/json/courses/${courseId}-${chapter}.js`;
+                dataPath = `${rootPath}/data/courses/${courseId}-${chapter}.js`;
             } else {
                 // URL: /lesson/1580-the-addiction-economy-of-milk-tea
                 const lessonId = window.location.pathname.split("/")[2].split("-")[0];
                 console.log(lessonId);
-                dataPath = `http://localhost:63342/key-vocab-playground/grammar-questions/json/lessons/${lessonId}.js`;
+                dataPath = `${rootPath}/data/lessons/${lessonId}.js`;
             }
         }
         if (!dataPath) {
@@ -312,8 +314,8 @@
                                 ${exerciseJson.prefilled_postfix.map((word) => {
                                     return `<li><button type="button" class="btn word-btn exercise-btn prefilled-word-slot-btn disabled" data-word="${word}"><span class="word-span">${word}</span></button></li>`;
                                 }).join("")}
-                                <li class="solution correct"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/correct-icon.svg"></li>
-                                <li class="solution wrong"><img class="solution-icon" src="http://localhost:63342/key-vocab-playground/grammar-questions/wrong-icon.svg"></li>
+                                <li class="solution correct"><img class="solution-icon" src="${rootPath}/correct-icon.svg"></li>
+                                <li class="solution wrong"><img class="solution-icon" src="${rootPath}/wrong-icon.svg"></li>
                             </ol>
                             <ol class="word-bank word-list">
                                 ${exerciseJson.word_bank.map((word) => {
@@ -345,7 +347,7 @@
                         <div class="exercise-controls form-group">
                             <button type="button" class="btn check-btn">Check</button>
                             <button type="button" class="btn skip-btn">
-                                <img src="http://localhost:63342/key-vocab-playground/grammar-questions/skip-button.svg">
+                                <img src="${rootPath}/skip-button.svg">
                                 Skip
                             </button>
                         </div>
