@@ -168,7 +168,7 @@
     background: #EEF9F6;
     border: 1px solid #58C0A9;
 }
-.exercise.state-initial .exercise-controls .check-btn {
+.exercise-controls .check-btn {
     background: #F6F6F8;
     border: 1px solid #817E8B;
 }
