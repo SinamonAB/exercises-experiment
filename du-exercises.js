@@ -39,6 +39,10 @@
         script.onload = resolve;
     });
 
+    // Inject CSS and additional Javascript
+    $("head").first().append(`<link rel="stylesheet" type="text/css" href="/exercises-experiment/du-exercises.css">`);
+    await $.getScript("https://code.jquery.com/ui/1.13.3/jquery-ui.js");
+
     const reloadExercises = async () => {
         // Cleanup previous exercises
         $(".exercises-header, .exercises-body").remove();
@@ -69,10 +73,6 @@
 
         // Load exercise JSON file into variable `exerciseList`
         await $.getScript(dataPath);
-
-        // Inject CSS and additional Javascript
-        $("head").first().append(`<link rel="stylesheet" type="text/css" href="http://localhost:63342/key-vocab-playground/grammar-questions/du-exercises.css">`);
-        await $.getScript("https://code.jquery.com/ui/1.13.3/jquery-ui.js");
 
         // Inject exercise section
         const exercisesHeaderEl = $(`
