@@ -51,21 +51,20 @@
 
         // Get the lesson ID from the URL
         let dataPath;
+        let lessonId;
         if (window.location.pathname.startsWith("/lessons/")) {
             if (window.location.pathname.startsWith("/lessons/courses/")) {
                 // URL: /lessons/courses/114-the-monkey-s-paw?chapter=1
                 const courseId = window.location.pathname.split("/")[3].split("-")[0];
                 const chapter = new URLSearchParams(window.location.search).get("chapter");
-                console.log(courseId, chapter);
-                dataPath = `${rootPath}/data/courses/${courseId}-${chapter}.js`;
+                lessonId = `courses/${courseId}-${chapter}`;
             } else {
                 // URL: /lesson/1580-the-addiction-economy-of-milk-tea
-                const lessonId = window.location.pathname.split("/")[2].split("-")[0];
-                console.log(lessonId);
-                dataPath = `${rootPath}/data/lessons/${lessonId}.js`;
+                lessonId = "lessons/" + window.location.pathname.split("/")[2].split("-")[0];
             }
-        }
-        if (!dataPath) {
+            dataPath = `${rootPath}/data/${lessonId}.js`;
+            console.log(`Loading exercises for ${lessonId}`);
+        } else {
             console.log("No exercise data found");
             return;
         }
@@ -224,19 +223,21 @@
                     break;
                 case ExerciseState.Checking:
                     let correct = undefined;
+                    let givenAnswerAnalyticsData = undefined;
                     switch (exerciseJson.question_type) {
                         case "reading":
                             const selectedOptionNum = exerciseJson.el.find(".reading-choice-btn.selected").data("option-num");
+                            givenAnswerAnalyticsData = selectedOptionNum;
                             correct = selectedOptionNum === exerciseJson.solution;
                             exerciseJson.el.find(`.reading-choice-btn[data-option-num=${exerciseJson.solution}]`).addClass("correct");
                             if (!correct) {
                                 exerciseJson.el.find(".reading-choice-btn.selected").addClass("wrong");
                             }
-                            console.log("Checking now!");
                             exerciseJson.el.find(".reading-choice-btn").addClass("disabled");
                             break;
                         case "grammar":
                             const givenAnswer = exerciseJson.el.find(".given-answer .word-btn:not(.empty)").map((_, el) => $(el).data("word")).get();
+                            givenAnswerAnalyticsData = givenAnswer.join("|");
                             const incorrectIndicesPerSolution = exerciseJson.solutions.map((solution) => {
                                 return solution.map((word, wordIndex) => word !== givenAnswer[wordIndex] ? wordIndex : undefined).filter((i) => i !== undefined);
                             });
@@ -257,10 +258,18 @@
                         default:
                             break;
                     }
-                    const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
+
+                    gtag("event", "exercise_complete_single", {
+                        "lesson": lessonId,
+                        "exercise_num": currentQuestionNum,
+                        "exercise_type": exerciseJson.question_type,
+                        "given_answer": givenAnswerAnalyticsData,
+                        "answered_correctly": correct
+                    });
 
                     exerciseJson.el.addClass(correct ? "correct" : "wrong");
                     exerciseJson.el.find(".check-btn").text("Next");
+                    const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
                     exerciseJson.el.find(".check-btn").click(() => {
                         completeExercise(exerciseJson, completionStatus);
                     });
