@@ -89,6 +89,9 @@
     font-size: 1em !important;
     font-weight: 200 !important;
 }
+.exercise-task .question {
+    font-size: 1.2em !important;
+}
 .exercise-task .answer-options {
     list-style: none;
     padding-left: 0;
