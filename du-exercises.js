@@ -12,7 +12,7 @@
 (async () => {
     "use strict";
 
-    const rootPath = "http://localhost:63342/exercises-experiment";
+    const rootPath = "https://sinamonab.github.io/exercises-experiment";
 
     // https://stackoverflow.com/a/61511955/2766231
     function waitForElement(selector) {
