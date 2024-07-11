@@ -12,7 +12,7 @@
 (async () => {
     "use strict";
 
-    const rootPath = "https://sinamonab.github.io/exercises-experiment";
+    const rootPath = "http://localhost:63342/exercises-experiment";
 
     // https://stackoverflow.com/a/61511955/2766231
     function waitForElement(selector) {
@@ -79,7 +79,7 @@
         // Inject exercise section
         const exercisesHeaderEl = $(`
             <div class="exercises-header">
-                <div class="col-12 col-md-10 offset-md-1 col-fs">
+                <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
                     <div class="heading">Exercises</div>
                     <div class="exercise-progress">
                         <div>
@@ -96,10 +96,10 @@
                 </div>
             </div>`);
         const exercisesBodyEl = $(`
-            <div class="exercises-body row">
-                <div class="col-12 col-md-10 offset-md-1 col-fs" id="du-exercise-screen">
+            <div class="exercises-body">
+                <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3" id="du-exercise-screen">
                     <div class="clearfix"></div>
-                    <div class="exercises col-xs-12 col-sm-12 col-md-10 col-lg-6">
+                    <div class="exercises">
                     </div>
                 </div>
             </div>`);
@@ -232,6 +232,8 @@
                             if (!correct) {
                                 exerciseJson.el.find(".reading-choice-btn.selected").addClass("wrong");
                             }
+                            console.log("Checking now!");
+                            exerciseJson.el.find(".reading-choice-btn").addClass("disabled");
                             break;
                         case "grammar":
                             const givenAnswer = exerciseJson.el.find(".given-answer .word-btn:not(.empty)").map((_, el) => $(el).data("word")).get();
@@ -332,7 +334,7 @@
                     explanation = `
                         <div class="exercise-explanation">
                             Connected grammar article:
-                            <a href="https://b4d0f49266473445.dev.duchinese.app/l/grammar_preview?hl=zh-Hans&slug=${exerciseJson.grammar_point.slug}" target="_blank">${exerciseJson.grammar_point.name}</a>
+                            <a href="/grammar/${exerciseJson.grammar_point.slug}" target="_blank">${exerciseJson.grammar_point.name}</a>
                         </div>`;
                     break;
                 default:
@@ -340,7 +342,7 @@
                     break;
             }
             exerciseJson.el = $(`
-                <div class="exercise container-fluid">
+                <div class="exercise">
                     <form>
                         ${instruction}
                         ${task}

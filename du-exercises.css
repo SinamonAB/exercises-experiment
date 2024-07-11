@@ -66,7 +66,7 @@
 .exercise form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 32px;
 }
 .exercise-instruction {
     display: flex;
@@ -92,6 +92,7 @@
 .exercise-task .answer-options {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -106,15 +107,21 @@
 }
 .exercise-task .reading-choice-btn {
     width: 100% !important;
+    opacity: 100%;
+}
+.exercise-task .exercise-btn:hover {
+    background: #EFEFEF;
 }
 .exercise-task .exercise-btn.selected {
     border: 3px solid #817E8B;
 }
 .exercise-task .exercise-btn.correct {
     background: #BCE6DD;
+    border-color: #58C0A9;
 }
 .exercise-task .exercise-btn.wrong {
     background: #F2D3D4;
+    border-color: #BE222A;
 }
 
 .exercise-task .word-list {
@@ -154,6 +161,7 @@
 .exercise-controls {
     display: flex;
     gap: 24px;
+    margin-bottom: 0;
 }
 .exercise-controls .btn {
     border-radius: .625em;
@@ -161,10 +169,15 @@
 }
 .exercise-controls .check-btn {
     flex-grow: 100;
+    font-weight: 600;
 }
 .exercise-controls .skip-btn {
     width: 106px !important;
     background: #EEF9F6;
+    border: 1px solid #58C0A9;
+}
+.exercise-controls .skip-btn:active {
+    background: #DEF2EE;
     border: 1px solid #58C0A9;
 }
 .exercise-controls .check-btn {
