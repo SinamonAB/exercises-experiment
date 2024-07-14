@@ -149,6 +149,22 @@
 
         let currentQuestionNum = 0;
 
+        const sendExerciseEvent = (eventName, exerciseJson, eventData) => {
+            const properties = {
+                "user_email_hash": hashEmail(userEmail),
+                "exercise_set": exerciseSet,
+                "lesson": lessonId,
+                "exercise_num": currentQuestionNum,
+                "exercise_type": exerciseJson.question_type
+            };
+            if (exerciseJson.start_time !== undefined) {
+                properties["time_in_exercise_msec"] = new Date().getTime() - exerciseJson.start_time;
+            }
+            Object.assign(properties, eventData);
+            gtag("event", eventName, properties);
+            console.log(properties);
+        };
+
         const completeExercise = (exerciseJson, completionStatus) => {
             const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
             currentProgressIconEl.attr("class", `progress-icon ${completionStatus}`);
@@ -157,6 +173,7 @@
                 currentQuestionNum += 1;
                 exerciseJson.el.hide();
                 exerciseList[currentQuestionNum].el.show();
+                exerciseList[currentQuestionNum].start_time = new Date().getTime();
                 progressTextEl.text(`${currentQuestionNum + 1}/${exerciseList.length}`);
                 const nextProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
                 nextProgressIconEl.attr("class", `progress-icon ${CompletionStatus.Current}`);
@@ -229,6 +246,7 @@
 
                 // general
                 exerciseJson.el.find(".skip-btn").click(() => {
+                    sendExerciseEvent("exercise_skip_single", exerciseJson, {});
                     completeExercise(exerciseJson, CompletionStatus.Skipped);
                 });
             };
@@ -284,13 +302,7 @@
                             break;
                     }
 
-                    gtag("event", "exercise_complete_single", {
-                        "lesson": lessonId,
-                        "exercise_num": currentQuestionNum,
-                        "exercise_type": exerciseJson.question_type,
-                        "given_answer": givenAnswerAnalyticsData,
-                        "answered_correctly": correct
-                    });
+                    sendExerciseEvent("exercise_complete_single", exerciseJson, {"answer_given": givenAnswerAnalyticsData, "answered_correctly": correct});
 
                     exerciseJson.el.addClass(correct ? "correct" : "wrong");
                     exerciseJson.el.find(".check-btn").text("Next");
