@@ -45,9 +45,34 @@
     $("head").first().append(`<link rel="stylesheet" type="text/css" href="${rootPath}/du-exercises.css">`);
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
+    const hashEmail = function(email) {
+        let hash = 0,
+        i, chr;
+        if (email.length === 0) return hash;
+        for (i = 0; i < email.length; i++) {
+            chr = email.charCodeAt(i);
+            hash = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    }
+
     const reloadExercises = async () => {
         // Wait for page to load
         await waitForElement(".lesson-content");
+
+        // Load user data
+        const userEmail = $("#vue-root").data("email");
+        if (userEmail === undefined) {
+            console.log("User not logged in, not showing exercises.");
+            return;
+        }
+        let exerciseSet = Math.abs(hashEmail(userEmail) % 2) === 0 ? "reading" : "grammar";
+        // If URL contains exercise-set=XX, override control group
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("exercise-set")) {
+            exerciseSet = urlParams.get("exercise-set");
+        }
 
         // Get the lesson ID from the URL
         let dataPath;
@@ -62,8 +87,8 @@
                 // URL: /lesson/1580-the-addiction-economy-of-milk-tea
                 lessonId = "lessons/" + window.location.pathname.split("/")[2].split("-")[0];
             }
-            dataPath = `${rootPath}/data/${lessonId}.js`;
-            console.log(`Loading exercises for ${lessonId}`);
+            dataPath = `${rootPath}/data/${lessonId}-${exerciseSet}.js`;
+            console.log(`Loading exercises for ${lessonId} in set ${exerciseSet}`);
         } else {
             console.log("No exercise data found");
             return;
