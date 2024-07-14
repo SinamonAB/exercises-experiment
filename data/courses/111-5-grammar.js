@@ -1,163 +1,27 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Who is rowing the boat in the middle of the lake?",
+    "english": "He is carrying a fishing net.",
     "grammar_point": {
-      "slug": "question-words",
-      "name": "Question words"
-    },
-    "word_bank": [
-      "谁",
-      "划船",
-      "在",
-      "湖",
-      "中心"
-    ],
-    "prefilled_postfix": [
-      "？"
-    ],
-    "solutions": [
-      [
-        "谁",
-        "在",
-        "湖",
-        "中心",
-        "划船",
-        "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Where were you fishing yesterday?",
-    "grammar_point": {
-      "slug": "question-words",
-      "name": "Question words"
-    },
-    "word_bank": [
-      "你",
-      "打鱼",
-      "的",
-      "哪里",
-      "昨天",
-      "在"
-    ],
-    "prefilled_postfix": [
-      "？"
-    ],
-    "solutions": [
-      [
-        "昨天",
-        "你",
-        "在",
-        "哪里",
-        "打鱼",
-        "的",
-        "？"
-      ],
-      [
-        "你",
-        "昨天",
-        "在",
-        "哪里",
-        "打鱼",
-        "的",
-        "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "What is that small black dot?",
-    "grammar_point": {
-      "slug": "question-words",
-      "name": "Question words"
-    },
-    "word_bank": [
-      "什么",
-      "点",
-      "那个",
-      "小黑",
-      "是"
-    ],
-    "prefilled_postfix": [
-      "？"
-    ],
-    "solutions": [
-      [
-        "那个",
-        "小黑",
-        "点",
-        "是",
-        "什么",
-        "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He wore white clothes yesterday.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "衣服",
-      "白",
-      "他",
-      "昨天",
-      "穿",
-      "了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "昨天",
-        "他",
-        "穿",
-        "了",
-        "白",
-        "衣服",
-        "。"
-      ],
-      [
-        "他",
-        "昨天",
-        "穿",
-        "了",
-        "白",
-        "衣服",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "That man carried a fishing net.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
+      "slug": "zhe",
+      "name": "Continuous action or state with 着"
     },
     "word_bank": [
       "打鱼",
-      "男人",
-      "了",
+      "提",
       "网",
-      "的",
-      "那个",
-      "提"
+      "他",
+      "着",
+      "的"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "那个",
-        "男人",
+        "他",
         "提",
-        "了",
+        "着",
         "打鱼",
         "的",
         "网",
@@ -167,25 +31,213 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Gongsun Ce laughed.",
+    "english": "The boat is rowing towards the uninhabited island.",
     "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
+      "slug": "zhe",
+      "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "笑",
-      "孙策",
-      "了",
-      "公"
+      "无人",
+      "着",
+      "岛",
+      "划",
+      "朝",
+      "船"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "公",
-        "孙策",
-        "笑",
+        "船",
+        "朝",
+        "无人",
+        "岛",
+        "划",
+        "着",
+        "。"
+      ],
+      [
+        "船",
+        "划",
+        "着",
+        "朝",
+        "无人",
+        "岛",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "He is pointing to the west side of the lake.",
+    "grammar_point": {
+      "slug": "zhe",
+      "name": "Continuous action or state with 着"
+    },
+    "word_bank": [
+      "面",
+      "的",
+      "着",
+      "湖",
+      "指",
+      "他",
+      "西"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "他",
+        "指",
+        "着",
+        "湖",
+        "的",
+        "西",
+        "面",
+        "。"
+      ],
+      [
+        "他",
+        "指",
+        "着",
+        "西",
+        "面",
+        "的",
+        "湖",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Even the small boat has no clues.",
+    "grammar_point": {
+      "slug": "even",
+      "name": "“Even” with 连......也/都......"
+    },
+    "word_bank": [
+      "线索",
+      "没有",
+      "小船",
+      "也",
+      "连"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "连",
+        "小船",
+        "也",
+        "没有",
+        "线索",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Even Bao Zheng wants to go to the uninhabited island.",
+    "grammar_point": {
+      "slug": "even",
+      "name": "“Even” with 连......也/都......"
+    },
+    "word_bank": [
+      "去",
+      "拯",
+      "无人",
+      "连",
+      "要",
+      "包",
+      "岛",
+      "都"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "连",
+        "包",
+        "拯",
+        "都",
+        "要",
+        "去",
+        "无人",
+        "岛",
+        "。"
+      ],
+      [
+        "连",
+        "包",
+        "拯",
+        "都",
+        "要",
+        "去",
+        "无人",
+        "岛",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Even the snow couldn't stop that couple.",
+    "grammar_point": {
+      "slug": "even",
+      "name": "“Even” with 连......也/都......"
+    },
+    "word_bank": [
+      "都",
+      "男女",
+      "雪",
+      "连",
+      "那",
+      "不",
+      "阻止",
+      "对",
+      "了"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "连",
+        "雪",
+        "都",
+        "阻止",
+        "不",
+        "了",
+        "那",
+        "对",
+        "男女",
+        "。"
+      ],
+      [
+        "那",
+        "对",
+        "男女",
+        "连",
+        "雪",
+        "都",
+        "阻止",
+        "不",
+        "了",
+        "。"
+      ],
+      [
+        "那",
+        "对",
+        "男女",
+        "连",
+        "雪",
+        "都",
+        "阻止",
+        "不",
         "了",
         "。"
       ]

@@ -7,16 +7,16 @@ exerciseList = [
       "name": "Expressing although with 虽然"
     },
     "word_bank": [
+      "小北",
+      "高天",
+      "但是",
+      "小",
+      "，",
       "不",
       "他",
-      "小北",
       "虽然",
       "比",
-      "但是",
-      "高",
-      "高天",
-      "，",
-      "小"
+      "高"
     ],
     "prefilled_postfix": [
       "。"
@@ -58,16 +58,16 @@ exerciseList = [
       "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "，",
-      "但是",
       "了",
+      "，",
       "他",
-      "看见",
-      "找不到",
-      "铅笔",
       "手表",
+      "高天",
       "虽然",
-      "高天"
+      "但是",
+      "铅笔",
+      "看见",
+      "找不到"
     ],
     "prefilled_postfix": [
       "。"
@@ -122,15 +122,15 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
+      "，",
       "找不到",
-      "所以",
+      "因为",
+      "问",
       "Anne",
       "了",
-      "问",
-      "因为",
-      "，",
       "铅笔",
-      "我"
+      "我",
+      "所以"
     ],
     "prefilled_postfix": [
       "。"
@@ -170,19 +170,19 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "了",
-      "，",
-      "小北",
-      "本",
-      "本",
-      "一",
-      "书",
-      "所以",
-      "因为",
-      "送",
-      "我",
       "这",
-      "喜欢"
+      "送",
+      "了",
+      "我",
+      "因为",
+      "所以",
+      "本",
+      "喜欢",
+      "，",
+      "本",
+      "书",
+      "小北",
+      "一"
     ],
     "prefilled_postfix": [
       "。"
@@ -230,16 +230,16 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "因为",
-      "高兴",
+      "我",
       "所以",
-      "爸爸",
-      "送",
-      "，",
+      "手表",
       "很",
-      "我",
-      "我",
-      "手表"
+      "，",
+      "因为",
+      "送",
+      "高兴",
+      "爸爸",
+      "我"
     ],
     "prefilled_postfix": [
       "。"

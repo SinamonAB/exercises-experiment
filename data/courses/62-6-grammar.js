@@ -7,18 +7,18 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "前世",
-      "汤",
-      "会",
-      "的",
-      "，",
-      "你",
       "如果",
-      "不",
-      "事情",
       "记得",
+      "的",
+      "会",
+      "，",
+      "前世",
       "就",
-      "喝"
+      "喝",
+      "汤",
+      "你",
+      "不",
+      "事情"
     ],
     "prefilled_postfix": [
       "。"
@@ -79,15 +79,15 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "跟着",
+      "如果",
       "米乐",
       "安心",
       "就",
-      "米乐",
+      "季南",
       "，",
       "会",
-      "如果",
-      "季南"
+      "米乐",
+      "跟着"
     ],
     "prefilled_postfix": [
       "。"
@@ -127,15 +127,15 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "帮帮",
-      "我",
+      "如果",
       "季南",
+      "我",
       "，",
       "找到",
-      "如果",
-      "会",
       "你",
       "就",
+      "会",
+      "帮帮",
       "我"
     ],
     "prefilled_postfix": [
@@ -165,14 +165,14 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "着",
-      "一直",
-      "的",
       "黑黑",
+      "着",
+      "的",
       "孟婆",
       "米乐",
+      "看",
       "眼睛",
-      "看"
+      "一直"
     ],
     "prefilled_postfix": [
       "。"
@@ -199,9 +199,9 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "着",
+      "开",
       "门",
-      "开"
+      "着"
     ],
     "prefilled_postfix": [
       "。"
@@ -223,14 +223,14 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "在",
-      "停",
+      "辆",
       "马路",
+      "停",
       "多",
       "中间",
+      "车",
       "很",
-      "辆",
-      "车"
+      "在"
     ],
     "prefilled_postfix": [
       "。"

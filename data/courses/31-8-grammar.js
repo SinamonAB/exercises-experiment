@@ -7,9 +7,9 @@ exerciseList = [
       "name": "要"
     },
     "word_bank": [
+      "学习",
       "去",
       "妈妈",
-      "学习",
       "要"
     ],
     "prefilled_postfix": [
@@ -33,9 +33,9 @@ exerciseList = [
       "name": "要"
     },
     "word_bank": [
+      "工作",
       "妈妈",
       "要",
-      "工作",
       "去"
     ],
     "prefilled_postfix": [
@@ -59,9 +59,9 @@ exerciseList = [
       "name": "要"
     },
     "word_bank": [
-      "要",
       "她",
       "工作",
+      "要",
       "也",
       "学习",
       "她",
@@ -95,8 +95,8 @@ exerciseList = [
     "word_bank": [
       "妈妈",
       "不",
-      "笑",
-      "了"
+      "了",
+      "笑"
     ],
     "prefilled_postfix": [
       "。"
@@ -119,10 +119,10 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
-      "很",
-      "妈妈",
       "忙",
-      "了"
+      "妈妈",
+      "了",
+      "很"
     ],
     "prefilled_postfix": [
       "。"
@@ -145,8 +145,8 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
-      "学习",
       "妈妈",
+      "学习",
       "了"
     ],
     "prefilled_postfix": [
