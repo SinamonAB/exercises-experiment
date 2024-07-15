@@ -61,17 +61,19 @@
         // Wait for page to load
         await waitForElement(".lesson-content");
 
-        // Load user data
-        const userEmail = $("#vue-root").data("email");
-        if (userEmail === undefined) {
-            console.log("User not logged in, not showing exercises.");
-            return;
-        }
-        let exerciseSet = Math.abs(hashEmail(userEmail) % 2) === 0 ? "reading" : "grammar";
-        // If URL contains exercise-set=XX, override control group
+        // Get control group
+        let exerciseSet = undefined;
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has("exercise-set")) {
+            // If URL contains exercise-set=XX, override control group
             exerciseSet = urlParams.get("exercise-set");
+        } else {
+            const userEmail = $("#vue-root").data("email");
+            if (userEmail === undefined) {
+                console.log("User not logged in, not showing exercises.");
+                return;
+            }
+            exerciseSet = Math.abs(hashEmail(userEmail) % 2) === 0 ? "reading" : "grammar";
         }
 
         // Get the lesson ID from the URL
