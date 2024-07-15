@@ -63,13 +63,12 @@
 
         // Get control group
         let exerciseSet = undefined;
-        let userEmail = "";
+        const userEmail = $("#vue-root").data("email");
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has("exercise-set")) {
             // If URL contains exercise-set=XX, override control group
             exerciseSet = urlParams.get("exercise-set");
         } else {
-            userEmail = $("#vue-root").data("email");
             if (userEmail === undefined) {
                 console.log("User not logged in, not showing exercises.");
                 return;
@@ -533,7 +532,8 @@
                             <button type="button" class="btn try-again-btn">Try again</button>
                         </div>
                         <div class="summary-feedback">
-                            Please give us feedback here.
+                            Please give us feedback on our experimental exercises feature!
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK2DPMf9RmVZmzbRAlirA_NI5FSnoX4XxxiDinc1dFSkws_Q/viewform?embedded=true&entry.1306397561=${userEmail}" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading feedback form ...</iframe>
                         </div>
                     </form>
                 </div>`);
