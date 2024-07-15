@@ -46,6 +46,9 @@
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     const hashEmail = function(email) {
+        if (email === undefined) {
+            return 0;
+        }
         let hash = 0,
         i, chr;
         if (email.length === 0) return hash;
