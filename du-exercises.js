@@ -539,7 +539,7 @@
                         </div>
                         <div class="summary-feedback">
                             Please give us feedback on our experimental exercises feature!
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK2DPMf9RmVZmzbRAlirA_NI5FSnoX4XxxiDinc1dFSkws_Q/viewform?embedded=true&entry.1306397561=${userEmail}" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading feedback form ...</iframe>
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK2DPMf9RmVZmzbRAlirA_NI5FSnoX4XxxiDinc1dFSkws_Q/viewform?embedded=true&entry.1306397561=${userEmail !== undefined ? userEmail : ''}" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading feedback form ...</iframe>
                         </div>
                     </form>
                 </div>`);
