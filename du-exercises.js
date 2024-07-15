@@ -63,12 +63,13 @@
 
         // Get control group
         let exerciseSet = undefined;
+        let userEmail = "";
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has("exercise-set")) {
             // If URL contains exercise-set=XX, override control group
             exerciseSet = urlParams.get("exercise-set");
         } else {
-            const userEmail = $("#vue-root").data("email");
+            userEmail = $("#vue-root").data("email");
             if (userEmail === undefined) {
                 console.log("User not logged in, not showing exercises.");
                 return;
