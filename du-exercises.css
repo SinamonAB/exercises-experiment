@@ -170,9 +170,11 @@
     border-radius: .625em;
     font-size: 15px;
 }
-.exercise-controls .check-btn {
+.exercise-controls .check-btn, .exercise-controls .try-again-btn {
     flex-grow: 100;
     font-weight: 600;
+    background: #F6F6F8;
+    border: 1px solid #817E8B;
 }
 .exercise-controls .skip-btn {
     width: 106px !important;
@@ -183,11 +185,7 @@
     background: #DEF2EE;
     border: 1px solid #58C0A9;
 }
-.exercise-controls .check-btn {
-    background: #F6F6F8;
-    border: 1px solid #817E8B;
-}
-.exercise.state-answered .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn {
+.exercise.state-answered .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn, .exercise-controls .try-again-btn {
     background: #58C0A9;
     border: none;
     color: #FFFFFF;
@@ -203,4 +201,51 @@
 }
 .exercise:not(.correct) .solution.correct, .exercise:not(.wrong) .solution.wrong {
     display: none;
+}
+
+.exercise-summary form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.exercise-summary .summary-stats-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.exercise-summary .summary-stats {
+    display: flex;
+    gap: 18px;
+    flex-direction: row;
+}
+.exercise-summary .summary-stats > div {
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.exercise-summary .summary-stats .stats-type {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.exercise-summary .summary-stats div.correct {
+    background-color: #EEF9F6;
+}
+.exercise-summary .summary-stats div.wrong {
+    background-color: #FFF2F0;
+
+}
+.exercise-summary .summary-stats div.skipped {
+    background-color: #EFEFEF;
+}
+.exercise-summary .summary-stats .stats-icon {
+    height: 50px;
+}
+.exercise-summary .summary-stats .stats-amount {
+    font-size: 48px;
 }

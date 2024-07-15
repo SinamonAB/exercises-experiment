@@ -108,7 +108,7 @@
             <div class="exercises-header">
                 <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
                     <div class="heading">Exercises</div>
-                    <div class="exercise-progress">
+                    <div class="exercise-progress exercise-progress-testing">
                         <div>
                             <ol class="progress-icons">
                                 ${exerciseList.map((exerciseJson, exerciseNum) => {
@@ -118,6 +118,11 @@
                         </div>
                         <div>
                             <span class="progress-text">4/5</span>
+                        </div>
+                    </div>
+                    <div class="exercise-progress exercise-progress-summary">
+                        <div>
+                            <span>Summary</span>
                         </div>
                     </div>
                 </div>
@@ -132,8 +137,10 @@
             </div>`);
         $(".lesson-content").first().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr>");
         const exercisesEl = exercisesBodyEl.find(".exercises");
-        const progressIconsEl = $(exercisesHeaderEl).find(".progress-icons");
-        const progressTextEl = $(exercisesHeaderEl).find(".progress-text");
+        const testingHeaderEl = exercisesHeaderEl.find(".exercise-progress-testing");
+        const summaryHeaderEl = exercisesHeaderEl.find(".exercise-progress-summary");
+        const progressIconsEl = exercisesHeaderEl.find(".progress-icons");
+        const progressTextEl = exercisesHeaderEl.find(".progress-text");
 
         // Stop scrolling of "sticky header" past exercise section
         $(window).scroll(function () {
@@ -150,14 +157,20 @@
             Ahead: "ahead"
         }
 
-        let currentQuestionNum = 0;
+        let state = {
+            "lesson": lessonId,
+            "exercise_set": exerciseSet,
+            "current_question_num": 0,
+            "question_completion_status": Array(exerciseList.length).fill(CompletionStatus.Ahead)
+        }
+        state.question_completion_status[state.current_question_num] = CompletionStatus.Current;
 
         const sendExerciseEvent = (eventName, exerciseJson, eventData) => {
             const properties = {
                 "user_email_hash": hashEmail(userEmail),
-                "exercise_set": exerciseSet,
-                "lesson": lessonId,
-                "exercise_num": currentQuestionNum,
+                "lesson": state.lesson,
+                "exercise_set": state.exercise_set,
+                "exercise_num": exerciseJson.num,
                 "exercise_type": exerciseJson.question_type
             };
             if (exerciseJson.start_time !== undefined) {
@@ -168,19 +181,69 @@
             console.log(properties);
         };
 
-        const completeExercise = (exerciseJson, completionStatus) => {
-            const currentProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
-            currentProgressIconEl.attr("class", `progress-icon ${completionStatus}`);
-            currentProgressIconEl.addClass(completionStatus);
-            if (currentQuestionNum + 1 < exerciseList.length) {
-                currentQuestionNum += 1;
-                exerciseJson.el.hide();
-                exerciseList[currentQuestionNum].el.show();
-                exerciseList[currentQuestionNum].start_time = new Date().getTime();
-                progressTextEl.text(`${currentQuestionNum + 1}/${exerciseList.length}`);
-                const nextProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
-                nextProgressIconEl.attr("class", `progress-icon ${CompletionStatus.Current}`);
+        const resetToFirstExercise = () => {
+            exercisesEl.find(".exercise").remove();
+            exerciseList.forEach((exerciseJson, exerciseNum) => {
+                exerciseJson.num = exerciseNum;
+                makeExerciseEl(exerciseJson);
+            });
+            state.current_question_num = 0;
+            state.question_completion_status = Array(exerciseList.length).fill(CompletionStatus.Ahead);
+            state.question_completion_status[state.current_question_num] = CompletionStatus.Current;
+            exerciseList[state.current_question_num].start_time = new Date().getTime();
+            updateExercisesBasedOnState();
+        }
+        const updateExercisesBasedOnState = () => {
+            exercisesEl.find(".exercise, .exercise-summary").hide();
+            if (state.current_question_num < exerciseList.length) {
+                // show exercise
+                exerciseList[state.current_question_num].el.show();
+                // update header
+                testingHeaderEl.show();
+                progressIconsEl.find(".progress-icon").each((_, progressIconEl) => {
+                    progressIconEl = $(progressIconEl);
+                    const completionStatus = state.question_completion_status[progressIconEl.data("exercise-num")];
+                    progressIconEl.attr("class", `progress-icon ${completionStatus}`);
+                });
+                progressTextEl.text(`${state.current_question_num + 1}/${exerciseList.length}`);
+                summaryHeaderEl.hide();
+            } else {
+                // show summary
+                summaryEl.show();
+                const questionsCompletedText = [];
+                const numReadingQuestionsCompleted = exerciseList.filter((exercise) => exercise.question_type === "reading").length;
+                // iterate over both question types
+                for (const questionType of ["reading", "grammar"]) {
+                    const numQuestionsCompleted = exerciseList.filter((exercise) => exercise.question_type === questionType).length;
+                    const wrapperEl = summaryEl.find(`.summary-stats-wrapper.${questionType}`);
+                    if (numQuestionsCompleted > 0) {
+                        questionsCompletedText.push(`${numQuestionsCompleted} ${questionType} exercise${numQuestionsCompleted > 1 ? "s" : ""}`);
+                        wrapperEl.show();
+                        wrapperEl.find(".summary-stats .correct .stats-amount").text(state.question_completion_status.filter((status) => status === CompletionStatus.Correct).length);
+                        wrapperEl.find(".summary-stats .wrong .stats-amount").text(state.question_completion_status.filter((status) => status === CompletionStatus.Wrong).length);
+                        wrapperEl.find(".summary-stats .skipped .stats-amount").text(state.question_completion_status.filter((status) => status === CompletionStatus.Skipped).length);
+                    } else {
+                        wrapperEl.hide();
+                    }
+                }
+                summaryEl.find(".summary-text span").text(`You completed ${questionsCompletedText.join(" and ")}.`);
+
+                // update header
+                summaryHeaderEl.show();
+                testingHeaderEl.hide();
             }
+        }
+        const completeExercise = (exerciseJson, completionStatus) => {
+            state.question_completion_status[state.current_question_num] = completionStatus;
+            if (state.current_question_num + 1 < exerciseList.length) {
+                state.current_question_num += 1;
+                exerciseList[state.current_question_num].start_time = new Date().getTime();
+                state.question_completion_status[state.current_question_num] = CompletionStatus.Current;
+            } else {
+                // show summary screen
+                state.current_question_num = exerciseList.length;
+            }
+            updateExercisesBasedOnState();
         };
 
         // Add HTML and functionality for each exercise
@@ -307,9 +370,12 @@
 
                     sendExerciseEvent("exercise_complete_single", exerciseJson, {"answer_given": givenAnswerAnalyticsData, "answered_correctly": correct});
 
-                    exerciseJson.el.addClass(correct ? "correct" : "wrong");
-                    exerciseJson.el.find(".check-btn").text("Next");
                     const completionStatus = correct ? CompletionStatus.Correct : CompletionStatus.Wrong;
+                    state.question_completion_status[state.current_question_num] = completionStatus;
+                    updateExercisesBasedOnState();
+
+                    exerciseJson.el.find(".check-btn").text("Next");
+                    exerciseJson.el.addClass(completionStatus);
                     exerciseJson.el.find(".check-btn").click(() => {
                         completeExercise(exerciseJson, completionStatus);
                     });
@@ -409,16 +475,79 @@
             exerciseJson.el.hide();
             updateExerciseState(exerciseJson, ExerciseState.Initial);
         };
-        exerciseList.forEach((exerciseJson, exerciseNum) => {
-            exerciseJson.num = exerciseNum;
-            makeExerciseEl(exerciseJson);
-        });
 
-        // Show first exercise
-        exerciseList[currentQuestionNum].el.show();
-        const nextProgressIconEl = progressIconsEl.find(`.progress-icon[data-exercise-num=${currentQuestionNum}]`);
-        nextProgressIconEl.attr("class", `progress-icon ${CompletionStatus.Current}`);
-        progressTextEl.text(`${currentQuestionNum + 1}/${exerciseList.length}`);
+        const makeSummaryEl = () => {
+            let grammarPoints = [];
+            for (const exerciseJson of exerciseList) {
+                if (exerciseJson.question_type !== "grammar" || exerciseJson.grammar_point === undefined) {
+                    continue;
+                }
+                if (grammarPoints.map((g) => g.slug).includes(exerciseJson.grammar_point.slug)) {
+                    continue;
+                }
+                grammarPoints.push(exerciseJson.grammar_point);
+            }
+            const grammarExplanation = `
+                <div class="exercise-explanation">
+                    Connected grammar articles:
+                    ${grammarPoints.map((g) => { return `<a href="/grammar/${g.slug}" target="_blank">${g.name}</a>`; }).join(", ")}
+                </div>`;
+            const makeSummaryStats = (questionType, title, explanation) => {
+                return `<div class="summary-stats-wrapper ${questionType}">
+                    <span class="exercise-type">${title}</span>
+                    <div class="summary-stats">
+                        <div class="correct">
+                            <div class="stats-type">
+                                <img class="stats-icon" src="${rootPath}/stats-correct.svg" alt="">
+                                <span class="stats-text">Correct</span>
+                            </div>
+                            <span class="stats-amount">2</span>
+                        </div>
+                        <div class="wrong">
+                            <div class="stats-type">
+                                <img class="stats-icon" src="${rootPath}/stats-wrong.svg" alt="">
+                                <span class="stats-text">Wrong</span>
+                            </div>
+                            <span class="stats-amount">1</span>
+                        </div>
+                        <div class="skipped">
+                            <div class="stats-type">
+                                <img class="stats-icon" src="${rootPath}/stats-skipped.svg" alt="">
+                                <span class="stats-text">Skipped</span>
+                            </div>
+                            <span class="stats-amount">0</span>
+                        </div>
+                    </div>
+                    ${explanation}
+                </div>`;
+            }
+            const el = $(`
+                <div class="exercise-summary">
+                    <form>
+                        <div class="summary-text">
+                            <span>You completed 2 comprehension questions.</span>
+                        </div>
+                        ${makeSummaryStats("reading", "Reading Comprehension", "")}
+                        ${makeSummaryStats("grammar", "Grammar", grammarExplanation)}
+                        <div class="exercise-controls form-group">
+                            <button type="button" class="btn try-again-btn">Try again</button>
+                        </div>
+                        <div class="summary-feedback">
+                            Please give us feedback here.
+                        </div>
+                    </form>
+                </div>`);
+            exercisesEl.append(el);
+            el.hide();
+            el.find(".try-again-btn").click(() => {
+                sendExerciseEvent("exercise_try_again", exerciseList[0], {});
+                resetToFirstExercise();
+            });
+            return el;
+        };
+        const summaryEl = makeSummaryEl();
+
+        resetToFirstExercise();
     };
 
     reloadExercises();
