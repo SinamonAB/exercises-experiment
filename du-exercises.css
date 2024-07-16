@@ -199,7 +199,7 @@
 }
 .exercise.state-answered .exercise-controls .check-btn,
 .exercise.state-checking .exercise-controls .check-btn,
-.exercise-controls .try-again-btn,
+.exercise-controls .try-again-btn, .exercise-controls .try-again-btn:active,
 .exercises-disclaimer-modal .close-btn,  .exercises-disclaimer-modal .close-btn:active {
     background: #58C0A9;
     border: none;
