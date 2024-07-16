@@ -103,7 +103,7 @@
         await $.getScript(dataPath);
 
         // Cleanup previous exercises
-        $(".exercises-header, .exercises-body").remove();
+        $(".exercises-header, .exercises-body, .exercises-hr").remove();
 
         // Inject exercise section
         const exercisesHeaderEl = $(`
@@ -140,7 +140,7 @@
                     </div>
                 </div>
             </div>`);
-        $(".lesson-content").first().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr>");
+        $(".lesson-content").first().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr class='exercises-hr'>");
         const exercisesEl = exercisesBodyEl.find(".exercises");
         const testingHeaderEl = exercisesHeaderEl.find(".exercise-progress-testing");
         const summaryHeaderEl = exercisesHeaderEl.find(".exercise-progress-summary");
