@@ -133,7 +133,7 @@
                 <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
                     <div class="heading">
                         <span>Exercises</span>
-                        <button type="button" class="btn btn-exercises-disclaimer">EXPERIMENTAL FEATURE</button>
+                        <button type="button" class="btn btn-exercises-disclaimer" data-bs-toggle="modal" data-bs-target="#exercises-disclaimer-modal">EXPERIMENTAL FEATURE</button>
                     </div>
                     <div class="exercise-progress exercise-progress-testing">
                         <div>
