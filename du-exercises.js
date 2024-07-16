@@ -113,11 +113,11 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            We’re testing new ways to engage with you and make using Du Chinese even more valuable.
-                            This experimental feature is still in the working, therefore it is not clear yet in which form and when it will be added to DuChinese.
-                            For now, exercises are only available on the web for a small number of lessons.
-                            You can help us now by trying out the exercises and giving us feedback at the summary screen after solving all questions.
-                            Thank you!
+                            <p>We’re testing new ways to engage with you, making using Du Chinese even more valuable.</p>
+                            <p>This experimental feature is still in the work, therefore we’re still figuring out in which form and when it will be added to Du Chinese.
+                            For now, exercises are only available on the web for a small number of lessons.</p>
+                            <p>You can help us by trying out the exercises and giving us feedback on the summary screen after solving all the questions.</p>
+                            <p>Thank you!</p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>

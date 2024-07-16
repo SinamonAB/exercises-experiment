@@ -269,9 +269,6 @@
     border-radius: 5px;
     border: 1px solid #00000033;
 }
-.exercises-disclaimer-modal .modal-body {
-    padding-bottom: 32px;
-}
 .exercises-disclaimer-modal .modal-title {
     font-weight: 600;
     margin-top: 0;
