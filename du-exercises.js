@@ -222,6 +222,11 @@
             updateExercisesBasedOnState();
         }
         const updateExercisesBasedOnState = () => {
+            // store state
+            localStorage.setItem("du-exercises-state", JSON.stringify(state));
+            console.log("Stored state in local storage", state);
+
+            // update website
             exercisesEl.find(".exercise, .exercise-summary").hide();
             if (state.current_question_num < exerciseList.length) {
                 // show exercise
@@ -503,6 +508,10 @@
             exerciseJson.el.hide();
             updateExerciseState(exerciseJson, ExerciseState.Initial);
         };
+        exerciseList.forEach((exerciseJson, exerciseNum) => {
+            exerciseJson.num = exerciseNum;
+            makeExerciseEl(exerciseJson);
+        });
 
         const makeSummaryEl = () => {
             let grammarPoints = [];
@@ -576,7 +585,32 @@
         };
         const summaryEl = makeSummaryEl();
 
-        resetToFirstExercise();
+        const storedState = localStorage.getItem("du-exercises-state");
+        if (storedState !== null) {
+            const parsedStoredState = JSON.parse(storedState);
+            if (parsedStoredState.exercise_set === state.exercise_set && parsedStoredState.lesson === state.lesson) {
+                state = parsedStoredState;
+                console.log("Loaded state from local storage", state);
+                // if the user checked the answer for a question, but did not precede to the next question, we simply
+                // do that now
+                if (state.question_completion_status[state.current_question_num] !== CompletionStatus.Current) {
+                    if (state.current_question_num < exerciseList.length) {
+                        state.current_question_num += 1;
+                        state.question_completion_status[state.current_question_num] = CompletionStatus.Current;
+                    } else {
+                        // show summary screen
+                        state.current_question_num = exerciseList.length;
+                    }
+                }
+                updateExercisesBasedOnState();
+            } else {
+                console.log("Resetting state because exercise set changed")
+                resetToFirstExercise();
+            }
+        } else {
+            console.log("Initializing state");
+            resetToFirstExercise();
+        }
     };
 
     reloadExercises();
