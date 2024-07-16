@@ -46,6 +46,9 @@
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
     const hashEmail = async (message) => {
+        if (message === undefined) {
+            return "";
+        }
         // SHA256, https://stackoverflow.com/a/48161723/2766231
         const msgBuffer = new TextEncoder().encode(message);
         const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
@@ -60,21 +63,24 @@
 
         // Get control group
         let exerciseSet = undefined;
-        const userEmail = $("#vue-root").attr("data-email");
+        let userEmail = $("#vue-root").attr("data-email");  // avoid caching
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has("exercise-set")) {
             // If URL contains exercise-set=XX, override control group
             exerciseSet = urlParams.get("exercise-set");
-        } else {
-            if (userEmail === undefined) {
-                console.log("User not logged in, not showing exercises.");
-                return;
-            }
+        } else if (userEmail === undefined && localStorage.getItem("du-exercises-state") === null) {
+            console.log("User not logged in, not showing exercises.");
+            return;
+        } else if (userEmail !== undefined) {
             let emailChecksum = 0;
             for (let char of await hashEmail(userEmail)) {
                 emailChecksum ^= char.charCodeAt(0);
             }
             exerciseSet = Math.abs(emailChecksum % 2) === 0 ? "reading" : "grammar";
+        } else {
+            // use exerciseSet from previous state. Even if the users log out after loading the exercise section once,
+            // we cache the set here.
+            exerciseSet = JSON.parse(localStorage.getItem("du-exercises-state")).exercise_set;
         }
 
         // Get the lesson ID from the URL
