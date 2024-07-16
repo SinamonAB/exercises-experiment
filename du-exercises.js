@@ -45,19 +45,13 @@
     $("head").first().append(`<link rel="stylesheet" type="text/css" href="${rootPath}/du-exercises.css">`);
     await $.getScript("//code.jquery.com/ui/1.13.3/jquery-ui.js");
 
-    const hashEmail = function(email) {
-        if (email === undefined) {
-            return 0;
-        }
-        let hash = 0,
-        i, chr;
-        if (email.length === 0) return hash;
-        for (i = 0; i < email.length; i++) {
-            chr = email.charCodeAt(i);
-            hash = ((hash << 5) - hash) + chr;
-            hash |= 0; // Convert to 32bit integer
-        }
-        return hash;
+    const hashEmail = async (message) => {
+        // SHA256, https://stackoverflow.com/a/48161723/2766231
+        const msgBuffer = new TextEncoder().encode(message);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        return hashHex;
     }
 
     const reloadExercises = async () => {
@@ -66,7 +60,7 @@
 
         // Get control group
         let exerciseSet = undefined;
-        const userEmail = $("#vue-root").data("email");
+        const userEmail = $("#vue-root").attr("data-email");
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has("exercise-set")) {
             // If URL contains exercise-set=XX, override control group
@@ -76,7 +70,11 @@
                 console.log("User not logged in, not showing exercises.");
                 return;
             }
-            exerciseSet = Math.abs(hashEmail(userEmail) % 2) === 0 ? "reading" : "grammar";
+            let emailChecksum = 0;
+            for (let char of await hashEmail(userEmail)) {
+                emailChecksum ^= char.charCodeAt(0);
+            }
+            exerciseSet = Math.abs(emailChecksum % 2) === 0 ? "reading" : "grammar";
         }
 
         // Get the lesson ID from the URL
@@ -193,9 +191,9 @@
         }
         state.question_completion_status[state.current_question_num] = CompletionStatus.Current;
 
-        const sendExerciseEvent = (eventName, exerciseJson, eventData) => {
+        const sendExerciseEvent = async (eventName, exerciseJson, eventData) => {
             const properties = {
-                "user_email_hash": hashEmail(userEmail),
+                "user_email_hash": await hashEmail(userEmail),
                 "lesson": state.lesson,
                 "exercise_set": state.exercise_set,
                 "exercise_num": exerciseJson.num,
