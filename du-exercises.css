@@ -182,7 +182,7 @@
     border-radius: .625em;
     font-size: 15px;
 }
-.exercise-controls .check-btn, .exercise-controls .try-again-btn {
+.exercise-controls .check-btn, .exercise-controls .try-again-btn, .exercises-disclaimer-modal .close-btn  {
     flex-grow: 100;
     font-weight: 600;
     background: #F6F6F8;
@@ -197,7 +197,10 @@
     background: #DEF2EE;
     border: 1px solid #58C0A9;
 }
-.exercise.state-answered .exercise-controls .check-btn, .exercise.state-checking .exercise-controls .check-btn, .exercise-controls .try-again-btn {
+.exercise.state-answered .exercise-controls .check-btn,
+.exercise.state-checking .exercise-controls .check-btn,
+.exercise-controls .try-again-btn,
+.exercises-disclaimer-modal .close-btn,  .exercises-disclaimer-modal .close-btn:active {
     background: #58C0A9;
     border: none;
     color: #FFFFFF;
@@ -260,4 +263,17 @@
 }
 .exercise-summary .summary-stats .stats-amount {
     font-size: 48px;
+}
+
+.exercises-disclaimer-modal .modal-content {
+    border-radius: 5px;
+    border: 1px solid #00000033;
+}
+.exercises-disclaimer-modal .modal-body {
+    padding-bottom: 32px;
+}
+.exercises-disclaimer-modal .modal-title {
+    font-weight: 600;
+    height: 24px;
+    margin-top: 0;
 }

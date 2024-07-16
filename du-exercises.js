@@ -103,9 +103,31 @@
         await $.getScript(dataPath);
 
         // Cleanup previous exercises
-        $(".exercises-header, .exercises-body, .exercises-hr").remove();
+        $(".exercises-header, .exercises-body, .exercises-hr, .exercises-disclaimer-modal").remove();
 
         // Inject exercise section
+        const exercisesDisclaimerModalEl = $(`
+            <div class="modal fade exercises-disclaimer-modal" id="exercises-disclaimer-modal" tabindex="-1" aria-labelledby="exercises-disclaimer-modal-label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exercises-disclaimer-modal-label">What is an experimental feature?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            We’re testing new ways to engage with you and make using Du Chinese even more valuable.
+                            This experimental feature is still in the working, therefore it is not clear yet in which form and when it will be added to DuChinese.
+                            For now, exercises are only available on the web for a small number of lessons.
+                            You can help us now by trying out the exercises and giving us feedback at the summary screen after solving all questions.
+                            Thank you!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `);
         const exercisesHeaderEl = $(`
             <div class="exercises-header">
                 <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
@@ -141,6 +163,7 @@
                 </div>
             </div>`);
         $(".lesson-content").first().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr class='exercises-hr'>");
+        $("body").append(exercisesDisclaimerModalEl);
         const exercisesEl = exercisesBodyEl.find(".exercises");
         const testingHeaderEl = exercisesHeaderEl.find(".exercise-progress-testing");
         const summaryHeaderEl = exercisesHeaderEl.find(".exercise-progress-summary");
