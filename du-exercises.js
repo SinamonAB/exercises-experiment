@@ -128,27 +128,31 @@
         `);
         const exercisesHeaderEl = $(`
             <div class="exercises-header">
-                <div class="col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
-                    <div class="heading">
-                        <span>Exercises</span>
+                <div class="exercises-header-container col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+                    <div class="left">
+                        <div class="heading">
+                            <span>Exercises</span>
+                        </div>
+                        <div class="exercise-progress exercise-progress-testing">
+                            <div>
+                                <ol class="progress-icons">
+                                    ${exerciseList.map((exerciseJson, exerciseNum) => {
+                                        return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
+                                    }).join(" ")}
+                                </ol>
+                            </div>
+                            <div>
+                                <span class="progress-text">4/5</span>
+                            </div>
+                        </div>
+                        <div class="exercise-progress exercise-progress-summary">
+                            <div>
+                                <span>Summary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
                         <button type="button" class="btn btn-exercises-disclaimer" data-bs-toggle="modal" data-bs-target="#exercises-disclaimer-modal">EXPERIMENTAL FEATURE</button>
-                    </div>
-                    <div class="exercise-progress exercise-progress-testing">
-                        <div>
-                            <ol class="progress-icons">
-                                ${exerciseList.map((exerciseJson, exerciseNum) => {
-                                    return `<li class="progress-icon ahead" data-exercise-num="${exerciseNum}"></li>`;
-                                }).join(" ")}
-                            </ol>
-                        </div>
-                        <div>
-                            <span class="progress-text">4/5</span>
-                        </div>
-                    </div>
-                    <div class="exercise-progress exercise-progress-summary">
-                        <div>
-                            <span>Summary</span>
-                        </div>
                     </div>
                 </div>
             </div>`);
