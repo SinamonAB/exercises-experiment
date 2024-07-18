@@ -113,40 +113,15 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Mom is very busy. (She wasn't as busy before, and now she is)",
+    "english": "Mom is not busy. (She was busy before, and now she is not busy)",
     "grammar_point": {
       "slug": "le-change",
       "name": "了 to indicate change"
     },
     "word_bank": [
+      "妈妈",
       "忙",
-      "妈妈",
-      "了",
-      "很"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "妈妈",
-        "很",
-        "忙",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Mom went to study. (She wasn't studying before, and now she is)",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "妈妈",
-      "学习",
+      "不",
       "了"
     ],
     "prefilled_postfix": [
@@ -155,7 +130,58 @@ exerciseList = [
     "solutions": [
       [
         "妈妈",
-        "学习",
+        "不",
+        "忙",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Mom is asleep. ",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "睡觉",
+      "了",
+      "妈妈"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "妈妈",
+        "睡觉",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "I miss home. (I didn't miss home before, and now I do)",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "了",
+      "我",
+      "家",
+      "想"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "我",
+        "想",
+        "家",
         "了",
         "。"
       ]

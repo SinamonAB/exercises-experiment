@@ -1,63 +1,23 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Since the moon is uneven, it's not a glowing disc.",
+    "english": "Since he knows the moon's secrets, he is not an ordinary person.",
     "grammar_point": {
       "slug": "jiran-jiu",
       "name": "Expressing “since” with 既然"
     },
     "word_bank": [
-      "圆盘",
-      "不",
-      "既然",
-      "那",
       "，",
-      "发光",
-      "凹凸不平",
-      "的",
-      "是",
-      "月亮",
-      "它"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "既然",
-        "月亮",
-        "凹凸不平",
-        "，",
-        "那",
-        "它",
-        "不",
-        "是",
-        "发光",
-        "的",
-        "圆盘",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Since the old man disappeared, they could only follow his directions.",
-    "grammar_point": {
-      "slug": "jiran-jiu",
-      "name": "Expressing “since” with 既然"
-    },
-    "word_bank": [
-      "指引",
-      "走",
-      "了",
-      "他们",
-      "消失",
-      "按照",
-      "，",
-      "老人",
       "他",
+      "月亮",
+      "知道",
+      "他",
+      "秘密",
       "既然",
-      "只能",
+      "是",
+      "就",
+      "凡人",
+      "不",
       "的"
     ],
     "prefilled_postfix": [
@@ -66,41 +26,41 @@ exerciseList = [
     "solutions": [
       [
         "既然",
-        "老人",
-        "消失",
-        "了",
-        "，",
-        "他们",
-        "只能",
-        "按照",
         "他",
+        "知道",
+        "月亮",
         "的",
-        "指引",
-        "走",
+        "秘密",
+        "，",
+        "他",
+        "就",
+        "不",
+        "是",
+        "凡人",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Since the moon is a sphere, we can understand its shape.",
+    "english": "Since you don't trust him, don't eat his jade chips.",
     "grammar_point": {
       "slug": "jiran-jiu",
       "name": "Expressing “since” with 既然"
     },
     "word_bank": [
-      "球体",
-      "月亮",
-      "形状",
-      "理解",
-      "的",
-      "既然",
-      "能",
-      "它",
-      "我们",
+      "吃",
+      "他的",
       "就",
-      "是",
-      "，"
+      "不要",
+      "那",
+      "玉屑饭",
+      "相信",
+      "既然",
+      "不",
+      "，",
+      "他",
+      "你"
     ],
     "prefilled_postfix": [
       "。"
@@ -108,57 +68,126 @@ exerciseList = [
     "solutions": [
       [
         "既然",
-        "月亮",
-        "是",
-        "球体",
+        "你",
+        "不",
+        "相信",
+        "他",
         "，",
-        "我们",
+        "那",
         "就",
-        "能",
-        "理解",
-        "它",
-        "的",
-        "形状",
+        "不要",
+        "吃",
+        "他的",
+        "玉屑饭",
+        "。"
+      ],
+      [
+        "你",
+        "既然",
+        "不",
+        "相信",
+        "他",
+        "，",
+        "那",
+        "就",
+        "不要",
+        "吃",
+        "他的",
+        "玉屑饭",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "They asked for directions as soon as they saw the old man.",
+    "english": "Isn't the moon a glowing disk?",
     "grammar_point": {
-      "slug": "le-consecutive",
-      "name": "了 for consecutive actions"
+      "slug": "nandao-ma",
+      "name": "难道 … 吗"
     },
     "word_bank": [
-      "看见",
-      "问路",
-      "就",
-      "了",
-      "老人",
-      "他们"
+      "个",
+      "难道",
+      "圆盘",
+      "一",
+      "发光",
+      "是",
+      "吗",
+      "不",
+      "的",
+      "月亮"
     ],
     "prefilled_postfix": [
-      "。"
+      "？"
     ],
     "solutions": [
       [
-        "他们",
-        "看见",
-        "了",
-        "老人",
-        "就",
-        "问路",
-        "。"
+        "难道",
+        "月亮",
+        "不",
+        "是",
+        "一",
+        "个",
+        "发光",
+        "的",
+        "圆盘",
+        "吗",
+        "？"
       ],
       [
-        "他们",
-        "看见",
-        "老人",
-        "就",
-        "问路",
-        "了",
-        "。"
+        "月亮",
+        "难道",
+        "不",
+        "是",
+        "一",
+        "个",
+        "发光",
+        "的",
+        "圆盘",
+        "吗",
+        "？"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Are there really no aliens in the world?",
+    "grammar_point": {
+      "slug": "nandao-ma",
+      "name": "难道 … 吗"
+    },
+    "word_bank": [
+      "没有",
+      "吗",
+      "真的",
+      "外星人",
+      "难道",
+      "上",
+      "世界"
+    ],
+    "prefilled_postfix": [
+      "？"
+    ],
+    "solutions": [
+      [
+        "难道",
+        "世界",
+        "上",
+        "真的",
+        "没有",
+        "外星人",
+        "吗",
+        "？"
+      ],
+      [
+        "世界",
+        "上",
+        "难道",
+        "真的",
+        "没有",
+        "外星人",
+        "吗",
+        "？"
       ]
     ]
   },
@@ -212,48 +241,76 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "They started walking as soon as they saw the path.",
+    "english": "Stop walking if you see a path.",
     "grammar_point": {
       "slug": "le-consecutive",
       "name": "了 for consecutive actions"
     },
     "word_bank": [
       "就",
-      "看见",
-      "小路",
+      "不要",
       "了",
-      "开始",
-      "走"
+      "小路",
+      "走",
+      "了。",
+      "看见"
+    ],
+    "prefilled_postfix": [],
+    "solutions": [
+      [
+        "看见",
+        "小路",
+        "了",
+        "就",
+        "不要",
+        "走",
+        "了。"
+      ],
+      [
+        "看见",
+        "了",
+        "小路",
+        "就",
+        "不要",
+        "走",
+        "了。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "The old man just said one word and disappeared.",
+    "grammar_point": {
+      "slug": "le-consecutive",
+      "name": "了 for consecutive actions"
+    },
+    "word_bank": [
+      "话",
+      "了",
+      "老人",
+      "只",
+      "就",
+      "消失",
+      "了",
+      "句",
+      "一",
+      "说"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "看见",
+        "老人",
+        "只",
+        "说",
         "了",
-        "小路",
+        "一",
+        "句",
+        "话",
         "就",
-        "开始",
-        "走",
-        "。"
-      ],
-      [
-        "看见",
-        "小路",
-        "就",
-        "开始",
-        "走",
+        "消失",
         "了",
-        "。"
-      ],
-      [
-        "小路",
-        "看见",
-        "了",
-        "就",
-        "开始",
-        "走",
         "。"
       ]
     ]

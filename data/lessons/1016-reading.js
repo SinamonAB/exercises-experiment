@@ -6,7 +6,7 @@ exerciseList = [
       "a. 鸡蛋",
       "b. 鸭蛋",
       "c. 鸟蛋",
-      "d. 鱼蛋"
+      "d. 坏蛋"
     ],
     "solution": 1
   },
@@ -14,7 +14,7 @@ exerciseList = [
     "question_type": "reading",
     "question": "关于皮蛋，下面说法不正确的是?",
     "answer_options": [
-      "a. 皮蛋是用鸡蛋和石灰一起做的",
+      "a. 皮蛋闻起来很香",
       "b. 皮蛋可以加醋和剁椒做成剁椒皮蛋",
       "c. 有些外国人叫它“百年之蛋”",
       "d. 不是所有中国人都喜欢皮蛋"

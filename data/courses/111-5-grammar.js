@@ -31,39 +31,30 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The boat is rowing towards the uninhabited island.",
+    "english": "He is rowing towards the uninhabited island.",
     "grammar_point": {
       "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "无人",
       "着",
-      "岛",
+      "他",
+      "船",
+      "无人岛",
       "划",
-      "朝",
-      "船"
+      "朝"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "船",
+        "他",
         "朝",
-        "无人",
-        "岛",
+        "无人岛",
         "划",
         "着",
-        "。"
-      ],
-      [
         "船",
-        "划",
-        "着",
-        "朝",
-        "无人",
-        "岛",
         "。"
       ]
     ]
@@ -112,15 +103,15 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Even the small boat has no clues.",
+    "english": "Even Bao Zheng has no clues.",
     "grammar_point": {
       "slug": "even",
       "name": "“Even” with 连......也/都......"
     },
     "word_bank": [
-      "线索",
       "没有",
-      "小船",
+      "包拯",
+      "线索",
       "也",
       "连"
     ],
@@ -130,7 +121,7 @@ exerciseList = [
     "solutions": [
       [
         "连",
-        "小船",
+        "包拯",
         "也",
         "没有",
         "线索",
@@ -228,16 +219,97 @@ exerciseList = [
         "不",
         "了",
         "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "There's a boat coming from the center of the lake.",
+    "grammar_point": {
+      "slug": "directional",
+      "name": "Directional verb complements"
+    },
+    "word_bank": [
+      "划",
+      "个",
+      "过来",
+      "中心",
+      "小船",
+      "有",
+      "了",
+      "湖",
+      "从"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "有",
+        "个",
+        "小船",
+        "从",
+        "湖",
+        "中心",
+        "划",
+        "了",
+        "过来",
+        "。"
       ],
       [
-        "那",
-        "对",
-        "男女",
-        "连",
-        "雪",
-        "都",
-        "阻止",
+        "有",
+        "个",
+        "小船",
+        "从",
+        "湖",
+        "中心",
+        "划",
+        "过来",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "I can't remember his name.",
+    "grammar_point": {
+      "slug": "directional",
+      "name": "Directional verb complements"
+    },
+    "word_bank": [
+      "不",
+      "的",
+      "他",
+      "想",
+      "我",
+      "名字",
+      "了",
+      "起来"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "我",
+        "想",
         "不",
+        "起来",
+        "他",
+        "的",
+        "名字",
+        "了",
+        "。"
+      ],
+      [
+        "他",
+        "的",
+        "名字",
+        "我",
+        "想",
+        "不",
+        "起来",
         "了",
         "。"
       ]

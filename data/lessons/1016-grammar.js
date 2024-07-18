@@ -83,20 +83,20 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Preserved eggs and preserved eggs with chopped chili are both delicious.",
+    "english": "Preserved eggs with thin meat congee and preserved eggs with chopped chili are both delicious.",
     "grammar_point": {
       "slug": "dou",
       "name": "都"
     },
     "word_bank": [
-      "皮蛋",
       "很",
-      "剁",
-      "都",
-      "好吃",
-      "椒",
+      "剁椒",
       "皮蛋",
-      "和"
+      "瘦肉粥",
+      "好吃",
+      "皮蛋",
+      "和",
+      "都"
     ],
     "prefilled_postfix": [
       "。"
@@ -104,9 +104,9 @@ exerciseList = [
     "solutions": [
       [
         "皮蛋",
+        "瘦肉粥",
         "和",
-        "剁",
-        "椒",
+        "剁椒",
         "皮蛋",
         "都",
         "很",
@@ -114,11 +114,11 @@ exerciseList = [
         "。"
       ],
       [
-        "剁",
-        "椒",
+        "剁椒",
         "皮蛋",
         "和",
         "皮蛋",
+        "瘦肉粥",
         "都",
         "很",
         "好吃",
@@ -128,24 +128,25 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because century egg is sour and spicy, many people like it.",
+    "english": "Because century egg with chopped chili is sour and spicy, many people like it.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "，",
+      "多",
+      "因为",
+      "人",
+      "辣",
+      "皮蛋",
+      "又",
       "所以",
       "酸",
-      "又",
-      "又",
-      "皮蛋",
-      "多",
-      "人",
-      "因为",
-      "辣",
+      "剁椒",
       "喜欢",
-      "很"
+      "又",
+      "很",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -153,6 +154,7 @@ exerciseList = [
     "solutions": [
       [
         "因为",
+        "剁椒",
         "皮蛋",
         "又",
         "酸",
@@ -222,18 +224,19 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "是",
-      "奇怪",
+      "它",
       "皮蛋",
-      "很",
+      "黑色",
+      "是",
+      "的",
+      "奇怪",
+      "因为",
       "颜色",
+      "所以",
+      "，",
       "的",
       "看起来",
-      "黑色",
-      "它",
-      "，",
-      "因为",
-      "所以"
+      "很"
     ],
     "prefilled_postfix": [
       "。"
@@ -246,6 +249,7 @@ exerciseList = [
         "颜色",
         "是",
         "黑色",
+        "的",
         "，",
         "所以",
         "它",

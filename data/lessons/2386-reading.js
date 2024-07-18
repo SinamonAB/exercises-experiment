@@ -4,7 +4,7 @@ exerciseList = [
     "question": "每年高天的生日，爸爸都会送他什么？",
     "answer_options": [
       "a. 铅笔",
-      "b. 书",
+      "b. 手机",
       "c. 手表",
       "d. 新书"
     ],

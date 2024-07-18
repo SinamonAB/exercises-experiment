@@ -5,7 +5,7 @@ exerciseList = [
     "answer_options": [
       "a. 米乐以前没有家",
       "b. 季南为米乐做了很多事情",
-      "c. 季南帮米乐找到家",
+      "c. 季南带米乐回家",
       "d. a, b 和 c"
     ],
     "solution": 3
@@ -31,5 +31,16 @@ exerciseList = [
       "d. 米乐会变成其他动物"
     ],
     "solution": 0
+  },
+  {
+    "question_type": "reading",
+    "question": "米乐看到的照片中没有哪一张？",
+    "answer_options": [
+      "a. 季南用身体保护米乐",
+      "b. 季南给米乐牛肉块",
+      "c. 季南和米乐一起去学校",
+      "d. 季南带米乐回家"
+    ],
+    "solution": 2
   }
 ];

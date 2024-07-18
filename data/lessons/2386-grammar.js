@@ -1,7 +1,7 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Although Xiao Bei is not tall, he is younger than Gao Tian.",
+    "english": "Although Xiao Bei is not big, he is taller than Gao Tian.",
     "grammar_point": {
       "slug": "suiran",
       "name": "Expressing although with 虽然"
@@ -9,14 +9,14 @@ exerciseList = [
     "word_bank": [
       "小北",
       "高天",
-      "但是",
-      "小",
-      "，",
-      "不",
-      "他",
       "虽然",
       "比",
-      "高"
+      "他",
+      "但是",
+      "高",
+      "，",
+      "不",
+      "大"
     ],
     "prefilled_postfix": [
       "。"
@@ -26,48 +26,47 @@ exerciseList = [
         "虽然",
         "小北",
         "不",
-        "高",
+        "大",
         "，",
         "但是",
         "他",
         "比",
         "高天",
-        "小",
+        "高",
         "。"
       ],
       [
         "小北",
         "虽然",
         "不",
-        "高",
+        "大",
         "，",
         "但是",
         "他",
         "比",
         "高天",
-        "小",
+        "高",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Although Gao Tian can't find his pencil, he saw the watch.",
+    "english": "Although Gao Tian said he was happy, he didn't smile.",
     "grammar_point": {
       "slug": "suiran",
       "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "了",
+      "笑",
+      "说",
       "，",
-      "他",
-      "手表",
       "高天",
+      "他",
       "虽然",
       "但是",
-      "铅笔",
-      "看见",
-      "找不到"
+      "没有",
+      "高兴"
     ],
     "prefilled_postfix": [
       "。"
@@ -76,88 +75,25 @@ exerciseList = [
       [
         "虽然",
         "高天",
-        "找不到",
-        "铅笔",
+        "说",
+        "高兴",
         "，",
         "但是",
         "他",
-        "看见",
-        "手表",
-        "了",
-        "。"
-      ],
-      [
-        "虽然",
-        "高天",
-        "找不到",
-        "铅笔",
-        "，",
-        "但是",
-        "他",
-        "看见",
-        "了",
-        "手表",
+        "没有",
+        "笑",
         "。"
       ],
       [
         "高天",
         "虽然",
-        "找不到",
-        "铅笔",
+        "说",
+        "高兴",
         "，",
         "但是",
         "他",
-        "看见",
-        "手表",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "I asked Anne because I couldn't find my pencil.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "，",
-      "找不到",
-      "因为",
-      "问",
-      "Anne",
-      "了",
-      "铅笔",
-      "我",
-      "所以"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "我",
-        "找不到",
-        "铅笔",
-        "，",
-        "所以",
-        "问",
-        "了",
-        "Anne",
-        "。"
-      ],
-      [
-        "因为",
-        "我",
-        "找不到",
-        "铅笔",
-        "，",
-        "所以",
-        "问",
-        "Anne",
-        "了",
+        "没有",
+        "笑",
         "。"
       ]
     ]
