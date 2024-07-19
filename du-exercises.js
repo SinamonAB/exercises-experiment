@@ -334,7 +334,7 @@
                         return;
                     }
                     const word = el.data("word");
-                    const wordBank = exerciseJson.el.find(`.word-bank-btn[data-word="${word}"]`).first();
+                    const wordBank = exerciseJson.el.find(`.word-bank-btn[data-word="${word}"].disabled`).first();
                     wordBank.removeClass("disabled");
                     el.find(".word-span").text("?");
                     el.addClass("empty");
