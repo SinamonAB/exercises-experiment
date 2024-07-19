@@ -170,7 +170,7 @@
                     </div>
                 </div>
             </div>`);
-        $(".lesson-content-container").append(exercisesHeaderEl).append(exercisesBodyEl).append("<hr class='exercises-hr'>");
+        $(".du-lesson-footer").first().parent().parent().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr class='exercises-hr'>");
         $("body").append(exercisesDisclaimerModalEl);
         const exercisesEl = exercisesBodyEl.find(".exercises");
         const testingHeaderEl = exercisesHeaderEl.find(".exercise-progress-testing");
