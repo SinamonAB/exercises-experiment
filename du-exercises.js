@@ -56,6 +56,14 @@
         const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
         return hashHex;
     }
+    const titleCase = (str) => {
+        // https://stackoverflow.com/a/32589289/2766231
+       const splitStr = str.toLowerCase().split(" ");
+       for (let i = 0; i < splitStr.length; i++) {
+           splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+       }
+       return splitStr.join(' ');
+    }
 
     const reloadExercises = async () => {
         // Wait for page to load
@@ -559,6 +567,15 @@
                     ${explanation}
                 </div>`;
             }
+            let feedbackUrl = `https://docs.google.com/forms/d/e/1FAIpQLScK2DPMf9RmVZmzbRAlirA_NI5FSnoX4XxxiDinc1dFSkws_Q/viewform?embedded=true`;
+            feedbackUrl += `&entry.1306397561=${userEmail !== undefined ? userEmail : ""}`;
+            if (exerciseSet === "reading") {
+                feedbackUrl += `&entry.2047258054=Comprehension+questions`;
+            } else if (exerciseSet === "grammar") {
+                feedbackUrl += `&entry.2047258054=Grammar+practice`;
+            }
+            const difficulty = $(".du-lesson-information-header-level").text()
+            feedbackUrl += `&entry.936884452=${titleCase(difficulty).replaceAll(" ", "+")}`;
             const el = $(`
                 <div class="exercise-summary">
                     <form>
@@ -572,7 +589,7 @@
                         </div>
                         <div class="summary-feedback">
                             Please give us feedback on our experimental exercises feature!
-                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScK2DPMf9RmVZmzbRAlirA_NI5FSnoX4XxxiDinc1dFSkws_Q/viewform?embedded=true&entry.1306397561=${userEmail !== undefined ? userEmail : ''}" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading feedback form ...</iframe>
+                            <iframe src="${feedbackUrl}" width="100%" height="1000px" frameborder="0" marginheight="0" marginwidth="0">Loading feedback form ...</iframe>
                         </div>
                     </form>
                 </div>`);
