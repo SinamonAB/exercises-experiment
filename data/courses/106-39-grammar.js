@@ -1,86 +1,26 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Since she knows the Southern Vermilion Bird, she should know the missing star.",
+    "english": "Since she understands the Southern Vermilion Bird, she should know which star is missing.",
     "grammar_point": {
       "slug": "jiran-jiu",
       "name": "Expressing “since” with 既然"
     },
     "word_bank": [
-      "那",
-      "就",
-      "的",
-      "既然",
-      "南方",
-      "星",
-      "，",
-      "朱雀",
-      "应该",
+      "了解",
+      "哪",
       "知道",
-      "知道",
-      "她",
-      "颗",
-      "少"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "既然",
-        "她",
-        "知道",
-        "南方",
-        "朱雀",
-        "，",
-        "就",
-        "应该",
-        "知道",
-        "少",
-        "的",
-        "那",
-        "颗",
-        "星",
-        "。"
-      ],
-      [
-        "既然",
-        "她",
-        "知道",
-        "南方",
-        "朱雀",
-        "，",
-        "应该",
-        "就",
-        "知道",
-        "少",
-        "的",
-        "那",
-        "颗",
-        "星",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Since the ground is about to collapse, quickly arrange the chess pieces.",
-    "grammar_point": {
-      "slug": "jiran-jiu",
-      "name": "Expressing “since” with 既然"
-    },
-    "word_bank": [
       "，",
-      "棋盘",
-      "地面",
-      "要",
-      "既然",
-      "摆",
-      "赶快",
-      "好",
-      "塌陷",
       "了",
-      "就"
+      "她",
+      "少",
+      "朱雀",
+      "南方",
+      "颗",
+      "就",
+      "既然",
+      "应该",
+      "星"
     ],
     "prefilled_postfix": [
       "。"
@@ -88,52 +28,95 @@ exerciseList = [
     "solutions": [
       [
         "既然",
-        "地面",
-        "要",
-        "塌陷",
-        "了",
+        "她",
+        "了解",
+        "南方",
+        "朱雀",
         "，",
         "就",
-        "赶快",
-        "摆",
-        "好",
-        "棋盘",
+        "应该",
+        "知道",
+        "少",
+        "了",
+        "哪",
+        "颗",
+        "星",
         "。"
       ],
       [
-        "地面",
+        "她",
         "既然",
-        "要",
-        "塌陷",
-        "了",
+        "了解",
+        "南方",
+        "朱雀",
         "，",
         "就",
-        "赶快",
-        "摆",
-        "好",
-        "棋盘",
+        "应该",
+        "知道",
+        "少",
+        "了",
+        "哪",
+        "颗",
+        "星",
+        "。"
+      ],
+      [
+        "既然",
+        "她",
+        "了解",
+        "南方",
+        "朱雀",
+        "，",
+        "应该",
+        "就",
+        "知道",
+        "少",
+        "了",
+        "哪",
+        "颗",
+        "星",
+        "。"
+      ],
+      [
+        "她",
+        "既然",
+        "了解",
+        "南方",
+        "朱雀",
+        "，",
+        "应该",
+        "就",
+        "知道",
+        "少",
+        "了",
+        "哪",
+        "颗",
+        "星",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Since Jane contributed, she should know the details.",
+    "english": "Since the box is already open, let’s see what’s inside.",
     "grammar_point": {
       "slug": "jiran-jiu",
       "name": "Expressing “since” with 既然"
     },
     "word_bank": [
-      "，",
-      "功劳",
-      "有",
-      "细节",
-      "应该",
+      "看看",
+      "里面",
+      "什么",
       "就",
-      "简西",
       "既然",
-      "知道",
-      "她"
+      "已经",
+      "吧",
+      "打开",
+      "盒子",
+      "我们",
+      "有",
+      "了",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -141,15 +124,91 @@ exerciseList = [
     "solutions": [
       [
         "既然",
-        "简西",
-        "有",
-        "功劳",
+        "盒子",
+        "已经",
+        "打开",
+        "了",
         "，",
-        "她",
+        "我们",
         "就",
-        "应该",
-        "知道",
-        "细节",
+        "看看",
+        "里面",
+        "有",
+        "什么",
+        "吧",
+        "。"
+      ],
+      [
+        "盒子",
+        "既然",
+        "已经",
+        "打开",
+        "了",
+        "，",
+        "我们",
+        "就",
+        "看看",
+        "里面",
+        "有",
+        "什么",
+        "吧",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Since he has already decided, you should stop talking about it.",
+    "grammar_point": {
+      "slug": "jiran-jiu",
+      "name": "Expressing “since” with 既然"
+    },
+    "word_bank": [
+      "了",
+      "你",
+      "，",
+      "他",
+      "决定",
+      "了",
+      "不要",
+      "既然",
+      "说",
+      "就",
+      "已经",
+      "再"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "既然",
+        "他",
+        "已经",
+        "决定",
+        "了",
+        "，",
+        "你",
+        "就",
+        "不要",
+        "再",
+        "说",
+        "了",
+        "。"
+      ],
+      [
+        "他",
+        "既然",
+        "已经",
+        "决定",
+        "了",
+        "，",
+        "你",
+        "就",
+        "不要",
+        "再",
+        "说",
+        "了",
         "。"
       ]
     ]
@@ -215,16 +274,6 @@ exerciseList = [
         "深",
         "渊",
         "。"
-      ],
-      [
-        "江杨",
-        "的",
-        "身体",
-        "越来越",
-        "接近",
-        "深",
-        "渊",
-        "。"
       ]
     ]
   },
@@ -256,6 +305,48 @@ exerciseList = [
         "一",
         "个",
         "棋盘",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "His neck and face are getting redder and redder.",
+    "grammar_point": {
+      "slug": "yuelaiyue",
+      "name": "More and more with 越来越"
+    },
+    "word_bank": [
+      "脸",
+      "他",
+      "和",
+      "的",
+      "脖子",
+      "越来越",
+      "红"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "他",
+        "的",
+        "脖子",
+        "和",
+        "脸",
+        "越来越",
+        "红",
+        "。"
+      ],
+      [
+        "他",
+        "的",
+        "脸",
+        "和",
+        "脖子",
+        "越来越",
+        "红",
         "。"
       ]
     ]

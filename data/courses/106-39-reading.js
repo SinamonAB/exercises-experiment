@@ -1,12 +1,12 @@
 exerciseList = [
   {
     "question_type": "reading",
-    "question": "简西在地面塌陷前做了什么?",
+    "question": "为了阻止地面塌陷，简西做了什么？",
     "answer_options": [
-      "a. 解开铁盒",
+      "a. 关上铁盒",
       "b. 拿出羊皮国书",
       "c. 摆完最后一颗棋子",
-      "d. 救了江杨"
+      "d. 拉住江杨"
     ],
     "solution": 2
   },

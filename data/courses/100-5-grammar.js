@@ -57,25 +57,33 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "They ate together.",
+    "english": "An Xin's dad came to pick her up from work.",
     "grammar_point": {
       "slug": "le-completed",
       "name": "了 to indicate completed actions"
     },
     "word_bank": [
+      "的",
       "了",
-      "吃饭",
-      "一起",
-      "他们"
+      "安心",
+      "接",
+      "她",
+      "下班",
+      "爸爸",
+      "来"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "他们",
-        "一起",
-        "吃饭",
+        "安心",
+        "的",
+        "爸爸",
+        "来",
+        "接",
+        "她",
+        "下班",
         "了",
         "。"
       ]
@@ -189,6 +197,59 @@ exerciseList = [
         "书店",
         "很",
         "近",
+        "。"
+      ],
+      [
+        "书店",
+        "离",
+        "关",
+        "队长",
+        "的",
+        "家",
+        "很",
+        "近",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "My home is 10 kilometers away from the company.",
+    "grammar_point": {
+      "slug": "li",
+      "name": "Distance with 离"
+    },
+    "word_bank": [
+      "公里",
+      "家",
+      "离",
+      "我",
+      "有",
+      "公司",
+      "十"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "我",
+        "家",
+        "离",
+        "公司",
+        "有",
+        "十",
+        "公里",
+        "。"
+      ],
+      [
+        "公司",
+        "离",
+        "我",
+        "家",
+        "有",
+        "十",
+        "公里",
         "。"
       ]
     ]

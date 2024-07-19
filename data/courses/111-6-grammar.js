@@ -89,21 +89,19 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "孙策",
-      "公",
-      "著",
+      "着",
       "坐",
-      "休息"
+      "休息",
+      "公孙策"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "公",
-        "孙策",
+        "公孙策",
         "坐",
-        "著",
+        "着",
         "休息",
         "。"
       ]
@@ -117,13 +115,13 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "天",
-      "暗",
-      "越来越",
-      "，",
-      "雪",
-      "著",
+      "着",
       "细",
+      "，",
+      "暗",
+      "天",
+      "越来越",
+      "雪",
       "飘"
     ],
     "prefilled_postfix": [
@@ -134,7 +132,7 @@ exerciseList = [
         "细",
         "雪",
         "飘",
-        "著",
+        "着",
         "，",
         "天",
         "越来越",
@@ -151,13 +149,13 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "他们",
-      "火把",
-      "房子",
+      "走进",
       "了",
       "拿",
-      "著",
-      "走进"
+      "他们",
+      "着",
+      "火把",
+      "房子"
     ],
     "prefilled_postfix": [
       "。"
@@ -166,11 +164,41 @@ exerciseList = [
       [
         "他们",
         "拿",
-        "著",
+        "着",
         "火把",
         "走进",
         "了",
         "房子",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Gongsun Ce is anxiously paddling the boat.",
+    "grammar_point": {
+      "slug": "zhe",
+      "name": "Continuous action or state with 着"
+    },
+    "word_bank": [
+      "公孙策",
+      "船",
+      "着急",
+      "着",
+      "地",
+      "划"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "公孙策",
+        "着急",
+        "地",
+        "划",
+        "着",
+        "船",
         "。"
       ]
     ]

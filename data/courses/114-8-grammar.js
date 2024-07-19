@@ -1,60 +1,6 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Gu Wanli was very anxious and extremely worried.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "担心",
-      "了",
-      "万里",
-      "顾",
-      "心里",
-      "七上八下",
-      "他",
-      "，",
-      "的",
-      "的",
-      "极"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "顾",
-        "万里",
-        "的",
-        "心里",
-        "七上八下",
-        "的",
-        "，",
-        "他",
-        "担心",
-        "极",
-        "了",
-        "。"
-      ],
-      [
-        "他",
-        "担心",
-        "极",
-        "了",
-        "，",
-        "顾",
-        "万里",
-        "的",
-        "心里",
-        "七上八下",
-        "的",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "He arrived, and their son Gu Lai died.",
     "grammar_point": {
       "slug": "le-change",
@@ -62,16 +8,15 @@ exerciseList = [
     },
     "word_bank": [
       "他们",
-      "来",
       "死",
+      "了",
       "他",
-      "顾",
+      "顾来",
       "了",
       "的",
       "到",
       "，",
-      "儿子",
-      "了"
+      "儿子"
     ],
     "prefilled_postfix": [
       "。"
@@ -85,8 +30,7 @@ exerciseList = [
         "他们",
         "的",
         "儿子",
-        "顾",
-        "来",
+        "顾来",
         "死",
         "了",
         "。"
@@ -101,22 +45,20 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
-      "下",
       "雨",
       "外面",
-      "的",
-      "了",
-      "天",
       "越",
-      "大",
-      "越"
+      "了",
+      "越",
+      "的",
+      "下",
+      "大"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "天",
         "外面",
         "的",
         "雨",
@@ -124,6 +66,42 @@ exerciseList = [
         "下",
         "越",
         "大",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Gu Wanli suddenly quieted down.",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "了",
+      "下来",
+      "突然",
+      "安静",
+      "顾万里"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "顾万里",
+        "突然",
+        "安静",
+        "了",
+        "下来",
+        "。"
+      ],
+      [
+        "顾万里",
+        "突然",
+        "安静",
+        "下来",
         "了",
         "。"
       ]
@@ -140,25 +118,21 @@ exerciseList = [
       "，",
       "和",
       "坐",
-      "着",
-      "夏",
-      "万里",
       "说话",
       "不",
       "想",
-      "舒",
-      "顾"
+      "夏舒",
+      "着",
+      "顾万里"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "顾",
-        "万里",
+        "顾万里",
         "和",
-        "夏",
-        "舒",
+        "夏舒",
         "坐",
         "着",
         "，",
@@ -168,11 +142,9 @@ exerciseList = [
         "。"
       ],
       [
-        "夏",
-        "舒",
+        "夏舒",
         "和",
-        "顾",
-        "万里",
+        "顾万里",
         "坐",
         "着",
         "，",
@@ -211,36 +183,6 @@ exerciseList = [
         "一",
         "张",
         "银行卡",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Manager Chang looks sad.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "常",
-      "一",
-      "脸",
-      "难过",
-      "着",
-      "经理"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "常",
-        "经理",
-        "一",
-        "脸",
-        "难过",
-        "着",
         "。"
       ]
     ]
