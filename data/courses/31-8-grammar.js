@@ -139,30 +139,6 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Mom is asleep. ",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "睡觉",
-      "了",
-      "妈妈"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "妈妈",
-        "睡觉",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "I miss home. (I didn't miss home before, and now I do)",
     "grammar_point": {
       "slug": "le-change",
