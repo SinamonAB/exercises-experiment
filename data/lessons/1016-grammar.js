@@ -1,7 +1,7 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Preserved eggs and regular eggs are both different.",
+    "english": "Century eggs and regular eggs are both different.",
     "grammar_point": {
       "slug": "dou",
       "name": "都"
@@ -40,7 +40,7 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Preserved eggs with thin meat congee and preserved eggs with chopped chili are both delicious.",
+    "english": "Century eggs with thin meat congee and century eggs with chopped chili are both delicious.",
     "grammar_point": {
       "slug": "dou",
       "name": "都"
@@ -79,7 +79,7 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Foreigners and some Chinese people both dare not eat preserved eggs.",
+    "english": "Both foreigners and some Chinese people are afraid to eat century eggs.",
     "grammar_point": {
       "slug": "dou",
       "name": "都"
@@ -145,6 +145,18 @@ exerciseList = [
         "酸",
         "又",
         "辣",
+        "，",
+        "所以",
+        "很多人喜欢",
+        "。"
+      ],
+      [
+        "因为",
+        "剁椒皮蛋",
+        "又",
+        "辣",
+        "又",
+        "酸",
         "，",
         "所以",
         "很多人喜欢",
