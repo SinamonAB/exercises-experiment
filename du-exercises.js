@@ -170,20 +170,13 @@
                     </div>
                 </div>
             </div>`);
-        $(".lesson-content").first().after(exercisesBodyEl).after(exercisesHeaderEl).after("<hr class='exercises-hr'>");
+        $(".lesson-content-container").append(exercisesHeaderEl).append(exercisesBodyEl).append("<hr class='exercises-hr'>");
         $("body").append(exercisesDisclaimerModalEl);
         const exercisesEl = exercisesBodyEl.find(".exercises");
         const testingHeaderEl = exercisesHeaderEl.find(".exercise-progress-testing");
         const summaryHeaderEl = exercisesHeaderEl.find(".exercise-progress-summary");
         const progressIconsEl = exercisesHeaderEl.find(".progress-icons");
         const progressTextEl = exercisesHeaderEl.find(".progress-text");
-
-        // Stop scrolling of "sticky header" past exercise section
-        $(window).scroll(function () {
-            const containerTop = exercisesHeaderEl.offset().top - $(window).scrollTop() - $(".du-translation-fixed").height();
-            const navbarHeight = $(".navbar:not(.hidden)").height();
-            $(".lesson-content-container .du-translation-fixed").css("top", Math.min(navbarHeight, containerTop));
-        });
 
         const CompletionStatus = {
             Correct: "correct",
