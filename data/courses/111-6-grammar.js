@@ -61,19 +61,17 @@ exerciseList = [
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "小",
-      "了",
-      "岛",
+      "小岛",
+      "近",
       "越来越",
-      "近"
+      "了"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "小",
-        "岛",
+        "小岛",
         "越来越",
         "近",
         "了",
@@ -109,31 +107,25 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Light snow is falling, and the sky is getting darker.",
+    "english": "As light snow is falling the sky is getting darker.",
     "grammar_point": {
       "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "着",
-      "细",
-      "，",
-      "暗",
       "天",
-      "越来越",
-      "雪",
-      "飘"
+      "细雪飘",
+      "暗",
+      "着",
+      "越来越"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "细",
-        "雪",
-        "飘",
+        "细雪飘",
         "着",
-        "，",
         "天",
         "越来越",
         "暗",
@@ -169,36 +161,6 @@ exerciseList = [
         "走进",
         "了",
         "房子",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Gongsun Ce is anxiously paddling the boat.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "公孙策",
-      "船",
-      "着急",
-      "着",
-      "地",
-      "划"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "公孙策",
-        "着急",
-        "地",
-        "划",
-        "着",
-        "船",
         "。"
       ]
     ]

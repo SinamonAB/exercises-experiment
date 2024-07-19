@@ -25,19 +25,17 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "An Xin left in her dad's car.",
+    "english": "An Xin drove away in her dad's car.",
     "grammar_point": {
       "slug": "le-completed",
       "name": "了 to indicate completed actions"
     },
     "word_bank": [
       "安心",
-      "坐",
-      "车",
       "了",
-      "的",
-      "爸爸",
-      "走"
+      "坐",
+      "走",
+      "爸爸的车"
     ],
     "prefilled_postfix": [
       "。"
@@ -46,9 +44,7 @@ exerciseList = [
       [
         "安心",
         "坐",
-        "爸爸",
-        "的",
-        "车",
+        "爸爸的车",
         "走",
         "了",
         "。"
@@ -63,13 +59,10 @@ exerciseList = [
       "name": "了 to indicate completed actions"
     },
     "word_bank": [
-      "的",
+      "安心的爸爸",
+      "她下班",
       "了",
-      "安心",
       "接",
-      "她",
-      "下班",
-      "爸爸",
       "来"
     ],
     "prefilled_postfix": [
@@ -77,13 +70,10 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "安心",
-        "的",
-        "爸爸",
+        "安心的爸爸",
         "来",
         "接",
-        "她",
-        "下班",
+        "她下班",
         "了",
         "。"
       ]
@@ -98,21 +88,17 @@ exerciseList = [
     },
     "word_bank": [
       "离",
-      "的",
-      "近",
       "很",
-      "关一文",
-      "警察局",
-      "家"
+      "近",
+      "关一文的家",
+      "警察局"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "关一文",
-        "的",
-        "家",
+        "关一文的家",
         "离",
         "警察局",
         "很",
@@ -122,9 +108,7 @@ exerciseList = [
       [
         "警察局",
         "离",
-        "关一文",
-        "的",
-        "家",
+        "关一文的家",
         "很",
         "近",
         "。"
@@ -175,24 +159,18 @@ exerciseList = [
       "name": "Distance with 离"
     },
     "word_bank": [
-      "家",
-      "队长",
       "离",
-      "的",
-      "近",
-      "关",
+      "关队长的家",
       "书店",
-      "很"
+      "很",
+      "近"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "关",
-        "队长",
-        "的",
-        "家",
+        "关队长的家",
         "离",
         "书店",
         "很",
@@ -202,54 +180,9 @@ exerciseList = [
       [
         "书店",
         "离",
-        "关",
-        "队长",
-        "的",
-        "家",
+        "关队长的家",
         "很",
         "近",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "My home is 10 kilometers away from the company.",
-    "grammar_point": {
-      "slug": "li",
-      "name": "Distance with 离"
-    },
-    "word_bank": [
-      "公里",
-      "家",
-      "离",
-      "我",
-      "有",
-      "公司",
-      "十"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "我",
-        "家",
-        "离",
-        "公司",
-        "有",
-        "十",
-        "公里",
-        "。"
-      ],
-      [
-        "公司",
-        "离",
-        "我",
-        "家",
-        "有",
-        "十",
-        "公里",
         "。"
       ]
     ]
