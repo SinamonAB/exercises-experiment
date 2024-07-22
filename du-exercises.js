@@ -127,7 +127,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p>We’re testing new ways to engage with you, making using Du Chinese even more valuable.</p>
+                            <p>We’re testing new ways to engage you, making using Du Chinese even more valuable.</p>
                             <p>This experimental feature is still in the work, therefore we’re still figuring out in which form and when it will be added to Du Chinese.
                             For now, exercises are only available on the web for a small number of lessons.</p>
                             <p>You can help us by trying out the exercises and giving us feedback on the summary screen after solving all the questions.</p>
