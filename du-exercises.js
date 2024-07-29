@@ -69,30 +69,7 @@
         // Wait for page to load
         await waitForElement(".lesson-content");
 
-        // Get control group
-        let exerciseSet = undefined;
-        let userEmail = $("#vue-root").attr("data-email");  // avoid caching
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.has("exercise-set")) {
-            // If URL contains exercise-set=XX, override control group
-            exerciseSet = urlParams.get("exercise-set");
-        } else if (userEmail === undefined && localStorage.getItem("du-exercises-state") === null) {
-            console.log("User not logged in, not showing exercises.");
-            return;
-        } else if (userEmail !== undefined) {
-            let emailChecksum = 0;
-            for (let char of await hashEmail(userEmail)) {
-                emailChecksum ^= char.charCodeAt(0);
-            }
-            exerciseSet = Math.abs(emailChecksum % 2) === 0 ? "reading" : "grammar";
-        } else {
-            // use exerciseSet from previous state. Even if the users log out after loading the exercise section once,
-            // we cache the set here.
-            exerciseSet = JSON.parse(localStorage.getItem("du-exercises-state")).exercise_set;
-        }
-
         // Get the lesson ID from the URL
-        let dataPath;
         let lessonId;
         if (window.location.pathname.startsWith("/lessons/")) {
             if (window.location.pathname.startsWith("/lessons/courses/")) {
@@ -104,14 +81,37 @@
                 // URL: /lesson/1580-the-addiction-economy-of-milk-tea
                 lessonId = "lessons/" + window.location.pathname.split("/")[2].split("-")[0];
             }
-            dataPath = `${rootPath}/data/${lessonId}-${exerciseSet}.js`;
-            console.log(`Loading exercises for ${lessonId} in set ${exerciseSet}`);
         } else {
             console.log("No exercise data found");
             return;
         }
+        const localStorageKey = `du-exercises-state-${lessonId}`;
+
+        // Get control group
+        let exerciseSet = undefined;
+        let userEmail = $("#vue-root").attr("data-email");  // avoid caching
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("exercise-set")) {
+            // If URL contains exercise-set=XX, override control group
+            exerciseSet = urlParams.get("exercise-set");
+        } else if (userEmail === undefined && localStorage.getItem(localStorageKey) === null) {
+            console.log("User not logged in, not showing exercises.");
+            return;
+        } else if (userEmail !== undefined) {
+            let emailChecksum = 0;
+            for (let char of await hashEmail(userEmail)) {
+                emailChecksum ^= char.charCodeAt(0);
+            }
+            exerciseSet = Math.abs(emailChecksum % 2) === 0 ? "reading" : "grammar";
+        } else {
+            // use exerciseSet from previous state. Even if the users log out after loading the exercise section once,
+            // we cache the set here.
+            exerciseSet = JSON.parse(localStorage.getItem(localStorageKey)).exercise_set;
+        }
 
         // Load exercise JSON file into variable `exerciseList`
+        const dataPath = `${rootPath}/data/${lessonId}-${exerciseSet}.js`;
+        console.log(`Loading exercises for ${lessonId} in set ${exerciseSet}`);
         await $.getScript(dataPath);
 
         // Cleanup previous exercises
@@ -232,7 +232,7 @@
         }
         const updateExercisesBasedOnState = () => {
             // store state
-            localStorage.setItem("du-exercises-state", JSON.stringify(state));
+            localStorage.setItem(localStorageKey, JSON.stringify(state));
             console.log("Stored state in local storage", state);
 
             // update website
@@ -603,12 +603,12 @@
         };
         const summaryEl = makeSummaryEl();
 
-        const storedState = localStorage.getItem("du-exercises-state");
+        const storedState = localStorage.getItem(localStorageKey);
         if (storedState !== null) {
             const parsedStoredState = JSON.parse(storedState);
             if (parsedStoredState.exercise_set === state.exercise_set && parsedStoredState.lesson === state.lesson) {
                 state = parsedStoredState;
-                console.log("Loaded state from local storage", state);
+                console.log("Loaded state from local storage", state, "at", localStorageKey);
                 // if the user checked the answer for a question, but did not precede to the next question, we simply
                 // do that now
                 if (state.question_completion_status[state.current_question_num] !== CompletionStatus.Current) {
