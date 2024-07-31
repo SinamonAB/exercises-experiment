@@ -31,10 +31,11 @@ exerciseList = [
       "name": "了 to indicate completed actions"
     },
     "word_bank": [
+      "了",
+      "妈妈",
       "苹果",
       "吃",
-      "了",
-      "妈妈"
+      "一个"
     ],
     "prefilled_postfix": [
       "。"
@@ -44,13 +45,7 @@ exerciseList = [
         "妈妈",
         "吃",
         "了",
-        "苹果",
-        "。"
-      ],
-      [
-        "妈妈",
-        "吃",
-        "了",
+        "一个",
         "苹果",
         "。"
       ]
@@ -121,34 +116,6 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "I am sleeping under the table.",
-    "grammar_point": {
-      "slug": "zhengzai",
-      "name": "Actions in progress with 在 / 正在"
-    },
-    "word_bank": [
-      "睡觉",
-      "下面",
-      "桌子",
-      "在",
-      "我"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "我",
-        "在",
-        "桌子",
-        "下面",
-        "睡觉",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "He is buying fruits and vegetables.",
     "grammar_point": {
       "slug": "zhengzai",
@@ -188,85 +155,27 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Xixi is really happy!",
+    "english": "She is cooking rice.",
     "grammar_point": {
-      "slug": "tai-le",
-      "name": "Emphasizing with 太...(了)"
+      "slug": "zhengzai",
+      "name": "Actions in progress with 在 / 正在"
     },
     "word_bank": [
-      "高兴",
-      "了",
-      "西西",
-      "太"
+      "她",
+      "米饭",
+      "做",
+      "在"
     ],
     "prefilled_postfix": [
-      "！"
+      "。"
     ],
     "solutions": [
       [
-        "西西",
-        "太",
-        "高兴",
-        "了",
-        "！"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Mom really likes Guoguo!",
-    "grammar_point": {
-      "slug": "tai-le",
-      "name": "Emphasizing with 太...(了)"
-    },
-    "word_bank": [
-      "了",
-      "太",
-      "妈妈",
-      "喜欢",
-      "果果"
-    ],
-    "prefilled_postfix": [
-      "！"
-    ],
-    "solutions": [
-      [
-        "妈妈",
-        "太",
-        "喜欢",
-        "果果",
-        "了",
-        "！"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Guoguo’s friend is really good!",
-    "grammar_point": {
-      "slug": "tai-le",
-      "name": "Emphasizing with 太...(了)"
-    },
-    "word_bank": [
-      "的",
-      "了",
-      "果果",
-      "好",
-      "朋友",
-      "太"
-    ],
-    "prefilled_postfix": [
-      "！"
-    ],
-    "solutions": [
-      [
-        "果果",
-        "的",
-        "朋友",
-        "太",
-        "好",
-        "了",
-        "！"
+        "她",
+        "在",
+        "做",
+        "米饭",
+        "。"
       ]
     ]
   }

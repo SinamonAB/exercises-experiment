@@ -7,13 +7,12 @@ exerciseList = [
       "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "太",
-      "好事",
-      "是",
-      "别",
-      "晚",
-      "但",
       "学习",
+      "是",
+      "太晚",
+      "好事",
+      "别",
+      "但",
       "睡觉",
       "，",
       "虽然",
@@ -32,8 +31,7 @@ exerciseList = [
         "但",
         "也",
         "别",
-        "太",
-        "晚",
+        "太晚",
         "睡觉",
         "。"
       ]
@@ -48,15 +46,14 @@ exerciseList = [
     },
     "word_bank": [
       "但是",
-      "会",
+      "会做",
       "我",
       "多",
       "都",
       "虽然",
       "有点儿",
       "，",
-      "题",
-      "做"
+      "题"
     ],
     "prefilled_postfix": [
       "。"
@@ -71,32 +68,27 @@ exerciseList = [
         "但是",
         "我",
         "都",
-        "会",
-        "做",
+        "会做",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Although Mom’s company is not busy, we are still busy.",
+    "english": "Although this book is a bit long, I like it.",
     "grammar_point": {
       "slug": "suiran",
       "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "忙",
-      "不",
+      "长",
+      "有点儿",
+      "虽然",
       "，",
-      "工作",
-      "公司",
-      "很",
-      "的",
-      "妈妈",
-      "也",
-      "我们",
-      "忙",
-      "虽然"
+      "但是",
+      "喜欢",
+      "我",
+      "这本书"
     ],
     "prefilled_postfix": [
       "。"
@@ -104,185 +96,25 @@ exerciseList = [
     "solutions": [
       [
         "虽然",
-        "妈妈",
-        "公司",
-        "的",
-        "工作",
-        "不",
-        "忙",
+        "这本书",
+        "有点儿",
+        "长",
         "，",
-        "我们",
-        "也",
-        "很",
-        "忙",
+        "但是",
+        "我",
+        "喜欢",
         "。"
       ],
       [
+        "这本书",
         "虽然",
-        "妈妈",
-        "的",
-        "公司",
-        "工作",
-        "不",
-        "忙",
+        "有点儿",
+        "长",
         "，",
-        "我们",
-        "也",
-        "很",
-        "忙",
+        "但是",
+        "我",
+        "喜欢",
         "。"
-      ],
-      [
-        "虽然",
-        "妈妈",
-        "的",
-        "公司",
-        "工作",
-        "不",
-        "忙",
-        "，",
-        "我们",
-        "很",
-        "忙",
-        "也",
-        "。"
-      ],
-      [
-        "妈妈",
-        "公司",
-        "的",
-        "工作",
-        "虽然",
-        "不",
-        "忙",
-        "，",
-        "我们",
-        "也",
-        "很",
-        "忙",
-        "。"
-      ],
-      [
-        "妈妈",
-        "的",
-        "公司",
-        "工作",
-        "虽然",
-        "不",
-        "忙",
-        "，",
-        "我们",
-        "也",
-        "很",
-        "忙",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Anne got first place in the exam today.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "第一",
-      "了",
-      "考",
-      "今天",
-      "名",
-      "Anne"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "Anne",
-        "今天",
-        "考",
-        "第一",
-        "名",
-        "了",
-        "。"
-      ],
-      [
-        "今天",
-        "Anne",
-        "考",
-        "第一",
-        "名",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Anne has finished reading the book.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "了",
-      "书",
-      "已经",
-      "完",
-      "Anne",
-      "看"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "Anne",
-        "已经",
-        "看",
-        "完",
-        "书",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Anne has learned the meaning of \"You are the April of the world.\"",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "“",
-      "的",
-      "人间",
-      "天",
-      "了",
-      "你",
-      "是",
-      "知道",
-      "Anne",
-      "四月"
-    ],
-    "prefilled_postfix": [
-      "”。"
-    ],
-    "solutions": [
-      [
-        "Anne",
-        "知道",
-        "了",
-        "“",
-        "你",
-        "是",
-        "人间",
-        "的",
-        "四月",
-        "天",
-        "”。"
       ]
     ]
   },
@@ -294,18 +126,16 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "呢",
-      "得",
-      "第一",
-      "因为",
-      "准备",
-      "Anne",
-      "考",
-      "好",
-      "所以",
+      "第一名",
       "能",
-      "名",
-      "，"
+      "所以",
+      "准备",
+      "好",
+      "因为",
+      "得",
+      "，",
+      "考",
+      "Anne"
     ],
     "prefilled_postfix": [
       "。"
@@ -321,106 +151,153 @@ exerciseList = [
         "所以",
         "能",
         "考",
-        "第一",
-        "名",
-        "呢",
+        "第一名",
         "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because studying is a good thing, Anne is busy every day.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "好事",
-      "每天",
-      "是",
-      "学习",
-      "忙",
-      "Anne",
-      "很",
-      "因为",
-      "都",
-      "，",
-      "所以"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
+      ],
       [
+        "Anne",
         "因为",
-        "学习",
-        "是",
-        "好事",
+        "准备",
+        "得",
+        "好",
         "，",
         "所以",
-        "Anne",
-        "每天",
-        "都",
-        "很",
-        "忙",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because Xiaobei gave Anne a book, she is very happy.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "很",
-      "书",
-      "了",
-      "Anne",
-      "高兴",
-      "送",
-      "因为",
-      "，",
-      "所以",
-      "小北",
-      "Anne",
-      "给"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "小北",
-        "送",
-        "了",
-        "书",
-        "给",
-        "Anne",
-        "，",
-        "所以",
-        "Anne",
-        "很",
-        "高兴",
+        "能",
+        "考",
+        "第一名",
         "。"
       ],
       [
         "因为",
-        "小北",
-        "给",
-        "Anne",
-        "送",
-        "了",
-        "书",
+        "准备",
+        "得",
+        "好",
         "，",
         "所以",
         "Anne",
-        "很",
-        "高兴",
+        "能",
+        "考",
+        "第一名",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Because there were too many questions, so I didn't finish them.",
+    "grammar_point": {
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
+    },
+    "word_bank": [
+      "我",
+      "所以",
+      "没有",
+      "做",
+      "题",
+      "，",
+      "因为",
+      "太多",
+      "完"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "因为",
+        "题",
+        "太多",
+        "，",
+        "所以",
+        "我",
+        "没有",
+        "做",
+        "完",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Because I didn't sleep last night, I am very tired now.",
+    "grammar_point": {
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
+    },
+    "word_bank": [
+      "昨晚",
+      "很累",
+      "我",
+      "没有",
+      "，",
+      "现在",
+      "因为",
+      "所以",
+      "睡觉"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "因为",
+        "我",
+        "昨晚",
+        "没有",
+        "睡觉",
+        "，",
+        "所以",
+        "现在",
+        "很累",
+        "。"
+      ],
+      [
+        "因为",
+        "昨晚",
+        "我",
+        "没有",
+        "睡觉",
+        "，",
+        "所以",
+        "现在",
+        "很累",
+        "。"
+      ],
+      [
+        "因为",
+        "昨晚",
+        "没有",
+        "睡觉",
+        "，",
+        "所以",
+        "现在",
+        "我",
+        "很累",
+        "。"
+      ],
+      [
+        "因为",
+        "昨晚",
+        "没有",
+        "睡觉",
+        "，",
+        "所以",
+        "我",
+        "现在",
+        "很累",
+        "。"
+      ],
+      [
+        "我",
+        "因为",
+        "昨晚",
+        "没有",
+        "睡觉",
+        "，",
+        "所以",
+        "现在",
+        "很累",
         "。"
       ]
     ]

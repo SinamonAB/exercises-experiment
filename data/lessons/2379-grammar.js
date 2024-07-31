@@ -7,16 +7,16 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "好",
-      "努力",
-      "，",
       "如果",
-      "成绩",
-      "学习",
-      "就",
-      "取得",
       "会",
-      "你"
+      "学习",
+      "成绩",
+      "取得",
+      "，",
+      "好",
+      "你",
+      "就",
+      "努力"
     ],
     "prefilled_postfix": [
       "。"
@@ -25,6 +25,19 @@ exerciseList = [
       [
         "如果",
         "你",
+        "努力",
+        "学习",
+        "，",
+        "就",
+        "会",
+        "取得",
+        "好",
+        "成绩",
+        "。"
+      ],
+      [
+        "如果",
+        "你",
         "学习",
         "努力",
         "，",
@@ -49,11 +62,37 @@ exerciseList = [
         "。"
       ],
       [
-        "如果",
         "你",
+        "如果",
         "努力",
         "学习",
         "，",
+        "就",
+        "会",
+        "取得",
+        "好",
+        "成绩",
+        "。"
+      ],
+      [
+        "如果",
+        "学习",
+        "努力",
+        "，",
+        "你",
+        "就",
+        "会",
+        "取得",
+        "好",
+        "成绩",
+        "。"
+      ],
+      [
+        "如果",
+        "努力",
+        "学习",
+        "，",
+        "你",
         "就",
         "会",
         "取得",
@@ -71,22 +110,22 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "你",
-      "了",
-      "要是",
+      "一会儿",
       "累",
-      "就",
-      "休息",
+      "要是",
       "，",
-      "一会儿"
+      "你",
+      "休息",
+      "就",
+      "了"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "要是",
         "你",
+        "要是",
         "累",
         "了",
         "，",
@@ -101,6 +140,17 @@ exerciseList = [
         "累",
         "了",
         "，",
+        "就",
+        "休息",
+        "一会儿",
+        "。"
+      ],
+      [
+        "要是",
+        "累",
+        "了",
+        "，",
+        "你",
         "就",
         "休息",
         "一会儿",
@@ -141,101 +191,17 @@ exerciseList = [
         "去",
         "吧",
         "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "A few months later, the horse came back on its own.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "马",
-      "自己",
-      "回来",
-      "几",
-      "了",
-      "月",
-      "后",
-      "，",
-      "个"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
+      ],
       [
-        "几",
-        "个",
-        "月",
-        "后",
+        "明天",
+        "要是",
+        "下雨",
         "，",
-        "马",
-        "自己",
-        "回来",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The son broke his thigh.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "了",
-      "大腿",
-      "儿子",
-      "断",
-      "摔"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "儿子",
-        "摔",
-        "断",
-        "了",
-        "大腿",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The neighbors heard about this.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "邻居",
-      "听说",
-      "了",
-      "件",
-      "这",
-      "事",
-      "们"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "邻居",
-        "们",
-        "听说",
-        "了",
-        "这",
-        "件",
-        "事",
+        "我们",
+        "就",
+        "改天",
+        "去",
+        "吧",
         "。"
       ]
     ]
@@ -248,52 +214,22 @@ exerciseList = [
       "name": "都"
     },
     "word_bank": [
+      "邻居们",
       "聊天",
-      "邻居",
-      "们",
-      "老大爷",
       "都",
-      "陪"
+      "陪",
+      "老大爷"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "邻居",
-        "们",
+        "邻居们",
         "都",
         "陪",
         "老大爷",
         "聊天",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The neighbors all congratulated the old man.",
-    "grammar_point": {
-      "slug": "dou",
-      "name": "都"
-    },
-    "word_bank": [
-      "祝贺",
-      "老大爷",
-      "都",
-      "们",
-      "邻居"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "邻居",
-        "们",
-        "都",
-        "祝贺",
-        "老大爷",
         "。"
       ]
     ]
@@ -306,25 +242,53 @@ exerciseList = [
       "name": "都"
     },
     "word_bank": [
+      "都",
       "了",
-      "觉得",
-      "可惜",
-      "们",
-      "邻居",
       "太",
-      "都"
+      "邻居们",
+      "可惜",
+      "觉得"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "邻居",
-        "们",
+        "邻居们",
         "都",
         "觉得",
         "太",
         "可惜",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "All of their horses came back.",
+    "grammar_point": {
+      "slug": "dou",
+      "name": "都"
+    },
+    "word_bank": [
+      "了",
+      "的",
+      "马",
+      "都",
+      "他们家",
+      "跑回来"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "他们家",
+        "的",
+        "马",
+        "都",
+        "跑回来",
         "了",
         "。"
       ]

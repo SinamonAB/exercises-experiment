@@ -1,20 +1,56 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Even if it’s a low-budget film, the movie is very popular.",
+    "english": "Even if you don't say anything, Grandma will know.",
     "grammar_point": {
       "slug": "jishi",
       "name": "“Even if” with 即使/就算"
     },
     "word_bank": [
-      "小",
-      "受欢迎",
-      "是",
-      "成本",
-      "就算",
+      "奶奶",
+      "会",
+      "你们",
+      "知道",
+      "即使",
+      "，",
       "也",
-      "电影",
-      "很",
+      "不说"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "即使",
+        "你们",
+        "不说",
+        "，",
+        "奶奶",
+        "也",
+        "会",
+        "知道",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Even if I haven't been to China, I still know that city.",
+    "grammar_point": {
+      "slug": "jishi",
+      "name": "“Even if” with 即使/就算"
+    },
+    "word_bank": [
+      "中国",
+      "去",
+      "就算",
+      "我",
+      "城市",
+      "过",
+      "知道",
+      "那个",
+      "没有",
+      "也",
       "，"
     ],
     "prefilled_postfix": [
@@ -23,50 +59,67 @@ exerciseList = [
     "solutions": [
       [
         "就算",
-        "是",
-        "小",
-        "成本",
+        "没有",
+        "去",
+        "过",
+        "中国",
         "，",
-        "电影",
+        "我",
         "也",
-        "很",
-        "受欢迎",
+        "知道",
+        "那个",
+        "城市",
         "。"
       ],
       [
         "就算",
-        "电影",
-        "是",
-        "小",
-        "成本",
+        "我",
+        "没有",
+        "去",
+        "过",
+        "中国",
         "，",
         "也",
-        "很",
-        "受欢迎",
+        "知道",
+        "那个",
+        "城市",
+        "。"
+      ],
+      [
+        "我",
+        "就算",
+        "没有",
+        "去",
+        "过",
+        "中国",
+        "，",
+        "也",
+        "知道",
+        "那个",
+        "城市",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Even if the family is in the USA, they will return to China to see grandmother.",
+    "english": "Even though the families lived in different countries, their hearts were not separated.",
     "grammar_point": {
       "slug": "jishi",
       "name": "“Even if” with 即使/就算"
     },
     "word_bank": [
-      "在",
-      "家人",
-      "美国",
-      "中国",
+      "家人们",
+      "心",
       "也",
-      "奶奶",
-      "回",
-      "看",
-      "，",
-      "会",
       "即使",
-      "他们"
+      "国家",
+      "住在",
+      "他们的",
+      "没有",
+      "不同的",
+      "分开",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -74,109 +127,16 @@ exerciseList = [
     "solutions": [
       [
         "即使",
-        "家人",
-        "在",
-        "美国",
+        "家人们",
+        "住在",
+        "不同的",
+        "国家",
         "，",
-        "他们",
+        "他们的",
+        "心",
         "也",
-        "会",
-        "回",
-        "中国",
-        "看",
-        "奶奶",
-        "。"
-      ],
-      [
-        "即使",
-        "家人",
-        "在",
-        "美国",
-        "，",
-        "他们",
-        "也",
-        "会",
-        "回",
-        "中国",
-        "看",
-        "奶奶",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Even if it’s real life, the movie moved many viewers.",
-    "grammar_point": {
-      "slug": "jishi",
-      "name": "“Even if” with 即使/就算"
-    },
-    "word_bank": [
-      "观众",
-      "，",
-      "感动",
-      "就算",
-      "许多",
-      "也",
-      "了",
-      "电影",
-      "生活",
-      "真实"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "就算",
-        "真实",
-        "生活",
-        "，",
-        "电影",
-        "也",
-        "感动",
-        "了",
-        "许多",
-        "观众",
-        "。"
-      ],
-      [
-        "就算",
-        "真实",
-        "生活",
-        "，",
-        "电影",
-        "也",
-        "感动",
-        "许多",
-        "观众",
-        "了",
-        "。"
-      ],
-      [
-        "就算",
-        "生活",
-        "真实",
-        "，",
-        "电影",
-        "也",
-        "感动",
-        "了",
-        "许多",
-        "观众",
-        "。"
-      ],
-      [
-        "就算",
-        "生活",
-        "真实",
-        "，",
-        "电影",
-        "也",
-        "感动",
-        "许多",
-        "观众",
-        "了",
+        "没有",
+        "分开",
         "。"
       ]
     ]
@@ -189,19 +149,17 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "你",
-      "吗",
-      "，",
-      "你",
-      "就",
-      "会",
-      "告诉",
-      "她",
-      "奶奶",
-      "的",
       "了",
+      "病",
+      "吗",
+      "告诉",
+      "你",
+      "会",
+      "就",
       "如果",
-      "病"
+      "你奶奶",
+      "，",
+      "她"
     ],
     "prefilled_postfix": [
       "？"
@@ -209,9 +167,7 @@ exerciseList = [
     "solutions": [
       [
         "如果",
-        "你",
-        "的",
-        "奶奶",
+        "你奶奶",
         "病",
         "了",
         "，",
@@ -233,20 +189,18 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "部",
-      "要是",
-      "去",
-      "你",
       "看看",
-      "家庭",
-      "这",
-      "，",
-      "电影",
-      "对",
+      "要是",
       "就",
-      "生活",
+      "你",
+      "家庭生活",
+      "电影",
+      "这部",
+      "对",
+      "去",
+      "感兴趣",
       "中国",
-      "感兴趣"
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -257,15 +211,28 @@ exerciseList = [
         "你",
         "对",
         "中国",
-        "家庭",
-        "生活",
+        "家庭生活",
         "感兴趣",
         "，",
         "就",
         "去",
         "看看",
-        "这",
-        "部",
+        "这部",
+        "电影",
+        "。"
+      ],
+      [
+        "要是",
+        "对",
+        "中国",
+        "家庭生活",
+        "感兴趣",
+        "，",
+        "你",
+        "就",
+        "去",
+        "看看",
+        "这部",
         "电影",
         "。"
       ]
@@ -279,18 +246,16 @@ exerciseList = [
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
+      "能",
       "就",
-      "段",
-      "如果",
-      "来",
-      "过",
+      "，",
       "中国",
       "场景",
-      "那",
-      "，",
+      "如果",
+      "来过",
       "你",
-      "理解",
-      "能"
+      "那段",
+      "理解"
     ],
     "prefilled_postfix": [
       "。"
@@ -299,166 +264,27 @@ exerciseList = [
       [
         "如果",
         "你",
-        "来",
-        "过",
+        "来过",
         "中国",
         "，",
         "就",
         "能",
         "理解",
-        "那",
-        "段",
+        "那段",
         "场景",
         "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because grandma got cancer, the family kept it a secret from her.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "癌症",
-      "她",
-      "家人",
-      "因为",
-      "奶奶",
-      "得",
-      "了",
-      "着",
-      "所以",
-      "瞒",
-      "，"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "奶奶",
-        "得",
-        "了",
-        "癌症",
-        "，",
-        "所以",
-        "家人",
-        "瞒",
-        "着",
-        "她",
-        "。"
       ],
       [
-        "家人",
-        "因为",
-        "奶奶",
-        "得",
-        "了",
-        "癌症",
+        "如果",
+        "来过",
+        "中国",
         "，",
-        "所以",
-        "瞒",
-        "着",
-        "她",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because grandma was sick, the family held a fake wedding.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "举办",
-      "一",
-      "场",
-      "所以",
-      "假",
-      "，",
-      "生病",
-      "因为",
-      "了",
-      "婚礼",
-      "家人",
-      "了",
-      "奶奶"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "奶奶",
-        "生病",
-        "了",
-        "，",
-        "所以",
-        "家人",
-        "举办",
-        "了",
-        "一",
-        "场",
-        "假",
-        "婚礼",
-        "。"
-      ],
-      [
-        "家人",
-        "因为",
-        "奶奶",
-        "生病",
-        "了",
-        "，",
-        "所以",
-        "举办",
-        "了",
-        "一",
-        "场",
-        "假",
-        "婚礼",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because the director is Chinese-American, the movie is very realistic.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "因为",
-      "很",
-      "华裔",
-      "真实",
-      "电影",
-      "所以",
-      "，",
-      "是",
-      "导演"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "导演",
-        "是",
-        "华裔",
-        "，",
-        "所以",
-        "电影",
-        "很",
-        "真实",
+        "你",
+        "就",
+        "能",
+        "理解",
+        "那段",
+        "场景",
         "。"
       ]
     ]

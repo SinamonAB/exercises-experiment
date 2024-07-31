@@ -16,9 +16,20 @@ exerciseList = [
     "answer_options": [
       "a. 门坏了",
       "b. 有人在唱歌",
-      "c. 他们的儿子回来了",
+      "c. 他们听错了",
       "d. 外面有人或东西在撞门"
     ],
     "solution": 3
+  },
+  {
+    "question_type": "reading",
+    "question": "听到歌声以后，夏舒是什么样的？",
+    "answer_options": [
+      "a. 难过",
+      "b. 害怕",
+      "c. 高兴",
+      "d. 生气"
+    ],
+    "solution": 2
   }
 ];

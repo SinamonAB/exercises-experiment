@@ -1,63 +1,19 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "If I think he will come, will he actually come?",
+    "english": "If he comes, I am not coming.",
     "grammar_point": {
       "slug": "ruguo-jiu",
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "，",
-      "会",
-      "他",
-      "他",
-      "就",
-      "会",
       "如果",
+      "就",
       "来",
-      "我",
-      "吗",
-      "以为",
-      "来"
-    ],
-    "prefilled_postfix": [
-      "？"
-    ],
-    "solutions": [
-      [
-        "如果",
-        "我",
-        "以为",
-        "他",
-        "会",
-        "来",
-        "，",
-        "他",
-        "就",
-        "会",
-        "来",
-        "吗",
-        "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "If you have a good method, then tell us.",
-    "grammar_point": {
-      "slug": "ruguo-jiu",
-      "name": "Expressing “if … then …” with 如果, 要是, and 就"
-    },
-    "word_bank": [
-      "就",
-      "好",
-      "我们",
-      "你",
-      "方法",
-      "告诉",
-      "有",
-      "如果",
-      "，"
+      "不来",
+      "他",
+      "，",
+      "我"
     ],
     "prefilled_postfix": [
       "。"
@@ -65,47 +21,32 @@ exerciseList = [
     "solutions": [
       [
         "如果",
-        "你",
-        "有",
-        "好",
-        "方法",
+        "他",
+        "来",
         "，",
+        "我",
         "就",
-        "告诉",
-        "我们",
-        "。"
-      ],
-      [
-        "你",
-        "如果",
-        "有",
-        "好",
-        "方法",
-        "，",
-        "就",
-        "告诉",
-        "我们",
+        "不来",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "If he wants to confuse the opponent, he uses \"Sounding the East and Striking the West\".",
+    "english": "If there is no other way, just use \"Sounding the East and Striking the West\".",
     "grammar_point": {
       "slug": "ruguo-jiu",
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
+      "声东击西",
       "就",
       "用",
-      "声东击西",
-      "想",
-      "，",
-      "他",
-      "迷惑",
       "要是",
-      "对手"
+      "别的",
+      "，",
+      "没有",
+      "办法"
     ],
     "prefilled_postfix": [
       "。"
@@ -113,22 +54,9 @@ exerciseList = [
     "solutions": [
       [
         "要是",
-        "他",
-        "想",
-        "迷惑",
-        "对手",
-        "，",
-        "就",
-        "用",
-        "声东击西",
-        "。"
-      ],
-      [
-        "他",
-        "要是",
-        "想",
-        "迷惑",
-        "对手",
+        "没有",
+        "别的",
+        "办法",
         "，",
         "就",
         "用",
@@ -139,160 +67,51 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because A didn't attack the east, B didn't defend the west.",
+    "english": "If we encounter a strong opponent, we use this method.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "ruguo-jiu",
+      "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "，",
-      "因为",
-      "B",
-      "没有",
-      "东边",
-      "防备",
-      "没有",
-      "西边",
-      "A",
-      "所以",
-      "攻击"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "A",
-        "没有",
-        "攻击",
-        "东边",
-        "，",
-        "所以",
-        "B",
-        "没有",
-        "防备",
-        "西边",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because Zuo Rong said he would attack Ma Xiangdong, Guan Yiwen focused on the east.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "关一文",
-      "东边",
-      "左容",
-      "因为",
-      "在",
-      "说",
-      "所以",
-      "马向东",
-      "要",
-      "，",
-      "重心",
-      "放",
-      "打"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "左容",
-        "说",
-        "要",
-        "打",
-        "马向东",
-        "，",
-        "所以",
-        "关一文",
-        "重心",
-        "放",
-        "在",
-        "东边",
-        "。"
-      ],
-      [
-        "因为",
-        "左容",
-        "说",
-        "要",
-        "打",
-        "马向东",
-        "，",
-        "所以",
-        "关一文",
-        "放",
-        "重心",
-        "在",
-        "东边",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because Guan Yiwen thought Zuo Rong would attack the east, it easily succeeded.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "因为",
-      "容易",
-      "成功",
-      "关一文",
-      "打",
-      "左容",
-      "东边",
-      "所以",
       "就",
-      "以为",
-      "很",
+      "这个",
+      "用",
+      "如果",
+      "对手",
       "，",
-      "了"
+      "厉害的",
+      "遇到",
+      "方法",
+      "我们"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "因为",
-        "关一文",
-        "以为",
-        "左容",
-        "打",
-        "东边",
+        "如果",
+        "我们",
+        "遇到",
+        "厉害的",
+        "对手",
         "，",
-        "所以",
-        "很",
-        "容易",
         "就",
-        "成功",
-        "了",
+        "用",
+        "这个",
+        "方法",
         "。"
       ],
       [
-        "因为",
-        "关一文",
-        "以为",
-        "左容",
-        "打",
-        "东边",
+        "我们",
+        "如果",
+        "遇到",
+        "厉害的",
+        "对手",
         "，",
-        "所以",
         "就",
-        "很",
-        "容易",
-        "成功",
-        "了",
+        "用",
+        "这个",
+        "方法",
         "。"
       ]
     ]
@@ -355,28 +174,26 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The athlete using the feint east and attack west method.",
+    "english": "The opponent who was confused.",
     "grammar_point": {
       "slug": "de-modifying",
       "name": "Modifying with 的"
     },
     "word_bank": [
-      "运动员",
-      "用",
-      "声东击西",
-      "方法",
-      "的"
+      "对手",
+      "迷惑",
+      "的",
+      "被"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "用",
-        "声东击西",
-        "方法",
+        "被",
+        "迷惑",
         "的",
-        "运动员",
+        "对手",
         "。"
       ]
     ]

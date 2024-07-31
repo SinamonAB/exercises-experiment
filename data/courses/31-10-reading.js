@@ -3,7 +3,7 @@ exerciseList = [
     "question_type": "reading",
     "question": "果果买了什么？",
     "answer_options": [
-      "a. 苹果和米饭",
+      "a. 苹果和桌子",
       "b. 茶和书",
       "c. 水果和菜",
       "d. 书和米饭"
