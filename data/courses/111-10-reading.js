@@ -1,23 +1,12 @@
 exerciseList = [
   {
     "question_type": "reading",
-    "question": "关于“太后晚上见包拯”，下面说法正确的是?",
+    "question": "关于“见太后”这件事，下面说法正确的是?",
     "answer_options": [
-      "a. 太后主动要求见包拯",
+      "a. 太后主动要包拯来见她",
       "b. 包拯请张怀叫醒太后",
-      "c. 张怀让包拯进去见太后",
-      "d. 公孙策和包拯一起见到太后"
-    ],
-    "solution": 1
-  },
-  {
-    "question_type": "reading",
-    "question": "关于张怀，下列说法正确的是？",
-    "answer_options": [
-      "a. 对包拯非常尊敬",
-      "b. 不认识楚珠",
-      "c. 愿意让公孙策进去",
-      "d. 最后同意了包拯的请求"
+      "c. 张怀欢迎包拯来见太后",
+      "d. 公孙策和包拯一起见到了太后"
     ],
     "solution": 1
   },

@@ -1,185 +1,22 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "He sent the newly-delivered Li Fei to the Cold Palace.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "生产",
-      "了",
-      "妃",
-      "完",
-      "的",
-      "把",
-      "李",
-      "他",
-      "刚",
-      "宫",
-      "冷",
-      "打进"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "把",
-        "刚",
-        "生产",
-        "完",
-        "的",
-        "李",
-        "妃",
-        "打进",
-        "了",
-        "冷",
-        "宫",
-        "。"
-      ],
-      [
-        "他",
-        "把",
-        "刚",
-        "生产",
-        "完",
-        "的",
-        "李",
-        "妃",
-        "打进",
-        "了",
-        "冷",
-        "宫",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Twenty-one years ago, they were just children of about ten.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "一",
-      "只是",
-      "来",
-      "他们",
-      "岁",
-      "十",
-      "小孩",
-      "年前",
-      "的",
-      "二十"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "二十",
-        "一",
-        "年前",
-        "他们",
-        "只是",
-        "十",
-        "来",
-        "岁",
-        "的",
-        "小孩",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Li Fei and the maids and eunuchs in the Cold Palace were all burned to death.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "妃",
-      "了",
-      "的",
-      "、",
-      "宫",
-      "和",
-      "被",
-      "里",
-      "宫女",
-      "李",
-      "都",
-      "太监",
-      "冷",
-      "烧死"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "李",
-        "妃",
-        "和",
-        "冷",
-        "宫",
-        "里",
-        "的",
-        "宫女",
-        "、",
-        "太监",
-        "都",
-        "被",
-        "烧死",
-        "了",
-        "。"
-      ],
-      [
-        "冷",
-        "宫",
-        "里",
-        "的",
-        "宫女",
-        "、",
-        "太监",
-        "和",
-        "李",
-        "妃",
-        "都",
-        "被",
-        "烧死",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because the candle flame reached the house, a big fire broke out in the Cold Palace.",
+    "english": "The fire broke out because the palace maid knocked over the candlestick.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "烛",
-      "因为",
-      "，",
       "了",
-      "所以",
-      "宫",
-      "冷",
-      "房子",
-      "到",
-      "大火",
       "发生",
-      "火烧",
-      "一",
+      "宫女",
+      "因为",
+      "所以",
+      "烛台",
+      "打翻",
       "了",
-      "场"
+      "大火",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -187,65 +24,50 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "烛",
-        "火烧",
-        "到",
+        "宫女",
+        "打翻",
         "了",
-        "房子",
+        "烛台",
         "，",
         "所以",
-        "冷",
-        "宫",
         "发生",
         "了",
-        "一",
-        "场",
         "大火",
         "。"
       ],
       [
         "因为",
-        "烛",
-        "火烧",
-        "到",
-        "房子",
+        "宫女",
+        "打翻",
         "了",
+        "烛台",
         "，",
         "所以",
-        "冷",
-        "宫",
         "发生",
-        "了",
-        "一",
-        "场",
         "大火",
+        "了",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Because Concubine Liu was frightened, the emperor quickly made her the empress.",
+    "english": "Because Concubinet Liu gave birth to a son, she was named Empress.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "刘",
       "了",
-      "受到",
-      "，",
-      "封",
-      "很",
+      "刘妃",
       "因为",
-      "所以",
-      "皇帝",
-      "快",
-      "她",
+      "儿子",
+      "封为",
+      "被",
       "皇后",
-      "为",
-      "妃",
-      "惊吓"
+      "生",
+      "，",
+      "所以"
     ],
     "prefilled_postfix": [
       "。"
@@ -253,19 +75,40 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "刘",
-        "妃",
-        "受到",
+        "刘妃",
+        "生",
         "了",
-        "惊吓",
+        "儿子",
         "，",
         "所以",
-        "皇帝",
-        "很",
-        "快",
-        "封",
-        "她",
-        "为",
+        "被",
+        "封为",
+        "皇后",
+        "。"
+      ],
+      [
+        "刘妃",
+        "因为",
+        "生",
+        "了",
+        "儿子",
+        "，",
+        "所以",
+        "被",
+        "封为",
+        "皇后",
+        "。"
+      ],
+      [
+        "因为",
+        "生",
+        "了",
+        "儿子",
+        "，",
+        "所以",
+        "刘妃",
+        "被",
+        "封为",
         "皇后",
         "。"
       ]
@@ -273,30 +116,22 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because the young emperor was terrified, he confined Concubine Li to the Cold Palace.",
+    "english": "Not many people know about it because it's an old affair from twenty-one years ago.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "吓",
-      "冷",
-      "打进",
-      "年轻",
-      "，",
+      "知道的",
       "因为",
+      "旧事",
+      "，",
+      "二十一年前",
       "的",
-      "被",
-      "妃",
-      "皇",
-      "到",
-      "他",
-      "把",
+      "不多",
+      "这是",
       "所以",
-      "了",
-      "先",
-      "宫",
-      "李"
+      "人"
     ],
     "prefilled_postfix": [
       "。"
@@ -304,23 +139,15 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "年轻",
+        "这是",
+        "二十一年前",
         "的",
-        "先",
-        "皇",
-        "被",
-        "吓",
-        "到",
-        "了",
+        "旧事",
         "，",
         "所以",
-        "他",
-        "把",
-        "李",
-        "妃",
-        "打进",
-        "冷",
-        "宫",
+        "知道的",
+        "人",
+        "不多",
         "。"
       ]
     ]
@@ -351,33 +178,28 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The Empress Dowager became more and more noble.",
+    "english": "Things are getting more and more complicated.",
     "grammar_point": {
       "slug": "yuelaiyue",
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "尊贵",
+      "复杂",
+      "变得",
       "越来越",
-      "太",
-      "后"
+      "了",
+      "事情"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "太",
-        "后",
+        "事情",
+        "变得",
         "越来越",
-        "尊贵",
-        "。"
-      ],
-      [
-        "越来越",
-        "尊贵",
-        "太",
-        "后",
+        "复杂",
+        "了",
         "。"
       ]
     ]

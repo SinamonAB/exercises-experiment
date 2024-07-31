@@ -1,134 +1,26 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "The Empress Dowager is angry.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "生气",
-      "太",
-      "了",
-      "后"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "太",
-        "后",
-        "生气",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Bao Zheng met the Empress Dowager.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "见到",
-      "后",
-      "太",
-      "了",
-      "拯",
-      "包"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "包",
-        "拯",
-        "见到",
-        "了",
-        "太",
-        "后",
-        "。"
-      ],
-      [
-        "包",
-        "拯",
-        "见到",
-        "太",
-        "后",
-        "了",
-        "。"
-      ],
-      [
-        "包",
-        "拯",
-        "见到",
-        "了",
-        "太",
-        "后",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Zhang Huai angrily shouted.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "生气",
-      "地",
-      "张",
-      "怀",
-      "大叫",
-      "了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "张",
-        "怀",
-        "生气",
-        "地",
-        "大叫",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "The kidnappers kidnapped the Prince.",
     "grammar_point": {
       "slug": "ba",
       "name": "把"
     },
     "word_bank": [
-      "绑架",
       "了",
+      "绑匪",
+      "八王爷",
       "把",
-      "王爷",
-      "绑",
-      "匪",
-      "八"
+      "绑架"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "绑",
-        "匪",
+        "绑匪",
         "把",
-        "八",
-        "王爷",
+        "八王爷",
         "绑架",
         "了",
         "。"
@@ -145,11 +37,10 @@ exerciseList = [
     "word_bank": [
       "他们",
       "出去",
-      "拖",
       "了",
-      "拯",
+      "拖",
       "把",
-      "包"
+      "包拯"
     ],
     "prefilled_postfix": [
       "。"
@@ -158,8 +49,7 @@ exerciseList = [
       [
         "他们",
         "把",
-        "包",
-        "拯",
+        "包拯",
         "拖",
         "出去",
         "了",
@@ -168,8 +58,7 @@ exerciseList = [
       [
         "他们",
         "把",
-        "包",
-        "拯",
+        "包拯",
         "拖",
         "了",
         "出去",
@@ -185,21 +74,19 @@ exerciseList = [
       "name": "把"
     },
     "word_bank": [
-      "首饰",
-      "拯",
       "把",
-      "匪",
-      "绑",
+      "首饰",
       "留给",
-      "包"
+      "绑匪",
+      "包",
+      "拯"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "绑",
-        "匪",
+        "绑匪",
         "把",
         "首饰",
         "留给",
@@ -211,147 +98,116 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "If the Empress Dowager doesn't allow the investigation, Bao Zheng can't continue the case.",
+    "english": "No matter what the kidnapper's intentions are, you can't investigate any further。",
     "grammar_point": {
-      "slug": "ruguo-jiu",
-      "name": "Expressing “if … then …” with 如果, 要是, and 就"
+      "slug": "wulun",
+      "name": "“Regardless” with 无论/不管"
     },
     "word_bank": [
-      "不",
-      "继续",
-      "后",
-      "太",
-      "调查",
-      "查",
-      "拯",
-      "就",
-      "人",
-      "案",
+      "都",
       "不能",
+      "再查",
+      "你",
+      "目的",
+      "什么",
+      "无论",
+      "绑匪的",
+      "了",
       "，",
-      "包",
-      "让",
-      "如果"
+      "是"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "如果",
-        "太",
-        "后",
-        "不",
-        "让",
-        "人",
-        "调查",
+        "无论",
+        "绑匪的",
+        "目的",
+        "是",
+        "什么",
         "，",
-        "包",
-        "拯",
-        "就",
+        "你",
+        "都",
         "不能",
-        "继续",
-        "查",
-        "案",
+        "再查",
+        "了",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "If Bao Zheng continues to ask, the Empress Dowager will become even more nervous.",
+    "english": "Whatever you ask him, he won't tell you.",
     "grammar_point": {
-      "slug": "ruguo-jiu",
-      "name": "Expressing “if … then …” with 如果, 要是, and 就"
+      "slug": "wulun",
+      "name": "“Regardless” with 无论/不管"
     },
     "word_bank": [
-      "如果",
-      "后",
-      "包",
-      "拯",
-      "会",
-      "更加",
-      "太",
+      "不会",
+      "你",
+      "你",
+      "，",
       "问",
-      "就",
-      "，",
-      "继续",
-      "紧张"
+      "什么",
+      "都",
+      "他",
+      "告诉",
+      "他",
+      "无论"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "如果",
-        "包",
-        "拯",
-        "继续",
+        "无论",
+        "你",
         "问",
+        "他",
+        "什么",
         "，",
-        "太",
-        "后",
-        "就",
-        "会",
-        "更加",
-        "紧张",
+        "他",
+        "都",
+        "不会",
+        "告诉",
+        "你",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "If the Empress Dowager knows the truth, she will tell Bao Zheng.",
+    "english": "No matter what the Empress Dowager says, Bao Zheng has to keep investigating.",
     "grammar_point": {
-      "slug": "ruguo-jiu",
-      "name": "Expressing “if … then …” with 如果, 要是, and 就"
+      "slug": "wulun",
+      "name": "“Regardless” with 无论/不管"
     },
     "word_bank": [
-      "她",
-      "拯",
-      "包",
-      "告诉",
-      "后",
-      "，",
-      "真相",
-      "要是",
-      "就",
-      "知道",
-      "会",
-      "太"
+      "怎么说",
+      "无论",
+      "都",
+      "查下去",
+      "要",
+      "包拯",
+      "太后",
+      "继续",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "要是",
-        "太",
-        "后",
-        "知道",
-        "真相",
+        "无论",
+        "太后",
+        "怎么说",
         "，",
-        "她",
-        "就",
-        "会",
-        "告诉",
-        "包",
-        "拯",
-        "。"
-      ],
-      [
-        "太",
-        "后",
-        "要是",
-        "知道",
-        "真相",
-        "，",
-        "她",
-        "就",
-        "会",
-        "告诉",
-        "包",
-        "拯",
+        "包拯",
+        "都",
+        "要",
+        "继续",
+        "查下去",
         "。"
       ]
     ]

@@ -43,12 +43,11 @@ exerciseList = [
       "name": "Distance with 离"
     },
     "word_bank": [
-      "这儿",
-      "米",
-      "五",
       "离",
+      "五百",
+      "这儿",
       "洗衣店",
-      "百"
+      "米"
     ],
     "prefilled_postfix": [
       "。"
@@ -58,8 +57,7 @@ exerciseList = [
         "洗衣店",
         "离",
         "这儿",
-        "五",
-        "百",
+        "五百",
         "米",
         "。"
       ]
@@ -103,48 +101,6 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Walk 500 meters forward from here.",
-    "grammar_point": {
-      "slug": "wang",
-      "name": "往"
-    },
-    "word_bank": [
-      "五",
-      "这儿",
-      "从",
-      "往前",
-      "走",
-      "米",
-      "百"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "从",
-        "这儿",
-        "往前",
-        "走",
-        "五",
-        "百",
-        "米",
-        "。"
-      ],
-      [
-        "从",
-        "这儿",
-        "往前",
-        "走",
-        "五",
-        "百",
-        "米",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "Walk 200 meters to the left.",
     "grammar_point": {
       "slug": "wang",
@@ -168,6 +124,38 @@ exerciseList = [
         "走",
         "两",
         "百",
+        "米",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Walk 500 meters forward from here.",
+    "grammar_point": {
+      "slug": "wang",
+      "name": "往"
+    },
+    "word_bank": [
+      "走",
+      "这儿",
+      "从",
+      "往",
+      "前",
+      "米",
+      "五百"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "从",
+        "这儿",
+        "往",
+        "前",
+        "走",
+        "五百",
         "米",
         "。"
       ]
@@ -208,60 +196,6 @@ exerciseList = [
         "会",
         "看到",
         "洗衣店",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "She spoke slowly.",
-    "grammar_point": {
-      "slug": "de-descriptive",
-      "name": "地 to create an adverb"
-    },
-    "word_bank": [
-      "地",
-      "慢慢",
-      "说",
-      "她"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "她",
-        "慢慢",
-        "地",
-        "说",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He laughed happily.",
-    "grammar_point": {
-      "slug": "de-descriptive",
-      "name": "地 to create an adverb"
-    },
-    "word_bank": [
-      "笑",
-      "了",
-      "地",
-      "高兴",
-      "他"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "高兴",
-        "地",
-        "笑",
-        "了",
         "。"
       ]
     ]

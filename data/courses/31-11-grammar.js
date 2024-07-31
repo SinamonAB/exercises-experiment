@@ -1,6 +1,30 @@
 exerciseList = [
   {
     "question_type": "grammar",
+    "english": "It’s raining.",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "了",
+      "雨",
+      "下"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "下",
+        "雨",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
     "english": "I have a dad now.",
     "grammar_point": {
       "slug": "le-change",
@@ -52,84 +76,6 @@ exerciseList = [
         "妈妈",
         "笑",
         "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "I’m so happy now.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "高兴",
-      "了",
-      "太",
-      "我"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "我",
-        "太",
-        "高兴",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Mom and he both laugh when they talk on the phone.",
-    "grammar_point": {
-      "slug": "dou",
-      "name": "都"
-    },
-    "word_bank": [
-      "和",
-      "妈妈",
-      "他",
-      "打电话",
-      "会",
-      "笑",
-      "都"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "妈妈",
-        "和",
-        "他",
-        "打电话",
-        "都",
-        "会",
-        "笑",
-        "。"
-      ],
-      [
-        "他",
-        "和",
-        "妈妈",
-        "打电话",
-        "都",
-        "会",
-        "笑",
-        "。"
-      ],
-      [
-        "他",
-        "和",
-        "妈妈",
-        "都",
-        "会",
-        "笑",
-        "打电话",
         "。"
       ]
     ]
@@ -208,6 +154,36 @@ exerciseList = [
         "都",
         "是",
         "学生",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Mom and he both like to laugh.",
+    "grammar_point": {
+      "slug": "dou",
+      "name": "都"
+    },
+    "word_bank": [
+      "和",
+      "妈妈",
+      "他",
+      "喜欢",
+      "笑",
+      "都"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "妈妈",
+        "和",
+        "他",
+        "都",
+        "喜欢",
+        "笑",
         "。"
       ]
     ]

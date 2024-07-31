@@ -1,121 +1,20 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "The light is broken, we can't see anything.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "灯",
-      "什么",
-      "，",
-      "看不见",
-      "都",
-      "我们",
-      "坏",
-      "着"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "灯",
-        "坏",
-        "着",
-        "，",
-        "我们",
-        "什么",
-        "都",
-        "看不见",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Xia Shu is sitting and waiting for Gu Wanli.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "坐",
-      "万里",
-      "舒",
-      "着",
-      "夏",
-      "等",
-      "顾"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "夏",
-        "舒",
-        "坐",
-        "着",
-        "等",
-        "顾",
-        "万里",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "She is listening to the song and feels sad.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "听",
-      "觉得",
-      "，",
-      "歌",
-      "着",
-      "难过",
-      "她"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "她",
-        "听",
-        "着",
-        "歌",
-        "，",
-        "觉得",
-        "难过",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because the lights in the house were broken, it became very dark inside.",
+    "english": "Because the lights were broken, the house became very dark inside.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "因为",
-      "的",
+      "，",
+      "坏了",
+      "黑黑的",
+      "家里",
       "变得",
       "灯",
-      "黑黑",
-      "坏了",
-      "家里",
-      "家里",
-      "的",
       "所以",
-      "，"
+      "因为"
     ],
     "prefilled_postfix": [
       "。"
@@ -123,16 +22,13 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "家里",
-        "的",
         "灯",
         "坏了",
         "，",
         "所以",
         "家里",
         "变得",
-        "黑黑",
-        "的",
+        "黑黑的",
         "。"
       ]
     ]
@@ -148,15 +44,13 @@ exerciseList = [
       "因为",
       "，",
       "所以",
-      "看不见",
-      "椅子",
-      "都",
       "她",
-      "踢",
+      "踢在",
+      "都",
+      "看不见",
       "什么",
-      "了",
-      "上",
-      "在"
+      "椅子上",
+      "了"
     ],
     "prefilled_postfix": [
       "。"
@@ -170,11 +64,9 @@ exerciseList = [
         "，",
         "所以",
         "她",
-        "踢",
-        "在",
+        "踢在",
         "了",
-        "椅子",
-        "上",
+        "椅子上",
         "。"
       ],
       [
@@ -185,10 +77,8 @@ exerciseList = [
         "，",
         "所以",
         "她",
-        "踢",
-        "在",
-        "椅子",
-        "上",
+        "踢在",
+        "椅子上",
         "了",
         "。"
       ]
@@ -202,18 +92,15 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "睡",
-      "说",
-      "万里",
-      "所以",
-      "吧",
-      "，",
-      "因为",
+      "顾万里",
       "“",
-      "晚",
-      "很",
       "了",
-      "顾"
+      "所以",
+      "睡吧",
+      "很晚",
+      "因为",
+      "，",
+      "说"
     ],
     "prefilled_postfix": [
       "！”"
@@ -221,17 +108,14 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "很",
-        "晚",
+        "很晚",
         "了",
         "，",
         "所以",
-        "顾",
-        "万里",
+        "顾万里",
         "说",
         "“",
-        "睡",
-        "吧",
+        "睡吧",
         "！”"
       ]
     ]
@@ -264,6 +148,36 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
+    "english": "It’s getting closer and closer to us.",
+    "grammar_point": {
+      "slug": "yuelaiyue",
+      "name": "More and more with 越来越"
+    },
+    "word_bank": [
+      "我们",
+      "近",
+      "越来越",
+      "了",
+      "离",
+      "它"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "它",
+        "离",
+        "我们",
+        "越来越",
+        "近",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
     "english": "The sound is getting louder and louder.",
     "grammar_point": {
       "slug": "yuelaiyue",
@@ -282,32 +196,6 @@ exerciseList = [
         "声音",
         "越来越",
         "大",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Gu Wanli is getting more and more scared.",
-    "grammar_point": {
-      "slug": "yuelaiyue",
-      "name": "More and more with 越来越"
-    },
-    "word_bank": [
-      "害怕",
-      "万里",
-      "越来越",
-      "顾"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "顾",
-        "万里",
-        "越来越",
-        "害怕",
         "。"
       ]
     ]

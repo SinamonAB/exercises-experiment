@@ -25,22 +25,11 @@ exerciseList = [
     "question_type": "reading",
     "question": "关于牛郎和织女，下列说法正确的是？",
     "answer_options": [
-      "a. 牛郎自己上天去追织女",
+      "a. 牛郎在喜鹊的帮助下飞上了天",
       "b. 牛郎和织女每年七月七日在鹊桥相会",
       "c. 王母娘娘拔下金簪帮助他们相会",
       "d. 牛郎杀了一只老虎才能上天"
     ],
     "solution": 1
-  },
-  {
-    "question_type": "reading",
-    "question": "七夕节传说中的主要人物是谁？",
-    "answer_options": [
-      "a. 喜鹊和王母娘娘",
-      "b. 牛郎和老牛",
-      "c. 牛郎和织女",
-      "d. 王母娘娘和织女"
-    ],
-    "solution": 2
   }
 ];

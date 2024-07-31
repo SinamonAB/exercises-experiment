@@ -1,28 +1,6 @@
 exerciseList = [
   {
     "question_type": "reading",
-    "question": "本在宾馆的时候问了什么问题？",
-    "answer_options": [
-      "a. 你们还有事吗？",
-      "b. 你们有房间吗？",
-      "c. 你们有休息室吗？",
-      "d. 你们有教室吗？"
-    ],
-    "solution": 0
-  },
-  {
-    "question_type": "reading",
-    "question": "为什么服务员一开始没听懂本的意思？",
-    "answer_options": [
-      "a. 因为他问“你们还有房间吗？”",
-      "b. 因为他问“你们还有室吗？”",
-      "c. 因为他问“你们有事吗？”",
-      "d. 因为他问“你们有休息室吗？”"
-    ],
-    "solution": 1
-  },
-  {
-    "question_type": "reading",
     "question": "“室”是什么意思？",
     "answer_options": [
       "a. 有事吗",
@@ -31,5 +9,27 @@ exerciseList = [
       "d. 宾馆"
     ],
     "solution": 1
+  },
+  {
+    "question_type": "reading",
+    "question": "为什么服务员没有听懂“你们还有室吗”？",
+    "answer_options": [
+      "a. 因为服务员没有事",
+      "b. 因为“室”要和别的词一起用",
+      "c. 因为服务员没有好好听",
+      "d. 因为本不想住宾馆"
+    ],
+    "solution": 1
+  },
+  {
+    "question_type": "reading",
+    "question": "你去住宾馆，会怎么问服务员？",
+    "answer_options": [
+      "a. 你们还有事吗？",
+      "b. 你们有办公室吗？",
+      "c. 你们还有休息室吗？",
+      "d. 你们还有房间吗？"
+    ],
+    "solution": 3
   }
 ];
