@@ -632,7 +632,15 @@
     };
 
     reloadExercises();
-    $(window.navigation).on("navigate", () => {
-        reloadExercises();
+
+    // listen to URL changes
+    // On Chrome, we can listen to $(navigation).on("navigate"), but this does not work in Safari.
+    let previousUrl = window.location.href;
+    const observer = new MutationObserver(function(mutations) {
+        if (previousUrl !== window.location.href) {
+            previousUrl = window.location.href;
+            reloadExercises();
+        }
     });
+     observer.observe(document, { subtree: true, childList: true });
 })();
