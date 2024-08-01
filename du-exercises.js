@@ -69,7 +69,7 @@
         // Wait for page to load
         await waitForElement(".lesson-content");
 
-        // Cleanup previous exercises
+        // Cleanup previous exercises, before fetching the exercises in case there no data.
         $(".exercises-header, .exercises-body, .exercises-hr, .exercises-disclaimer-modal").remove();
 
         // Get the lesson ID from the URL
@@ -116,6 +116,9 @@
         const dataPath = `${rootPath}/data/${lessonId}-${exerciseSet}.js`;
         console.log(`Loading exercises for ${lessonId} in set ${exerciseSet}`);
         await $.getScript(dataPath);
+
+        // Cleanup previous exercises, again, in case this function is run twice.
+        $(".exercises-header, .exercises-body, .exercises-hr, .exercises-disclaimer-modal").remove();
 
         // Inject exercise section
         const exercisesDisclaimerModalEl = $(`
