@@ -632,7 +632,7 @@
     };
 
     reloadExercises();
-    $(navigation).on("navigate", () => {
+    $(window.navigation).on("navigate", () => {
         reloadExercises();
     });
 })();
