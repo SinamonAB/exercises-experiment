@@ -12,7 +12,7 @@
 (async () => {
     "use strict";
 
-    const rootPath = "https://duchinese-exercises-staging.netlify.app";
+    const rootPath = "https://sinamonab.github.io/exercises-experiment";
 
     // https://stackoverflow.com/a/61511955/2766231
     function waitForElement(selector) {
