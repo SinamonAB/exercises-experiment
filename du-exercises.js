@@ -399,7 +399,7 @@
                             const closestSolutionMistakes = incorrectIndicesPerSolution[closestSolutionNum];
                             correct = closestSolutionMistakes.length === 0;
                             if (correct) {
-                                exerciseJson.el.find(".solution-text").text(`That's a correct order!`);
+                                exerciseJson.el.find(".solution-text").text(`This order is correct!`);
                             } else {
                                 exerciseJson.el.find(".solution-text").text(`Correct order: ${exerciseJson.solutions[closestSolutionNum].join("")}`);
                             }
