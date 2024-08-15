@@ -1,7 +1,7 @@
 exerciseList = [
   {
     "question_type": "reading",
-    "question": "火灾中少了哪些人？",
+    "question": "太医院的记录中，火灾现场的尸体少了哪些人？",
     "answer_options": [
       "a. 两名女子和一个侍卫",
       "b. 一名女子和一名太监",
@@ -12,12 +12,12 @@ exerciseList = [
   },
   {
     "question_type": "reading",
-    "question": "关于“无人岛的女人绑架八王爷”的结论，下面哪项是包拯认为的正确原因？",
+    "question": "包拯根据什么认为是无人岛的女人绑架了八王爷？",
     "answer_options": [
-      "a. 在无人岛上发现的八王爷的信",
-      "b. 在珠花和那封信",
-      "c. 在冷宫火灾中的出入记录",
-      "d. 在侍卫营中的记录"
+      "a. 无人岛上发现的八王爷的信",
+      "b. 珠花和那封信",
+      "c. 冷宫火灾中的出入记录",
+      "d. 侍卫营中的记录"
     ],
     "solution": 1
   },

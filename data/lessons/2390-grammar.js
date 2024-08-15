@@ -1,55 +1,29 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Time has passed really quickly.",
+    "english": "My dad came back from school.",
     "grammar_point": {
       "slug": "le-change",
       "name": "了 to indicate change"
     },
     "word_bank": [
-      "真",
-      "过得",
+      "学校",
       "了",
-      "时间",
-      "快"
+      "爸爸",
+      "回来",
+      "从",
+      "我"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "时间",
-        "过得",
-        "真",
-        "快",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Its eyes have become bigger.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "的",
-      "大",
-      "它",
-      "眼睛",
-      "了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "它",
-        "的",
-        "眼睛",
-        "大",
+        "我",
+        "爸爸",
+        "从",
+        "学校",
+        "回来",
         "了",
         "。"
       ]
@@ -85,19 +59,43 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The cat's eyes are prettier than the dog's eyes.",
+    "english": "We have met it.",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "了",
+      "过",
+      "见",
+      "我们",
+      "它"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "我们",
+        "见",
+        "过",
+        "它",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "My sister's eyes are prettier than mine.",
     "grammar_point": {
       "slug": "bi-meiyou",
       "name": "Comparing with 比 or 没有"
     },
     "word_bank": [
+      "妹妹的眼睛",
       "漂亮",
-      "猫",
-      "的",
-      "狗",
-      "的",
-      "眼睛",
-      "眼睛",
+      "我的眼睛",
       "比"
     ],
     "prefilled_postfix": [
@@ -105,13 +103,9 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "猫",
-        "的",
-        "眼睛",
+        "妹妹的眼睛",
         "比",
-        "狗",
-        "的",
-        "眼睛",
+        "我的眼睛",
         "漂亮",
         "。"
       ]
@@ -119,15 +113,15 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The cat is not as tall as me.",
+    "english": "He is not as tall as me.",
     "grammar_point": {
       "slug": "bi-meiyou",
       "name": "Comparing with 比 or 没有"
     },
     "word_bank": [
-      "高",
       "没有",
-      "猫",
+      "他",
+      "高",
       "我"
     ],
     "prefilled_postfix": [
@@ -135,7 +129,7 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "猫",
+        "他",
         "没有",
         "我",
         "高",
@@ -145,66 +139,26 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "The Gregorian new year is not as joyful as the Lunar new year.",
+    "english": "Train tickets are cheaper than plane tickets.",
     "grammar_point": {
       "slug": "bi-meiyou",
       "name": "Comparing with 比 or 没有"
     },
     "word_bank": [
-      "新年快乐",
-      "没有",
-      "农历",
-      "阳历",
-      "新年"
+      "火车票",
+      "飞机票",
+      "便宜",
+      "比"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "阳历",
-        "新年",
-        "没有",
-        "农历",
-        "新年快乐",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Although time passes quickly, we are very happy.",
-    "grammar_point": {
-      "slug": "suiran",
-      "name": "Expressing although with 虽然"
-    },
-    "word_bank": [
-      "，",
-      "但是",
-      "快",
-      "很",
-      "虽然",
-      "过得",
-      "快乐",
-      "很",
-      "我们",
-      "时间"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "虽然",
-        "时间",
-        "过得",
-        "很",
-        "快",
-        "，",
-        "但是",
-        "我们",
-        "很",
-        "快乐",
+        "火车票",
+        "比",
+        "飞机票",
+        "便宜",
         "。"
       ]
     ]

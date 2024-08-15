@@ -12,17 +12,6 @@ exerciseList = [
   },
   {
     "question_type": "reading",
-    "question": "根据文章，“举头望明月，低头思故乡”中的“举头”是什么意思？",
-    "answer_options": [
-      "a. 抬头",
-      "b. 低头",
-      "c. 回头",
-      "d. 转头"
-    ],
-    "solution": 0
-  },
-  {
-    "question_type": "reading",
     "question": "关于“静夜思”，下列说法正确的是？",
     "answer_options": [
       "a. 床前的月光像地上的露水",

@@ -7,20 +7,18 @@ exerciseList = [
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "的",
-      "大",
       "声音",
-      "门",
-      "撞",
-      "越来越"
+      "的",
+      "越来越",
+      "撞门",
+      "大"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "撞",
-        "门",
+        "撞门",
         "的",
         "声音",
         "越来越",
@@ -37,11 +35,11 @@ exerciseList = [
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "得",
+      "跳得",
       "快",
       "他",
       "越来越",
-      "心跳",
+      "心",
       "的"
     ],
     "prefilled_postfix": [
@@ -51,8 +49,8 @@ exerciseList = [
       [
         "他",
         "的",
-        "心跳",
-        "得",
+        "心",
+        "跳得",
         "越来越",
         "快",
         "。"
@@ -95,42 +93,22 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "着急",
-      "万里",
-      "找",
-      "顾",
-      "爪",
-      "地",
-      "猴",
       "着",
-      "正在"
+      "找",
+      "着急地",
+      "猴爪",
+      "顾万里"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "顾",
-        "万里",
-        "正在",
-        "着急",
-        "地",
+        "顾万里",
+        "着急地",
         "找",
         "着",
-        "猴",
-        "爪",
-        "。"
-      ],
-      [
-        "顾",
-        "万里",
-        "着急",
-        "地",
-        "正在",
-        "找",
-        "着",
-        "猴",
-        "爪",
+        "猴爪",
         "。"
       ]
     ]
@@ -143,191 +121,58 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "站",
-      "叫",
-      "不",
-      "地上",
-      "在",
-      "得",
-      "夏",
-      "疼",
       "着",
-      "坐",
+      "地上",
+      "站不起来",
+      "夏舒",
+      "坐在",
+      "叫",
       "，",
-      "起来",
-      "舒"
+      "疼得"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "夏",
-        "舒",
-        "疼",
-        "得",
-        "站",
-        "不",
-        "起来",
+        "夏舒",
+        "疼得",
+        "站不起来",
         "，",
-        "坐",
-        "在",
+        "坐在",
         "地上",
         "叫",
         "着",
-        "。"
-      ],
-      [
-        "夏",
-        "舒",
-        "叫",
-        "着",
-        "疼",
-        "得",
-        "站",
-        "不",
-        "起来",
-        "，",
-        "坐",
-        "在",
-        "地上",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "His heart was beating fast, nervously thinking.",
+    "english": "The box held a monkey paw.",
     "grammar_point": {
       "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "，",
-      "很",
-      "快",
-      "得",
-      "害怕",
-      "地",
-      "想",
-      "他",
+      "盒子",
+      "猴爪",
+      "一只",
+      "放",
       "着",
-      "心跳"
+      "里"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "他",
-        "心跳",
-        "得",
-        "很",
-        "快",
-        "，",
-        "害怕",
-        "地",
-        "想",
+        "盒子",
+        "里",
+        "放",
         "着",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Gu Wanli found the monkey paw.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "找到",
-      "爪",
-      "顾",
-      "万里",
-      "猴",
-      "了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "顾",
-        "万里",
-        "找到",
-        "了",
-        "猴",
-        "爪",
-        "。"
-      ],
-      [
-        "顾",
-        "万里",
-        "找到",
-        "猴",
-        "爪",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Xia Shu stood up.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "舒",
-      "起来",
-      "站",
-      "了",
-      "夏"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "夏",
-        "舒",
-        "站",
-        "了",
-        "起来",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "She was in too much pain to stand up.",
-    "grammar_point": {
-      "slug": "le-completed",
-      "name": "了 to indicate completed actions"
-    },
-    "word_bank": [
-      "起来",
-      "不",
-      "疼",
-      "她",
-      "了",
-      "得",
-      "站"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "她",
-        "疼",
-        "得",
-        "站",
-        "不",
-        "起来",
-        "了",
+        "一只",
+        "猴爪",
         "。"
       ]
     ]

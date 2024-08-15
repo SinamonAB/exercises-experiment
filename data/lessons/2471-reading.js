@@ -12,12 +12,23 @@ exerciseList = [
   },
   {
     "question_type": "reading",
-    "question": "“刻舟求剑”这个成语的意思是?",
+    "question": "“刻舟求剑”的\"舟\"是什么意思?",
     "answer_options": [
-      "a. 人们要保护贵重的物品",
-      "b. 人们要小心行船",
-      "c. 人们要适应世界的变化",
-      "d. 人们要学会游泳"
+      "a. 剑",
+      "b. 小刀",
+      "c. 船",
+      "d. 江"
+    ],
+    "solution": 2
+  },
+  {
+    "question_type": "reading",
+    "question": "“刻舟求剑”的故事告诉我们什么？",
+    "answer_options": [
+      "a. 要记住剑掉下去的地方",
+      "b. 要在船上刻记号",
+      "c. 做事不能太死板",
+      "d. 别用发展的眼光看待世界"
     ],
     "solution": 2
   }

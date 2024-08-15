@@ -23,13 +23,13 @@ exerciseList = [
   },
   {
     "question_type": "reading",
-    "question": "顾万里最后一个心愿后，门外是什么？",
+    "question": "顾万里为什么害怕开门？",
     "answer_options": [
-      "a. 他的儿子",
-      "b. 门外什么也没有",
-      "c. 门被撞坏了",
-      "d. 夏舒离开了家"
+      "a. 他找不到猴爪",
+      "b. 他怕见不到儿子",
+      "c. 他怕看到儿子变成可怕的样子",
+      "d. 门外是新闻里的人"
     ],
-    "solution": 1
+    "solution": 2
   }
 ];
