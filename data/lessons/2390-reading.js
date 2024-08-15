@@ -23,13 +23,13 @@ exerciseList = [
   },
   {
     "question_type": "reading",
-    "question": "中国人什么时候最快乐？",
+    "question": "元旦节是哪一天？",
     "answer_options": [
-      "a. 阳历的一月一日",
-      "b. 农历的一月一日",
-      "c. 阳历的第一个星期",
-      "d. 元旦节"
+      "a. 阳历一月一日",
+      "b. 农历一月一日",
+      "c. 今天",
+      "d. 农历新年"
     ],
-    "solution": 1
+    "solution": 0
   }
 ];

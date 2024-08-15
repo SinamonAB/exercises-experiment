@@ -1,199 +1,18 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "This person brought his sword and got on the boat to cross the river.",
-    "grammar_point": {
-      "slug": "le-consecutive",
-      "name": "了 for consecutive actions"
-    },
-    "word_bank": [
-      "过",
-      "船",
-      "江",
-      "个",
-      "人",
-      "这",
-      "了",
-      "坐",
-      "就",
-      "带",
-      "剑"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "这",
-        "个",
-        "人",
-        "带",
-        "了",
-        "剑",
-        "就",
-        "坐",
-        "船",
-        "过",
-        "江",
-        "。"
-      ],
-      [
-        "这",
-        "个",
-        "人",
-        "带",
-        "了",
-        "剑",
-        "就",
-        "过",
-        "江",
-        "坐",
-        "船",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He made a mark and then told the people on the same boat.",
-    "grammar_point": {
-      "slug": "le-consecutive",
-      "name": "了 for consecutive actions"
-    },
-    "word_bank": [
-      "人",
-      "告诉",
-      "同",
-      "就",
-      "他",
-      "船",
-      "刻",
-      "的",
-      "了",
-      "记号"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "刻",
-        "了",
-        "记号",
-        "就",
-        "告诉",
-        "同",
-        "船",
-        "的",
-        "人",
-        "。"
-      ],
-      [
-        "他",
-        "刻",
-        "了",
-        "记号",
-        "就",
-        "告诉",
-        "同",
-        "船",
-        "的",
-        "人",
-        "。"
-      ],
-      [
-        "他",
-        "刻",
-        "记号",
-        "了",
-        "就",
-        "告诉",
-        "同",
-        "船",
-        "的",
-        "人",
-        "。"
-      ],
-      [
-        "他",
-        "刻",
-        "记号",
-        "了",
-        "就",
-        "告诉",
-        "同",
-        "船",
-        "的",
-        "人",
-        "。"
-      ],
-      [
-        "他",
-        "就",
-        "刻",
-        "了",
-        "记号",
-        "告诉",
-        "同",
-        "船",
-        "的",
-        "人",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He searched for a long time and then felt very disappointed.",
-    "grammar_point": {
-      "slug": "le-consecutive",
-      "name": "了 for consecutive actions"
-    },
-    "word_bank": [
-      "失望",
-      "久",
-      "找",
-      "很",
-      "就",
-      "他",
-      "了",
-      "觉得",
-      "很"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "找",
-        "了",
-        "很",
-        "久",
-        "就",
-        "觉得",
-        "很",
-        "失望",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "He is carving a mark with a small knife.",
     "grammar_point": {
       "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "刻",
-      "小刀",
-      "着",
       "他",
       "用",
+      "着",
+      "刻",
       "记号",
-      "正在"
+      "小刀"
     ],
     "prefilled_postfix": [
       "。"
@@ -201,44 +20,11 @@ exerciseList = [
     "solutions": [
       [
         "他",
-        "正在",
         "用",
         "小刀",
         "刻",
         "着",
         "记号",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The river is flowing rapidly.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "流",
-      "水",
-      "着",
-      "急",
-      "江水",
-      "很",
-      "，"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "江水",
-        "很",
-        "急",
-        "，",
-        "水",
-        "流",
-        "着",
         "。"
       ]
     ]
@@ -271,61 +57,93 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because the river current was strong, the sword disappeared immediately.",
+    "english": "He didn't follow everyone forward.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "zhe",
+      "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "一下子",
-      "了",
-      "剑",
-      "很",
-      "因为",
-      "所以",
-      "不见",
-      "急",
-      "江水",
-      "，",
-      "就"
+      "往前",
+      "着",
+      "没有",
+      "走",
+      "跟",
+      "他",
+      "大家"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "因为",
-        "江水",
-        "很",
-        "急",
-        "，",
-        "所以",
-        "剑",
-        "一下子",
-        "就",
-        "不见",
-        "了",
+        "他",
+        "没有",
+        "跟",
+        "着",
+        "大家",
+        "往前",
+        "走",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Because the boat kept moving, he couldn't find the sword.",
+    "english": "Although everyone thought it was a pity, he was in no hurry at all.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "船",
+      "不着急",
+      "可是",
+      "虽然",
+      "都",
+      "一点儿",
       "，",
-      "一直",
+      "大家",
+      "可惜",
+      "也",
+      "他",
+      "觉得"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "虽然",
+        "大家",
+        "都",
+        "觉得",
+        "可惜",
+        "，",
+        "可是",
+        "他",
+        "一点儿",
+        "也",
+        "不着急",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Although he made the mark, he still could not find the sword.",
+    "grammar_point": {
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
+    },
+    "word_bank": [
+      "记号",
+      "虽然",
+      "但是",
       "剑",
-      "所以",
-      "在",
-      "因为",
-      "走",
-      "找不到",
+      "找到",
+      "没有",
+      "，",
+      "做了",
+      "还是",
       "他"
     ],
     "prefilled_postfix": [
@@ -333,15 +151,41 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "因为",
-        "船",
-        "一直",
-        "在",
-        "走",
-        "，",
-        "所以",
+        "虽然",
         "他",
-        "找不到",
+        "做了",
+        "记号",
+        "，",
+        "但是",
+        "还是",
+        "没有",
+        "找到",
+        "剑",
+        "。"
+      ],
+      [
+        "他",
+        "虽然",
+        "做了",
+        "记号",
+        "，",
+        "但是",
+        "还是",
+        "没有",
+        "找到",
+        "剑",
+        "。"
+      ],
+      [
+        "虽然",
+        "做了",
+        "记号",
+        "，",
+        "但是",
+        "他",
+        "还是",
+        "没有",
+        "找到",
         "剑",
         "。"
       ]
@@ -349,42 +193,48 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because he was careless, the sword fell into the river.",
+    "english": "Although this sword is very expensive, but I don't like it.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "了",
-      "所以",
-      "里",
-      "小心",
-      "掉",
-      "他",
-      "因为",
-      "剑",
-      "进",
-      "江",
       "不",
-      "，"
+      "很",
+      "这把剑",
+      "贵重",
+      "喜欢",
+      "，",
+      "虽然",
+      "我",
+      "但是"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "因为",
-        "他",
-        "不",
-        "小心",
+        "虽然",
+        "这把剑",
+        "很",
+        "贵重",
         "，",
-        "所以",
-        "剑",
-        "掉",
-        "进",
-        "了",
-        "江",
-        "里",
+        "但是",
+        "我",
+        "不",
+        "喜欢",
+        "。"
+      ],
+      [
+        "这把剑",
+        "虽然",
+        "很",
+        "贵重",
+        "，",
+        "但是",
+        "我",
+        "不",
+        "喜欢",
         "。"
       ]
     ]

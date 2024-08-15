@@ -7,10 +7,10 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
+      "来",
       "了",
-      "来到",
-      "中国",
-      "我"
+      "我",
+      "中国"
     ],
     "prefilled_postfix": [
       "。"
@@ -18,45 +18,16 @@ exerciseList = [
     "solutions": [
       [
         "我",
-        "来到",
+        "来",
         "中国",
         "了",
         "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "At that time, I couldn't speak Chinese.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "中文",
-      "了",
-      "会",
-      "，",
-      "不",
-      "说",
-      "我",
-      "那",
-      "时候"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
+      ],
       [
-        "那",
-        "时候",
-        "，",
         "我",
-        "不",
-        "会",
-        "说",
-        "中文",
+        "来",
         "了",
+        "中国",
         "。"
       ]
     ]
@@ -69,13 +40,12 @@ exerciseList = [
       "name": "了 to indicate change"
     },
     "word_bank": [
-      "中文",
-      "用",
-      "现在",
-      "可以",
-      "说话",
+      "说",
       "我",
-      "了"
+      "现在",
+      "了",
+      "中文",
+      "可以"
     ],
     "prefilled_postfix": [
       "。"
@@ -85,9 +55,8 @@ exerciseList = [
         "现在",
         "我",
         "可以",
-        "用",
+        "说",
         "中文",
-        "说话",
         "了",
         "。"
       ],
@@ -95,8 +64,37 @@ exerciseList = [
         "我",
         "现在",
         "可以",
-        "用",
+        "说",
         "中文",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "I can talk to Chinese people now.",
+    "grammar_point": {
+      "slug": "le-change",
+      "name": "了 to indicate change"
+    },
+    "word_bank": [
+      "和",
+      "了",
+      "中国人",
+      "说话",
+      "我",
+      "可以"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "我",
+        "可以",
+        "和",
+        "中国人",
         "说话",
         "了",
         "。"
@@ -161,39 +159,30 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Now we can talk in Chinese.",
+    "english": "My dad doesn't speak Chinese.",
     "grammar_point": {
       "slug": "hui-skill",
       "name": "Expressing a learned skill with 会"
     },
     "word_bank": [
-      "现在",
-      "我们",
+      "我",
+      "爸爸",
+      "说",
       "会",
-      "说话",
-      "用",
-      "中文"
+      "中文",
+      "不"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "现在",
-        "我们",
+        "我",
+        "爸爸",
+        "不",
         "会",
-        "用",
+        "说",
         "中文",
-        "说话",
-        "。"
-      ],
-      [
-        "我们",
-        "现在",
-        "会",
-        "用",
-        "中文",
-        "说话",
         "。"
       ]
     ]

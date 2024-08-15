@@ -1,333 +1,151 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "He came to the storeroom to check the fire records.",
+    "english": "To look for clues, Bao Zheng went to see Wei Ning.",
     "grammar_point": {
       "slug": "weile",
       "name": "Expressing reason or purpose with 为了 / 为"
     },
     "word_bank": [
-      "来",
-      "库",
-      "他",
-      "记录",
-      "查",
-      "火灾",
-      "房",
-      "为了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "为了",
-        "查",
-        "火灾",
-        "记录",
-        "来",
-        "库",
-        "房",
-        "。"
-      ],
-      [
-        "他",
-        "为了",
-        "查",
-        "火灾",
-        "记录",
-        "来",
-        "库",
-        "房",
-        "。"
-      ],
-      [
-        "为了",
-        "查",
-        "火灾",
-        "记录",
-        "他",
-        "来",
-        "库",
-        "房",
-        "。"
-      ],
-      [
-        "为了",
-        "查",
-        "火灾",
-        "记录",
-        "他",
-        "来",
-        "库",
-        "房",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Bao Zheng searched through the boxes to find the book.",
-    "grammar_point": {
-      "slug": "weile",
-      "name": "Expressing reason or purpose with 为了 / 为"
-    },
-    "word_bank": [
-      "本子",
-      "包",
-      "找",
-      "拯",
-      "翻",
-      "箱子",
-      "阅",
-      "为了"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "包",
-        "拯",
-        "为了",
-        "找",
-        "本子",
-        "翻",
-        "阅",
-        "箱子",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He asked Wei Ning for the investigation.",
-    "grammar_point": {
-      "slug": "weile",
-      "name": "Expressing reason or purpose with 为了 / 为"
-    },
-    "word_bank": [
-      "案",
-      "卫",
-      "宁",
-      "查",
-      "询问",
-      "他",
-      "为"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "为",
-        "查",
-        "案",
-        "询问",
-        "卫",
-        "宁",
-        "。"
-      ],
-      [
-        "他",
-        "为",
-        "查",
-        "案",
-        "询问",
-        "卫",
-        "宁",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Gongsun Ce is looking at the book.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "著",
-      "公",
-      "孙策",
-      "看",
-      "本子"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "公",
-        "孙策",
-        "看",
-        "著",
-        "本子",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The boxes are stacked like a small mountain.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "小山",
-      "著",
-      "箱子",
-      "像",
-      "一样",
-      "堆"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "箱子",
-        "堆",
-        "著",
-        "像",
-        "小山",
-        "一样",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Bao Zheng is sitting and looking at the record book.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "看",
-      "着",
-      "本",
-      "拯",
-      "著",
-      "记录",
-      "坐",
-      "包"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "包",
-        "拯",
-        "坐",
-        "著",
-        "看",
-        "着",
-        "记录",
-        "本",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He didn't spend much time and found the book he wanted.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "了",
-      "长",
-      "时间",
-      "的",
-      "花",
-      "找到",
-      "没有",
-      "想要",
-      "多",
+      "查找",
+      "线索",
+      "见",
       "，",
-      "他",
-      "就",
-      "了",
-      "本子"
+      "为了",
+      "去",
+      "包拯",
+      "卫宁"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "他",
-        "没有",
-        "花",
-        "多",
-        "长",
-        "时间",
+        "为了",
+        "查找",
+        "线索",
         "，",
-        "就",
-        "找到",
-        "了",
-        "想要",
-        "的",
-        "本子",
-        "了",
+        "包拯",
+        "去",
+        "见",
+        "卫宁",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "The fire record book was torn.",
+    "english": "To stay out of sight, they tore up the recording book .",
     "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
+      "slug": "weile",
+      "name": "Expressing reason or purpose with 为了 / 为"
     },
     "word_bank": [
+      "，",
       "了",
-      "记录",
-      "火灾",
-      "被",
-      "撕",
-      "本",
-      "掉"
+      "发现",
+      "不",
+      "撕掉",
+      "他们",
+      "记录本",
+      "被人",
+      "为了"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "火灾",
-        "记录",
-        "本",
-        "被",
-        "撕",
-        "掉",
+        "为了",
+        "不",
+        "被人",
+        "发现",
+        "，",
+        "他们",
+        "撕掉",
         "了",
+        "记录本",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "He pointed at the boxes inside and spoke.",
+    "english": "For health reasons, we should exercise more.",
     "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
+      "slug": "weile",
+      "name": "Expressing reason or purpose with 为了 / 为"
     },
     "word_bank": [
-      "的",
-      "说话",
-      "他",
+      "健康",
+      "应该",
+      "我们",
+      "多",
+      "运动",
+      "为了",
+      "，"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "为了",
+        "健康",
+        "，",
+        "我们",
+        "应该",
+        "多",
+        "运动",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Bao Zheng sighed heavily.",
+    "grammar_point": {
+      "slug": "de-descriptive",
+      "name": "地 to create an adverb"
+    },
+    "word_bank": [
       "了",
-      "指",
+      "包拯",
+      "重重",
+      "一口气",
+      "叹",
+      "地"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "包拯",
+        "重重",
+        "地",
+        "叹",
+        "了",
+        "一口气",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "He looked around at the boxes with disappointment.",
+    "grammar_point": {
+      "slug": "de-descriptive",
+      "name": "地 to create an adverb"
+    },
+    "word_bank": [
+      "地",
+      "周围",
       "箱子",
-      "着",
-      "里面"
+      "的",
+      "他",
+      "失望",
+      "看着"
     ],
     "prefilled_postfix": [
       "。"
@@ -335,12 +153,50 @@ exerciseList = [
     "solutions": [
       [
         "他",
-        "指",
-        "着",
-        "里面",
+        "失望",
+        "地",
+        "看着",
+        "周围",
         "的",
         "箱子",
-        "说话",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "She sat down weakly on the ground.",
+    "grammar_point": {
+      "slug": "de-descriptive",
+      "name": "地 to create an adverb"
+    },
+    "word_bank": [
+      "地上",
+      "坐到",
+      "了",
+      "地",
+      "无力",
+      "她"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "她",
+        "无力",
+        "地",
+        "坐到",
+        "了",
+        "地上",
+        "。"
+      ],
+      [
+        "她",
+        "无力",
+        "地",
+        "坐到",
+        "地上",
         "了",
         "。"
       ]
