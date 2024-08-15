@@ -1,0 +1,35 @@
+exerciseList = [
+  {
+    "question_type": "reading",
+    "question": "为什么包拯特别注意到了“高小山”这个名字？",
+    "answer_options": [
+      "a. 因为高小山是火灾发生的当天值班的侍卫",
+      "b. 因为高小山是值班记录里经常提到的名字",
+      "c. 因为高小山和卫宁是好朋友",
+      "d. 因为所有侍卫都认识高小山"
+    ],
+    "solution": 0
+  },
+  {
+    "question_type": "reading",
+    "question": "二十多年前，高小山是负责什么工作的？",
+    "answer_options": [
+      "a. 记录宫门出入",
+      "b. 记录火灾时间",
+      "c. 宫门值班侍卫",
+      "d. 侍卫营总管"
+    ],
+    "solution": 2
+  },
+  {
+    "question_type": "reading",
+    "question": "关于高小山，下面说法正确的是?",
+    "answer_options": [
+      "a. 他目前在侍卫营里工作",
+      "b. 他在火灾发生后出现过",
+      "c. 他二十多年前死了",
+      "d. 他是负责宫门前守卫的总管"
+    ],
+    "solution": 2
+  }
+];
