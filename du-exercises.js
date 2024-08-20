@@ -494,7 +494,8 @@
                     explanation = `
                         <div class="exercise-explanation">
                             Grammar exercises allow you to practice important grammar structures from the lesson, but do not necessarily reflect the lesson content.
-                            <br>
+                        </div>
+                        <div class="exercise-explanation">
                             Connected grammar article:
                             <a href="/grammar/${exerciseJson.grammar_point.slug}" target="_blank">${exerciseJson.grammar_point.name}</a>
                         </div>`;
