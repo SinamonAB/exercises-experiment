@@ -1,123 +1,135 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "I have already been in China for six months.",
+    "english": "Although you are not at home, but we are not unhappy.",
     "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
     },
     "word_bank": [
-      "月",
-      "中国",
-      "已经",
-      "六",
-      "来",
-      "我",
-      "了",
-      "个"
+      "在家",
+      "不",
+      "没有",
+      "虽然",
+      "你",
+      "，",
+      "我们",
+      "不快乐",
+      "但"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "我",
-        "来",
-        "中国",
-        "已经",
-        "六",
-        "个",
-        "月",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Today she went to buy fish.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "去",
-      "买",
-      "今天",
-      "了",
-      "她",
-      "鱼"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "今天",
-        "她",
-        "去",
-        "买",
-        "了",
-        "鱼",
-        "。"
-      ],
-      [
-        "她",
-        "今天",
-        "去",
-        "买",
-        "了",
-        "鱼",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "It has already stopped raining outside.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "了",
-      "外面",
-      "下雨",
-      "已经",
-      "没有"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "外面",
-        "已经",
+        "虽然",
+        "你",
+        "不",
+        "在家",
+        "，",
+        "但",
+        "我们",
         "没有",
-        "下雨",
-        "了",
+        "不快乐",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "They are laughing and saying \"Happy New Year\" and \"Happy New Year.\"",
+    "english": "Although I don't like snow, but now the snow is very beautiful.",
+    "grammar_point": {
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
+    },
+    "word_bank": [
+      "我",
+      "现在",
+      "下雪",
+      "不喜欢",
+      "，",
+      "很漂亮",
+      "虽然",
+      "的",
+      "但是",
+      "雪"
+    ],
+    "prefilled_postfix": [
+      "！"
+    ],
+    "solutions": [
+      [
+        "虽然",
+        "我",
+        "不喜欢",
+        "下雪",
+        "，",
+        "但是",
+        "现在",
+        "的",
+        "雪",
+        "很漂亮",
+        "！"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Although he was not with me, I felt that we were very close.",
+    "grammar_point": {
+      "slug": "suiran",
+      "name": "Expressing although with 虽然"
+    },
+    "word_bank": [
+      "，",
+      "但",
+      "我",
+      "虽然",
+      "很近",
+      "离得",
+      "我身边",
+      "觉得",
+      "他",
+      "我们",
+      "不在"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "虽然",
+        "他",
+        "不在",
+        "我身边",
+        "，",
+        "但",
+        "我",
+        "觉得",
+        "我们",
+        "离得",
+        "很近",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "They are laughing and saying “yuándàn kuàilè” and “xīnnián kuàilè”.",
     "grammar_point": {
       "slug": "zhe",
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
       "笑",
-      "元旦",
+      "元旦快乐",
       "“",
       "她们",
-      "和",
+      "“",
       "说",
       "着",
-      "快乐",
       "”",
-      "“",
+      "和",
       "新年快乐"
     ],
     "prefilled_postfix": [
@@ -130,26 +142,11 @@ exerciseList = [
         "着",
         "说",
         "“",
-        "元旦",
-        "快乐",
+        "元旦快乐",
         "”",
         "和",
         "“",
         "新年快乐",
-        "”。"
-      ],
-      [
-        "她们",
-        "笑",
-        "着",
-        "说",
-        "“",
-        "新年快乐",
-        "”",
-        "和",
-        "“",
-        "元旦",
-        "快乐",
         "”。"
       ]
     ]
@@ -162,12 +159,11 @@ exerciseList = [
       "name": "Continuous action or state with 着"
     },
     "word_bank": [
-      "坐",
-      "这儿",
       "外面",
-      "着",
-      "在",
+      "坐在",
       "看",
+      "这儿",
+      "着",
       "我"
     ],
     "prefilled_postfix": [
@@ -176,8 +172,7 @@ exerciseList = [
     "solutions": [
       [
         "我",
-        "坐",
-        "在",
+        "坐在",
         "这儿",
         "看",
         "着",

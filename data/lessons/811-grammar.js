@@ -37,24 +37,22 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "If the pig can eat the trash, it is wet garbage.",
+    "english": "If you don't know how to categorize it, ask a staff member.",
     "grammar_point": {
       "slug": "ruguo-jiu",
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
       "要是",
-      "能",
-      "那",
-      "猪",
-      "湿",
-      "垃圾",
-      "是",
-      "垃圾",
-      "吃",
+      "吧",
+      "不知道",
+      "怎么",
+      "就",
+      "工作",
       "，",
-      "的",
-      "就"
+      "人员",
+      "去问",
+      "分类"
     ],
     "prefilled_postfix": [
       "。"
@@ -62,56 +60,38 @@ exerciseList = [
     "solutions": [
       [
         "要是",
-        "猪",
-        "能",
-        "吃",
-        "的",
-        "垃圾",
-        "，",
-        "那",
-        "就",
-        "是",
-        "湿",
-        "垃圾",
-        "。"
-      ],
-      [
-        "要是",
-        "猪",
-        "能",
-        "吃",
-        "的",
-        "垃圾",
+        "不知道",
+        "怎么",
+        "分类",
         "，",
         "就",
-        "是",
-        "那",
-        "湿",
-        "垃圾",
+        "去问",
+        "工作",
+        "人员",
+        "吧",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "If using the pig feeding method, garbage sorting will be easy.",
+    "english": "If the problem of garbage is solved, the environment will be protected.",
     "grammar_point": {
       "slug": "ruguo-jiu",
       "name": "Expressing “if … then …” with 如果, 要是, and 就"
     },
     "word_bank": [
-      "如果",
-      "试",
-      "很",
-      "分类",
-      "吃法",
-      "用",
+      "垃圾分类",
       "就",
-      "垃圾",
-      "会",
       "，",
-      "猪",
-      "容易"
+      "的",
+      "了",
+      "环境",
+      "问题",
+      "解决",
+      "如果",
+      "能",
+      "保护"
     ],
     "prefilled_postfix": [
       "。"
@@ -119,89 +99,30 @@ exerciseList = [
     "solutions": [
       [
         "如果",
-        "用",
-        "猪",
-        "试",
-        "吃法",
-        "，",
-        "垃圾",
-        "分类",
-        "就",
-        "会",
-        "很",
-        "容易",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Shanghai residents must sort their garbage because the city issued the Garbage Sorting Regulations.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "必须",
-      "垃圾",
-      "因为",
-      "所以",
-      "《",
-      "分类",
-      "垃圾",
-      "处理",
-      "发布",
-      "分类",
-      "了",
-      "》，",
-      "上海市",
-      "条例",
-      "把",
-      "居民",
-      "上海"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "上海市",
-        "发布",
+        "垃圾分类",
+        "的",
+        "问题",
+        "解决",
         "了",
-        "《",
-        "垃圾",
-        "分类",
-        "处理",
-        "条例",
-        "》，",
-        "所以",
-        "上海",
-        "居民",
-        "必须",
-        "把",
-        "垃圾",
-        "分类",
+        "，",
+        "就",
+        "能",
+        "保护",
+        "环境",
         "。"
       ],
       [
-        "因为",
-        "上海市",
-        "发布",
+        "如果",
+        "解决",
         "了",
-        "《",
-        "垃圾",
-        "分类",
-        "处理",
-        "条例",
-        "》，",
-        "所以",
-        "上海",
-        "居民",
-        "必须",
-        "把",
-        "垃圾",
-        "分类",
+        "垃圾分类",
+        "的",
+        "问题",
+        "，",
+        "就",
+        "能",
+        "保护",
+        "环境",
         "。"
       ]
     ]
@@ -214,21 +135,18 @@ exerciseList = [
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "一起",
-      "没有",
-      "垃圾",
-      "的",
       "习惯",
+      "扔在",
+      "的",
       "，",
+      "都是",
       "因为",
-      "所以",
+      "没有",
       "大家",
-      "分类",
-      "是",
-      "到",
-      "扔",
-      "都",
-      "垃圾"
+      "垃圾",
+      "垃圾分类",
+      "一起",
+      "所以"
     ],
     "prefilled_postfix": [
       "。"
@@ -238,35 +156,14 @@ exerciseList = [
         "因为",
         "大家",
         "没有",
-        "垃圾",
-        "分类",
+        "垃圾分类",
         "的",
         "习惯",
         "，",
         "所以",
         "垃圾",
-        "都",
-        "是",
-        "扔",
-        "到",
-        "一起",
-        "。"
-      ],
-      [
-        "因为",
-        "大家",
-        "没有",
-        "分类",
-        "垃圾",
-        "的",
-        "习惯",
-        "，",
-        "所以",
-        "垃圾",
-        "都",
-        "是",
-        "扔",
-        "到",
+        "都是",
+        "扔在",
         "一起",
         "。"
       ]
@@ -274,23 +171,23 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Shanghai residents are confused because they don't understand how to sort their garbage.",
+    "english": "Pig bones are classified as dry waste because they can damage the shredder blades.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "上海",
-      "不",
-      "市民",
+      "归类",
+      "容易",
+      "刀片",
+      "猪骨",
+      "为",
+      "损坏",
+      "，",
       "因为",
-      "，",
-      "明白",
-      "垃圾",
       "所以",
-      "分类",
-      "把",
-      "晕头转向"
+      "粉碎机",
+      "干垃圾"
     ],
     "prefilled_postfix": [
       "。"
@@ -298,182 +195,70 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "把",
-        "垃圾",
-        "分类",
-        "不",
-        "明白",
+        "猪骨",
+        "容易",
+        "损坏",
+        "粉碎机",
+        "刀片",
         "，",
         "所以",
-        "上海",
-        "市民",
-        "晕头转向",
+        "归类",
+        "为",
+        "干垃圾",
         "。"
       ],
       [
         "因为",
-        "不",
-        "明白",
-        "把",
-        "垃圾",
-        "分类",
+        "容易",
+        "损坏",
+        "粉碎机",
+        "刀片",
         "，",
         "所以",
-        "上海",
-        "市民",
-        "晕头转向",
+        "猪骨",
+        "归类",
+        "为",
+        "干垃圾",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "As long as you classify the garbage correctly, you will not be fined.",
+    "english": "Shanghai people support this practice because sorting waste can protect the environment.",
     "grammar_point": {
-      "slug": "zhiyao-jiu",
-      "name": "Expressing “as long as” with 只要"
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "正确",
-      "不",
-      "你",
-      "只要",
-      "罚款",
-      "会",
-      "就",
-      "，",
-      "被",
-      "分类",
-      "垃圾"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "只要",
-        "垃圾",
-        "分类",
-        "正确",
-        "，",
-        "你",
-        "就",
-        "不",
-        "会",
-        "被",
-        "罚款",
-        "。"
-      ],
-      [
-        "你",
-        "只要",
-        "垃圾",
-        "分类",
-        "正确",
-        "，",
-        "就",
-        "不",
-        "会",
-        "被",
-        "罚款",
-        "。"
-      ],
-      [
-        "只要",
-        "你",
-        "垃圾",
-        "分类",
-        "正确",
-        "，",
-        "就",
-        "不",
-        "会",
-        "被",
-        "罚款",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "As long as you read the \"Garbage Classification Guide,\" you can understand the classification methods.",
-    "grammar_point": {
-      "slug": "zhiyao-jiu",
-      "name": "Expressing “as long as” with 只要"
-    },
-    "word_bank": [
-      "看",
-      "分类",
-      "》，",
-      "你",
-      "分类",
-      "就",
-      "了解",
-      "方法",
-      "投放",
-      "《",
-      "只要",
-      "垃圾",
-      "能",
-      "指南"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "只要",
-        "看",
-        "《",
-        "垃圾",
-        "分类",
-        "投放",
-        "指南",
-        "》，",
-        "你",
-        "就",
-        "能",
-        "了解",
-        "分类",
-        "方法",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "As long as garbage classification is promoted nationwide, the environment will improve.",
-    "grammar_point": {
-      "slug": "zhiyao-jiu",
-      "name": "Expressing “as long as” with 只要"
-    },
-    "word_bank": [
-      "改善",
-      "，",
-      "推广",
-      "垃圾",
       "环境",
-      "全国",
-      "就",
-      "分类",
-      "会",
-      "只要"
+      "做法",
+      "能",
+      "所以",
+      "保护",
+      "这个",
+      "垃圾分类",
+      "上海人",
+      "支持",
+      "因为",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "只要",
-        "垃圾",
-        "分类",
-        "推广",
-        "全国",
-        "，",
+        "因为",
+        "垃圾分类",
+        "能",
+        "保护",
         "环境",
-        "就",
-        "会",
-        "改善",
+        "，",
+        "所以",
+        "上海人",
+        "支持",
+        "这个",
+        "做法",
         "。"
       ]
     ]

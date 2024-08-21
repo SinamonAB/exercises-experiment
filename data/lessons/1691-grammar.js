@@ -1,25 +1,23 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Chinese young people are more and more willing to take graduate exams.",
+    "english": "Young people are more and more willing to take graduate exams.",
     "grammar_point": {
       "slug": "yuelaiyue",
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "考",
       "研究生",
-      "中国",
-      "年轻人",
       "愿意",
-      "越来越"
+      "越来越",
+      "考",
+      "年轻人"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "中国",
         "年轻人",
         "越来越",
         "愿意",
@@ -37,14 +35,13 @@ exerciseList = [
       "name": "More and more with 越来越"
     },
     "word_bank": [
-      "公司",
-      "对",
-      "越来越",
-      "要求",
+      "的",
       "学历",
+      "要求",
+      "越来越",
+      "公司",
       "高",
-      "了",
-      "的"
+      "对"
     ],
     "prefilled_postfix": [
       "。"
@@ -58,7 +55,6 @@ exerciseList = [
         "要求",
         "越来越",
         "高",
-        "了",
         "。"
       ]
     ]
@@ -95,178 +91,24 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because she is a cancer patient, she goes back and forth between life and death every day.",
+    "english": "Because the economic situation is not optimistic, everyone hopes to find a better job.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "在",
-      "是",
-      "她",
-      "所以",
-      "来来回回",
-      "中",
-      "与",
-      "因为",
-      "，",
-      "癌症",
-      "她",
-      "死",
-      "患者",
-      "每天",
-      "生"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "她",
-        "是",
-        "癌症",
-        "患者",
-        "，",
-        "所以",
-        "她",
-        "每天",
-        "在",
-        "生",
-        "与",
-        "死",
-        "中",
-        "来来回回",
-        "。"
-      ],
-      [
-        "因为",
-        "她",
-        "是",
-        "癌症",
-        "患者",
-        "，",
-        "所以",
-        "她",
-        "在",
-        "生",
-        "与",
-        "死",
-        "中",
-        "每天",
-        "来来回回",
-        "。"
-      ],
-      [
-        "因为",
-        "她",
-        "是",
-        "癌症",
-        "患者",
-        "，",
-        "所以",
-        "她",
-        "每天",
-        "在",
-        "生",
-        "与",
-        "死",
-        "中",
-        "来来回回",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because companies' educational requirements are increasing, young people are more willing to take graduate entrance exams.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "高",
-      "了",
-      "愿意",
-      "考",
-      "公司",
-      "要求",
-      "因为",
-      "研究生",
-      "对",
-      "，",
-      "学历",
-      "越来越",
-      "所以",
-      "的",
-      "年轻人"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "公司",
-        "对",
-        "学历",
-        "的",
-        "要求",
-        "越来越",
-        "高",
-        "了",
-        "，",
-        "所以",
-        "年轻人",
-        "愿意",
-        "考",
-        "研究生",
-        "。"
-      ],
-      [
-        "因为",
-        "公司",
-        "对",
-        "学历",
-        "的",
-        "要求",
-        "越来越",
-        "高",
-        "，",
-        "所以",
-        "年轻人",
-        "愿意",
-        "考",
-        "研究生",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because the current economic situation is not optimistic, everyone hopes to find a better job.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "太",
-      "情况",
       "大家",
-      "现在",
-      "乐观",
-      "所以",
-      "好的",
-      "更",
-      "找到",
-      "都",
+      "情况",
       "因为",
+      "不乐观",
       "工作",
-      "不",
-      "希望",
       "，",
-      "经济"
+      "都",
+      "经济",
+      "希望",
+      "更好的",
+      "所以",
+      "找到"
     ],
     "prefilled_postfix": [
       "。"
@@ -274,39 +116,16 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "现在",
         "经济",
         "情况",
-        "不",
-        "太",
-        "乐观",
+        "不乐观",
         "，",
         "所以",
         "大家",
         "都",
         "希望",
         "找到",
-        "更",
-        "好的",
-        "工作",
-        "。"
-      ],
-      [
-        "因为",
-        "现在",
-        "经济",
-        "情况",
-        "不",
-        "太",
-        "乐观",
-        "，",
-        "所以",
-        "大家",
-        "希望",
-        "都",
-        "找到",
-        "更",
-        "好的",
+        "更好的",
         "工作",
         "。"
       ]
@@ -314,94 +133,136 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "He is standing and talking.",
+    "english": "He left the company because the job was too stressful.",
     "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
+      "离开",
+      "公司",
+      "工作",
+      "所以",
+      "太大",
+      "，",
+      "了",
+      "因为",
       "他",
-      "着",
-      "站",
-      "说话"
+      "那家",
+      "压力"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
+        "因为",
+        "工作",
+        "压力",
+        "太大",
+        "，",
+        "所以",
         "他",
-        "站",
-        "着",
-        "说话",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "She is lying down and reading a book.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "看书",
-      "着",
-      "她",
-      "躺"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "她",
-        "躺",
-        "着",
-        "看书",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Chen Linqiong is holding a book in the hospital.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "拿",
-      "陈琳琼",
-      "书",
-      "医院",
-      "在",
-      "着",
-      "里"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "陈琳琼",
-        "在",
-        "医院",
-        "里",
-        "拿",
-        "着",
-        "书",
+        "离开",
+        "了",
+        "那家",
+        "公司",
         "。"
       ],
       [
-        "陈琳琼",
-        "拿",
-        "着",
-        "书",
-        "在",
-        "医院",
-        "里",
+        "因为",
+        "工作",
+        "压力",
+        "太大",
+        "，",
+        "所以",
+        "他",
+        "离开",
+        "那家",
+        "公司",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Because she has experienced pain, she can understand others better.",
+    "grammar_point": {
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
+    },
+    "word_bank": [
+      "，",
+      "痛苦",
+      "她",
+      "所以",
+      "更",
+      "别人",
+      "理解",
+      "过",
+      "经历",
+      "能",
+      "因为"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "因为",
+        "她",
+        "经历",
+        "过",
+        "痛苦",
+        "，",
+        "所以",
+        "更",
+        "能",
+        "理解",
+        "别人",
+        "。"
+      ],
+      [
+        "因为",
+        "她",
+        "经历",
+        "过",
+        "痛苦",
+        "，",
+        "所以",
+        "能",
+        "更",
+        "理解",
+        "别人",
+        "。"
+      ],
+      [
+        "因为",
+        "经历",
+        "过",
+        "痛苦",
+        "，",
+        "所以",
+        "她",
+        "更",
+        "能",
+        "理解",
+        "别人",
+        "。"
+      ],
+      [
+        "因为",
+        "经历",
+        "过",
+        "痛苦",
+        "，",
+        "所以",
+        "她",
+        "能",
+        "更",
+        "理解",
+        "别人",
         "。"
       ]
     ]

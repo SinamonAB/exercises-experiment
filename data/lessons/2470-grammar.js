@@ -1,89 +1,31 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Because the farmer was anxious, he pulled the crops up.",
+    "english": "The farmer pulled up all the crops.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "ba",
+      "name": "把"
     },
     "word_bank": [
-      "高",
-      "把",
-      "所以",
+      "所有",
       "了",
-      "，",
-      "拔",
-      "农民",
-      "因为",
-      "心急",
-      "庄稼",
-      "他"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "因为",
-        "农民",
-        "心急",
-        "，",
-        "所以",
-        "他",
-        "把",
-        "庄稼",
-        "拔",
-        "高",
-        "了",
-        "。"
-      ],
-      [
-        "因为",
-        "农民",
-        "心急",
-        "，",
-        "所以",
-        "他",
-        "把",
-        "庄稼",
-        "拔",
-        "了",
-        "高",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Because the farmer was anxious, all the crops died.",
-    "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
-    },
-    "word_bank": [
-      "因为",
-      "死",
-      "，",
       "都",
-      "庄稼",
-      "了",
+      "拔高",
       "农民",
-      "所以",
-      "心急"
+      "把",
+      "庄稼"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "因为",
         "农民",
-        "心急",
-        "，",
-        "所以",
+        "把",
+        "所有",
         "庄稼",
         "都",
-        "死",
+        "拔高",
         "了",
         "。"
       ]
@@ -91,21 +33,76 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Because the son was curious, he asked the farmer how he did it.",
+    "english": "The farmer didn't tell his son what happened.",
     "grammar_point": {
-      "slug": "yinwei-suoyi",
-      "name": "Cause and effect with 因为 and 所以"
+      "slug": "ba",
+      "name": "把"
     },
     "word_bank": [
-      "的",
-      "儿子",
-      "问",
-      "做到",
-      "怎么",
-      "所以",
-      "好奇",
+      "把",
+      "事情",
+      "没有",
       "农民",
-      "因为",
+      "儿子",
+      "告诉"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "农民",
+        "没有",
+        "把",
+        "事情",
+        "告诉",
+        "儿子",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Close the door, please.",
+    "grammar_point": {
+      "slug": "ba",
+      "name": "把"
+    },
+    "word_bank": [
+      "请",
+      "门",
+      "把",
+      "关上"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "请",
+        "把",
+        "门",
+        "关上",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Only when the crops grow well can people have food to eat.",
+    "grammar_point": {
+      "slug": "zhiyou",
+      "name": "只有...，才..."
+    },
+    "word_bank": [
+      "只有",
+      "能",
+      "有饭吃",
+      "好",
+      "长得",
+      "人",
+      "庄稼",
+      "才",
       "，"
     ],
     "prefilled_postfix": [
@@ -113,210 +110,115 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "因为",
-        "儿子",
-        "好奇",
-        "，",
-        "所以",
-        "问",
-        "农民",
-        "怎么",
-        "做到",
-        "的",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He goes to the field to look at the crops every day now.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "都",
-      "了",
-      "里",
-      "庄稼",
-      "每天",
-      "看",
-      "他",
-      "地",
-      "去"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "每天",
-        "都",
-        "去",
-        "地",
-        "里",
-        "看",
-        "庄稼",
-        "了",
-        "。"
-      ],
-      [
-        "每天",
-        "他",
-        "都",
-        "去",
-        "地",
-        "里",
-        "看",
-        "庄稼",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The crops are growing slowly now.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "了",
-      "慢",
-      "庄稼",
-      "长得"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
+        "只有",
         "庄稼",
         "长得",
-        "慢",
-        "了",
+        "好",
+        "，",
+        "人",
+        "才",
+        "能",
+        "有饭吃",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "The farmer went home.",
+    "english": "Only the words of his son he would listen to.",
     "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
+      "slug": "zhiyou",
+      "name": "只有...，才..."
+    },
+    "word_bank": [
+      "愿意",
+      "听",
+      "的",
+      "话",
+      "他",
+      "，",
+      "才",
+      "只有",
+      "儿子"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "只有",
+        "儿子",
+        "的",
+        "话",
+        "，",
+        "他",
+        "才",
+        "愿意",
+        "听",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Only when the problem is solved can we move forward.",
+    "grammar_point": {
+      "slug": "zhiyou",
+      "name": "只有...，才..."
     },
     "word_bank": [
       "了",
-      "回家",
-      "农民"
+      "，",
+      "我们",
+      "问题",
+      "解决",
+      "才",
+      "往前",
+      "走",
+      "只有",
+      "能"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "农民",
-        "回家",
+        "只有",
+        "问题",
+        "解决",
         "了",
+        "，",
+        "我们",
+        "才",
+        "能",
+        "往前",
+        "走",
         "。"
       ],
       [
-        "农民",
-        "回家",
+        "只有",
+        "解决",
+        "问题",
         "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The people are planting crops.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "著",
-      "庄稼",
-      "老百姓",
-      "种"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "老百姓",
-        "种",
-        "著",
-        "庄稼",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "The farmer watches the crops grow every day.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "农民",
-      "长大",
-      "看",
-      "庄稼",
-      "每天",
-      "著"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "农民",
-        "每天",
-        "看",
-        "著",
-        "庄稼",
-        "长大",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He was very anxious, thinking of a good solution.",
-    "grammar_point": {
-      "slug": "zhe",
-      "name": "Continuous action or state with 着"
-    },
-    "word_bank": [
-      "想",
-      "得不得了",
-      "办法",
-      "好",
-      "著",
-      "他",
-      "心急",
-      "，"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "心急",
-        "得不得了",
         "，",
-        "想",
-        "著",
-        "好",
-        "办法",
+        "我们",
+        "才",
+        "能",
+        "往前",
+        "走",
+        "。"
+      ],
+      [
+        "只有",
+        "解决",
+        "了",
+        "问题",
+        "，",
+        "我们",
+        "才",
+        "能",
+        "往前",
+        "走",
         "。"
       ]
     ]

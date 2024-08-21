@@ -7,11 +7,10 @@ exerciseList = [
       "name": "Question words"
     },
     "word_bank": [
-      "想要",
-      "哪",
-      "一",
       "个",
+      "哪",
       "糖果",
+      "想要",
       "你"
     ],
     "prefilled_postfix": [
@@ -22,16 +21,6 @@ exerciseList = [
         "你",
         "想要",
         "哪",
-        "一",
-        "个",
-        "糖果",
-        "？"
-      ],
-      [
-        "你",
-        "想要",
-        "哪",
-        "一",
         "个",
         "糖果",
         "？"
@@ -48,10 +37,9 @@ exerciseList = [
     "word_bank": [
       "为什么",
       "糖果",
-      "的",
-      "拿",
-      "你",
-      "绿色"
+      "绿色的",
+      "要",
+      "你"
     ],
     "prefilled_postfix": [
       "？"
@@ -60,9 +48,16 @@ exerciseList = [
       [
         "你",
         "为什么",
-        "拿",
-        "绿色",
-        "的",
+        "要",
+        "绿色的",
+        "糖果",
+        "？"
+      ],
+      [
+        "为什么",
+        "你",
+        "要",
+        "绿色的",
         "糖果",
         "？"
       ]
@@ -70,54 +65,49 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "Who said green is the color of hope?",
+    "english": "What is your hope?",
     "grammar_point": {
       "slug": "question-words",
       "name": "Question words"
     },
     "word_bank": [
-      "是",
-      "绿色",
-      "说",
-      "希望",
       "的",
-      "谁",
-      "颜色"
+      "是",
+      "希望",
+      "什么",
+      "你"
     ],
     "prefilled_postfix": [
       "？"
     ],
     "solutions": [
       [
-        "谁",
-        "说",
-        "绿色",
-        "是",
-        "希望",
+        "你",
         "的",
-        "颜色",
+        "希望",
+        "是",
+        "什么",
         "？"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Because grandpa is holding the candies, he asks Xiaoming.",
+    "english": "Because Grandpa loves Xiao Ming, so he gives Xiao Ming candy.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "着",
-      "他",
       "小明",
-      "因为",
-      "手里",
       "糖果",
-      "拿",
-      "所以",
-      "问",
+      "因为",
+      "给",
       "，",
+      "爱",
+      "小明",
+      "所以",
+      "他",
       "爷爷"
     ],
     "prefilled_postfix": [
@@ -127,41 +117,36 @@ exerciseList = [
       [
         "因为",
         "爷爷",
-        "手里",
-        "拿",
-        "着",
-        "糖果",
+        "爱",
+        "小明",
         "，",
         "所以",
         "他",
-        "问",
+        "给",
         "小明",
+        "糖果",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "Because there are red and green ones, grandpa asks which one Xiaoming wants.",
+    "english": "Because red is more beautiful than green, so grandpa likes red.",
     "grammar_point": {
       "slug": "yinwei-suoyi",
       "name": "Cause and effect with 因为 and 所以"
     },
     "word_bank": [
-      "，",
-      "爷爷",
-      "小明",
-      "绿色",
       "所以",
-      "问",
-      "要",
-      "个",
+      "漂亮",
+      "红色",
+      "喜欢",
       "因为",
-      "一",
-      "哪",
-      "有",
-      "和",
-      "红色"
+      "绿色",
+      "，",
+      "红色",
+      "比",
+      "爷爷"
     ],
     "prefilled_postfix": [
       "。"
@@ -169,124 +154,55 @@ exerciseList = [
     "solutions": [
       [
         "因为",
-        "有",
         "红色",
-        "和",
+        "比",
         "绿色",
+        "漂亮",
         "，",
         "所以",
         "爷爷",
-        "问",
+        "喜欢",
+        "红色",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Because green is the color of hope, so Xiao Ming wants the green candy.",
+    "grammar_point": {
+      "slug": "yinwei-suoyi",
+      "name": "Cause and effect with 因为 and 所以"
+    },
+    "word_bank": [
+      "要",
+      "绿色的",
+      "颜色",
+      "小明",
+      "因为",
+      "糖果",
+      "是",
+      "所以",
+      "绿色",
+      "希望的",
+      "，"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "因为",
+        "绿色",
+        "是",
+        "希望的",
+        "颜色",
+        "，",
+        "所以",
         "小明",
         "要",
-        "哪",
-        "一",
-        "个",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Grandpa gave the red candy to Little Ming.",
-    "grammar_point": {
-      "slug": "ba",
-      "name": "把"
-    },
-    "word_bank": [
-      "糖果",
-      "拿",
-      "红色",
-      "小明",
-      "的",
-      "给",
-      "爷爷",
-      "把"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "爷爷",
-        "把",
-        "红色",
-        "的",
+        "绿色的",
         "糖果",
-        "拿",
-        "给",
-        "小明",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Little Ming held the green candy in his hand.",
-    "grammar_point": {
-      "slug": "ba",
-      "name": "把"
-    },
-    "word_bank": [
-      "小明",
-      "手里",
-      "绿色",
-      "糖果",
-      "在",
-      "拿",
-      "把"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "小明",
-        "把",
-        "绿色",
-        "糖果",
-        "拿",
-        "在",
-        "手里",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Grandpa asked Little Ming a question.",
-    "grammar_point": {
-      "slug": "ba",
-      "name": "把"
-    },
-    "word_bank": [
-      "问题",
-      "爷爷",
-      "了",
-      "把",
-      "问",
-      "小明"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "爷爷",
-        "把",
-        "问题",
-        "问",
-        "了",
-        "小明",
-        "。"
-      ],
-      [
-        "爷爷",
-        "把",
-        "问题",
-        "问",
-        "小明",
-        "了",
         "。"
       ]
     ]

@@ -33,39 +33,10 @@ exerciseList = [
       "name": "Making questions with 吗"
     },
     "word_bank": [
-      "三",
-      "这",
-      "吗",
-      "是",
-      "楼"
-    ],
-    "prefilled_postfix": [
-      "？"
-    ],
-    "solutions": [
-      [
-        "这",
-        "是",
-        "三",
-        "楼",
-        "吗",
-        "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Is this the second floor?",
-    "grammar_point": {
-      "slug": "ma",
-      "name": "Making questions with 吗"
-    },
-    "word_bank": [
-      "二",
       "这里",
       "是",
-      "楼",
-      "吗"
+      "吗",
+      "三楼"
     ],
     "prefilled_postfix": [
       "？"
@@ -74,8 +45,33 @@ exerciseList = [
       [
         "这里",
         "是",
-        "二",
-        "楼",
+        "三楼",
+        "吗",
+        "？"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "Do you go to the restroom?",
+    "grammar_point": {
+      "slug": "ma",
+      "name": "Making questions with 吗"
+    },
+    "word_bank": [
+      "洗手间",
+      "你",
+      "吗",
+      "去"
+    ],
+    "prefilled_postfix": [
+      "？"
+    ],
+    "solutions": [
+      [
+        "你",
+        "去",
+        "洗手间",
         "吗",
         "？"
       ]
@@ -145,11 +141,10 @@ exerciseList = [
       "name": "几"
     },
     "word_bank": [
-      "个",
-      "人",
       "有",
-      "你",
-      "家",
+      "口",
+      "人",
+      "你家",
       "几"
     ],
     "prefilled_postfix": [
@@ -157,93 +152,12 @@ exerciseList = [
     ],
     "solutions": [
       [
-        "你",
-        "家",
+        "你家",
         "有",
         "几",
-        "个",
+        "口",
         "人",
         "？"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "This is not the first floor.",
-    "grammar_point": {
-      "slug": "bu",
-      "name": "Negation with 不"
-    },
-    "word_bank": [
-      "这里",
-      "是",
-      "楼",
-      "不",
-      "一"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "这里",
-        "不",
-        "是",
-        "一",
-        "楼",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "He is not here.",
-    "grammar_point": {
-      "slug": "bu",
-      "name": "Negation with 不"
-    },
-    "word_bank": [
-      "这里",
-      "不",
-      "他",
-      "在"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "他",
-        "不",
-        "在",
-        "这里",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "This is not the restroom.",
-    "grammar_point": {
-      "slug": "bu",
-      "name": "Negation with 不"
-    },
-    "word_bank": [
-      "不",
-      "这里",
-      "洗手间",
-      "是"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "这里",
-        "不",
-        "是",
-        "洗手间",
-        "。"
       ]
     ]
   }

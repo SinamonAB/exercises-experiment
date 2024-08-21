@@ -1,111 +1,20 @@
 exerciseList = [
   {
     "question_type": "grammar",
-    "english": "Bao Zheng was startled.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "包",
-      "了",
-      "一",
-      "惊",
-      "拯"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "包",
-        "拯",
-        "一",
-        "惊",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "It’s time for me to leave.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "走",
-      "了",
-      "我",
-      "该"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "我",
-        "该",
-        "走",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Bao Zheng's token has become heavy.",
-    "grammar_point": {
-      "slug": "le-change",
-      "name": "了 to indicate change"
-    },
-    "word_bank": [
-      "了",
-      "包",
-      "令",
-      "拯",
-      "沉重",
-      "变得",
-      "牌",
-      "的"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "包",
-        "拯",
-        "的",
-        "令",
-        "牌",
-        "变得",
-        "沉重",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
     "english": "As long as you go see Wang Tie, he will help you.",
     "grammar_point": {
       "slug": "zhiyao-jiu",
       "name": "Expressing “as long as” with 只要"
     },
     "word_bank": [
-      "只要",
-      "会",
-      "他",
-      "王",
       "，",
       "就",
-      "去",
-      "你",
-      "帮",
-      "见",
-      "铁",
+      "王铁",
+      "会",
+      "只要",
+      "去见",
+      "帮你",
+      "他",
       "你"
     ],
     "prefilled_postfix": [
@@ -115,54 +24,45 @@ exerciseList = [
       [
         "只要",
         "你",
-        "去",
-        "见",
-        "王",
-        "铁",
+        "去见",
+        "王铁",
         "，",
         "他",
         "就",
         "会",
-        "帮",
-        "你",
+        "帮你",
         "。"
       ],
       [
-        "只要",
         "你",
-        "去",
-        "见",
-        "王",
-        "铁",
+        "只要",
+        "去见",
+        "王铁",
         "，",
         "他",
         "就",
         "会",
-        "帮",
-        "你",
+        "帮你",
         "。"
       ]
     ]
   },
   {
     "question_type": "grammar",
-    "english": "As long as you ask Gao Xiaoshan's friend, he will know.",
+    "english": "As long as you don't say it, no one knows about it.",
     "grammar_point": {
       "slug": "zhiyao-jiu",
       "name": "Expressing “as long as” with 只要"
     },
     "word_bank": [
       "就",
-      "只要",
-      "知道",
-      "，",
-      "他",
-      "的",
-      "朋友",
-      "问",
       "你",
-      "小山",
-      "高"
+      "，",
+      "人",
+      "没有",
+      "知道",
+      "只要",
+      "不说"
     ],
     "prefilled_postfix": [
       "。"
@@ -171,14 +71,11 @@ exerciseList = [
       [
         "只要",
         "你",
-        "问",
-        "高",
-        "小山",
-        "的",
-        "朋友",
+        "不说",
         "，",
-        "他",
         "就",
+        "没有",
+        "人",
         "知道",
         "。"
       ]
@@ -186,25 +83,21 @@ exerciseList = [
   },
   {
     "question_type": "grammar",
-    "english": "As long as Bao Zheng has the token, he can enter and exit the palace.",
+    "english": "As long as Bao Zheng has the token, he can enter the palace.",
     "grammar_point": {
       "slug": "zhiyao-jiu",
       "name": "Expressing “as long as” with 只要"
     },
     "word_bank": [
       "只要",
-      "进出",
-      "宫",
-      "令",
       "可以",
-      "他",
-      "，",
       "有",
-      "拯",
-      "包",
-      "儿",
-      "牌",
-      "就"
+      "包拯",
+      "进宫",
+      "就",
+      "他",
+      "令牌",
+      "，"
     ],
     "prefilled_postfix": [
       "。"
@@ -212,18 +105,14 @@ exerciseList = [
     "solutions": [
       [
         "只要",
-        "包",
-        "拯",
+        "包拯",
         "有",
-        "令",
-        "牌",
+        "令牌",
         "，",
         "他",
         "就",
         "可以",
-        "进出",
-        "宫",
-        "儿",
+        "进宫",
         "。"
       ]
     ]
@@ -236,27 +125,51 @@ exerciseList = [
       "name": "Passive voice with 被"
     },
     "word_bank": [
-      "高",
-      "被",
       "杀死",
-      "用",
-      "小山",
-      "了",
-      "刀",
-      "人"
+      "人",
+      "高小山",
+      "用刀",
+      "被",
+      "了"
     ],
     "prefilled_postfix": [
       "。"
     ],
     "solutions": [
       [
-        "高",
-        "小山",
+        "高小山",
         "被",
         "人",
-        "用",
-        "刀",
+        "用刀",
         "杀死",
+        "了",
+        "。"
+      ]
+    ]
+  },
+  {
+    "question_type": "grammar",
+    "english": "The Cold Palace was burned by fire.",
+    "grammar_point": {
+      "slug": "bei-passive",
+      "name": "Passive voice with 被"
+    },
+    "word_bank": [
+      "烧",
+      "被",
+      "火",
+      "冷宫",
+      "了"
+    ],
+    "prefilled_postfix": [
+      "。"
+    ],
+    "solutions": [
+      [
+        "冷宫",
+        "被",
+        "火",
+        "烧",
         "了",
         "。"
       ]
@@ -287,38 +200,6 @@ exerciseList = [
         "尸体",
         "被",
         "发现",
-        "了",
-        "。"
-      ]
-    ]
-  },
-  {
-    "question_type": "grammar",
-    "english": "Gao Xiaoshan's matter was forgotten.",
-    "grammar_point": {
-      "slug": "bei-passive",
-      "name": "Passive voice with 被"
-    },
-    "word_bank": [
-      "的",
-      "事",
-      "小山",
-      "了",
-      "高",
-      "被",
-      "忘记"
-    ],
-    "prefilled_postfix": [
-      "。"
-    ],
-    "solutions": [
-      [
-        "高",
-        "小山",
-        "的",
-        "事",
-        "被",
-        "忘记",
         "了",
         "。"
       ]
